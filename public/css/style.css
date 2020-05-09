@@ -88,7 +88,7 @@ h6 {
   letter-spacing: 0.01em;
 }
 
-@media screen and (max-width: 768px) {
+@media all and (max-width: 768px) {
   h1 {
     font-size: 2.5rem;
     margin: 0 .5rem;
