@@ -11,7 +11,7 @@ function Footer() {
         </div>
         <div className="col-4"></div>
         <div className="col-4">
-          {/* <iframe src="https://discordapp.com/widget?id=630088304901226506&theme=dark" width="350" height="400" allowtransparency="true" frameborder="0"></iframe> */}
+          <iframe src="https://discordapp.com/widget?id=630088304901226506&amp;theme=dark" width="350" height="400"></iframe>
         </div>
       </div>
     </div>
