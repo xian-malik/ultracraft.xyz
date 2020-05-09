@@ -692,6 +692,7 @@ h1.page-title {
 
 #particles-js {
   position: absolute;
+  pointer-events: none;
   width: 100%;
   height: 100%;
 }

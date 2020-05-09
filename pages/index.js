@@ -12,8 +12,8 @@ function HomePage() {
       <section id="Slider">
         <div id="particles-js"></div>
         <picture className="image-bg" style={{opacity: .5}}>
-          <source srcset="https://res.cloudinary.com/xianmalik/image/upload/w_1080,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/home-bg_f2hhbg.jp2" media="(max-width: 768px)" />
-          <source srcset="https://res.cloudinary.com/xianmalik/image/upload/w_768,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/home-bg_f2hhbg.jp2" media="(max-width: 1080px)" />
+          <source srcset="https://res.cloudinary.com/xianmalik/image/upload/w_768,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/home-bg_f2hhbg.jp2" media="(max-width: 768px)" />
+          <source srcset="https://res.cloudinary.com/xianmalik/image/upload/w_1080,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/home-bg_f2hhbg.jp2" media="(max-width: 1080px)" />
           <img src="https://res.cloudinary.com/xianmalik/image/upload/c_fill,f_auto,q_auto/v1589059497/UltraCraft/home-bg_f2hhbg.jp2" className="image-bg" />
         </picture>
         <div className="container">
@@ -96,7 +96,6 @@ function HomePage() {
               <h6>Classic Skyblock (Currently Offline)</h6>
               <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</p>
             </div>
-            <iframe src="https://discordapp.com/widget?id=630088304901226506&amp;theme=dark" width="350" height="400"></iframe>
           </div>
         </div>
       </section>
