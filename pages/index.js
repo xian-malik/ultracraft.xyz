@@ -11,7 +11,11 @@ function HomePage() {
       <Header />
       <section id="Slider">
         <div id="particles-js"></div>
-        <img src="images/bg.png" className="image-bg" style={{opacity: .5}} />
+        <picture className="image-bg" style={{opacity: .5}}>
+          <source srcset="https://res.cloudinary.com/xianmalik/image/upload/w_1080,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/home-bg_f2hhbg.jp2" media="(max-width: 768px)" />
+          <source srcset="https://res.cloudinary.com/xianmalik/image/upload/w_768,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/home-bg_f2hhbg.jp2" media="(max-width: 1080px)" />
+          <img src="https://res.cloudinary.com/xianmalik/image/upload/c_fill,f_auto,q_auto/v1589059497/UltraCraft/home-bg_f2hhbg.jp2" className="image-bg" />
+        </picture>
         <div className="container">
           <div className="row">
             <div className="col-12">
@@ -49,7 +53,7 @@ function HomePage() {
                 What Is...
                 UltraCraft?
               </h2>
-              <h6>A Survival & SkyBlock Server</h6>
+              <h6>A Survival &amp; SkyBlock Server</h6>
               <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</p>
               <a href="#" className="btn-effect btn-white-bg effect-slash">
                 <div className="effect-inner">
