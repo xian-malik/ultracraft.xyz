@@ -24,10 +24,13 @@ function Header() {
                   <EffectSlash href="/shop" title="Shop" />
                 </li>
                 <li>
-                  <EffectSlash href="/reset" title="Reset" />
+                  <EffectSlash href="/calender" title="Calender" />
                 </li>
                 <li>
                   <EffectSlash href="/punishments" title="Punishments" />
+                </li>
+                <li>
+                  <EffectSlash href="/resources" title="Resources" />
                 </li>
                 <li>
                   <EffectSlash href="/support" title="Support" />
