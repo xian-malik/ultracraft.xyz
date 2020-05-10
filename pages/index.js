@@ -41,8 +41,8 @@ class HomePage extends React.Component {
             <section id="Slider">
               <div id="particles-js"></div>
               <picture className="image-bg">
-                <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_480,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/home_background.jpg" media="(max-width: 480px)" />
-                <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_768,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/home_background.jpg" media="(max-width: 768px)" />
+                <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_480,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/home_background.jp2" media="(max-width: 480px)" />
+                <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_768,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/home_background.jp2" media="(max-width: 768px)" />
                 <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_1080,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/home_background.jp2" media="(max-width: 1080px)" />
                 <img src="https://res.cloudinary.com/xianmalik/image/upload/c_fill,f_auto,q_auto/v1589059497/UltraCraft/home_background.jp2" className="image-bg" />
               </picture>
@@ -76,8 +76,8 @@ class HomePage extends React.Component {
                 <div className="row column-height">
                   <div className="col-6 col-md-6">
                     <picture>
-                      <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_450,h_300,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jpg" media="(max-width: 480px)" />
-                      <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_768,h_320,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jpg" media="(max-width: 768px)" />
+                      <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_450,h_300,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jp2" media="(max-width: 480px)" />
+                      <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_768,h_320,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jp2" media="(max-width: 768px)" />
                       <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_440,h_400,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jp2" media="(max-width: 1080px)" />
                       <img src="https://res.cloudinary.com/xianmalik/image/upload/w_540,h_450,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jp2" />
                     </picture>
@@ -110,10 +110,10 @@ class HomePage extends React.Component {
                 <div className="row column-height clearfix">
                   <div className="col-6 col-md-6 col-push-6">
                     <picture>
-                      <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_450,h_300,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_survival.jpg" media="(max-width: 480px)" />
-                      <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_768,h_320,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_survival.jpg" media="(max-width: 768px)" />
+                      <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_450,h_300,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_survival.jp2" media="(max-width: 480px)" />
+                      <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_768,h_320,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_survival.jp2" media="(max-width: 768px)" />
                       <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_440,h_400,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_survival.jp2" media="(max-width: 1080px)" />
-                      <img src="https://res.cloudinary.com/xianmalik/image/upload/w_540,h_450,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_survival.jp2" alt="Survival" />
+                      <img src="https://res.cloudinary.com/xianmalik/image/upload/w_540,h_400,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_survival.jp2" alt="Survival" />
                     </picture>
                   </div>
                   <div className="col-6 col-md-6 col-pull-6 text-right">
@@ -122,13 +122,20 @@ class HomePage extends React.Component {
                       Survival
                     </h2>
                     <h6>An Enhanced Survival Experience</h6>
-                    <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</p>
+                    <p>
+                      Survival mode is one of the main game modes in Minecraft. Players must collect resources, build structures, battle mobs, eat, and explore the world in an effort to thrive and survive.
+                    </p>
                   </div>
                 </div>
                 <br />
                 <div className="row column-height">
                   <div className="col-6 col-md-6">
-                    <img className="image-responsive" src="images/skyblock.jpg" alt="Skyblock" />
+                    <picture>
+                      <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_450,h_300,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_skyblock.jp2" media="(max-width: 480px)" />
+                      <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_768,h_320,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_skyblock.jp2" media="(max-width: 768px)" />
+                      <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_440,h_400,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_skyblock.jp2" media="(max-width: 1080px)" />
+                      <img src="https://res.cloudinary.com/xianmalik/image/upload/w_540,h_400,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_skyblock.jp2" alt="Survival" />
+                    </picture>
                   </div>
                   <div className="col-6 col-md-6">
                     <h5>GAMEMODES</h5>
@@ -136,7 +143,9 @@ class HomePage extends React.Component {
                       SkyBlock
                     </h2>
                     <h6>Classic Skyblock (Currently Offline)</h6>
-                    <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</p>
+                    <p>
+                      SkyBlock is a survival gamemode where players live and build on a floating island. The goal of the map is to survive without cheating, expand your island, grow your own food and thrive.
+                    </p>
                   </div>
                 </div>
               </div>
