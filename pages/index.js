@@ -2,6 +2,7 @@ import Header from '../components/header'
 import Footer from '../components/footer'
 import Head from 'next/head'
 import axios from 'axios'
+import LazyLoad from 'react-lazyload'
 
 class HomePage extends React.Component {
   constructor(props) {
@@ -80,12 +81,14 @@ class HomePage extends React.Component {
               <div className="container">
                 <div className="row column-height">
                   <div className="col-6 col-md-6">
-                    <picture>
-                      <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_450,h_300,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jp2" media="(max-width: 480px)" />
-                      <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_768,h_320,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jp2" media="(max-width: 768px)" />
-                      <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_440,h_400,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jp2" media="(max-width: 1080px)" />
-                      <img src="https://res.cloudinary.com/xianmalik/image/upload/w_540,h_450,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jp2" />
-                    </picture>
+                    <LazyLoad offset={50}>
+                      <picture>
+                        <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_450,h_300,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jp2" media="(max-width: 480px)" />
+                        <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_768,h_320,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jp2" media="(max-width: 768px)" />
+                        <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_440,h_400,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jp2" media="(max-width: 1080px)" />
+                        <img src="https://res.cloudinary.com/xianmalik/image/upload/w_540,h_450,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jp2" />
+                      </picture>
+                    </LazyLoad>
                   </div>
                   <div className="col-6 col-md-6">
                     <h5>INTRODUCTION</h5>
@@ -119,12 +122,14 @@ class HomePage extends React.Component {
               <div className="container">
                 <div className="row column-height clearfix">
                   <div className="col-6 col-md-6 col-push-6">
-                    <picture>
-                      <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_450,h_300,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_survival.jp2" media="(max-width: 480px)" />
-                      <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_768,h_320,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_survival.jp2" media="(max-width: 768px)" />
-                      <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_440,h_400,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_survival.jp2" media="(max-width: 1080px)" />
-                      <img src="https://res.cloudinary.com/xianmalik/image/upload/w_540,h_400,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_survival.jp2" alt="Survival" />
-                    </picture>
+                    <LazyLoad offset={50}>
+                      <picture>
+                        <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_450,h_300,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_survival.jp2" media="(max-width: 480px)" />
+                        <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_768,h_320,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_survival.jp2" media="(max-width: 768px)" />
+                        <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_440,h_400,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_survival.jp2" media="(max-width: 1080px)" />
+                        <img src="https://res.cloudinary.com/xianmalik/image/upload/w_540,h_400,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_survival.jp2" alt="Survival" />
+                      </picture>
+                    </LazyLoad>
                   </div>
                   <div className="col-6 col-md-6 col-pull-6 text-right">
                     <h5>GAMEMODES</h5>
@@ -140,12 +145,14 @@ class HomePage extends React.Component {
                 <br />
                 <div className="row column-height">
                   <div className="col-6 col-md-6">
-                    <picture>
-                      <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_450,h_300,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_skyblock.jp2" media="(max-width: 480px)" />
-                      <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_768,h_320,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_skyblock.jp2" media="(max-width: 768px)" />
-                      <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_440,h_400,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_skyblock.jp2" media="(max-width: 1080px)" />
-                      <img src="https://res.cloudinary.com/xianmalik/image/upload/w_540,h_400,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_skyblock.jp2" alt="Survival" />
-                    </picture>
+                    <LazyLoad offset={50}>
+                      <picture>
+                        <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_450,h_300,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_skyblock.jp2" media="(max-width: 480px)" />
+                        <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_768,h_320,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_skyblock.jp2" media="(max-width: 768px)" />
+                        <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_440,h_400,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_skyblock.jp2" media="(max-width: 1080px)" />
+                        <img src="https://res.cloudinary.com/xianmalik/image/upload/w_540,h_400,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_skyblock.jp2" alt="Survival" />
+                      </picture>
+                    </LazyLoad>
                   </div>
                   <div className="col-6 col-md-6">
                     <h5>GAMEMODES</h5>

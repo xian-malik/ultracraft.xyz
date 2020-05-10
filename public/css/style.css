@@ -29,7 +29,7 @@ body {
 }
 body {
   margin: 0;
-  background: url('../images/chalkboard.jpg');
+  background: url('https://res.cloudinary.com/xianmalik/image/upload/q_auto,f_auto/v1589139254/UltraCraft/chalkboard.jpg');
   color: #2b2a27;
 }
 main {
@@ -685,7 +685,7 @@ section#Slider::after {
   display: inline-block;
   font-family: 'Spectral SC', serif;
   font-weight: 800;
-  background: url(../images/z3.png) repeat center / cover;
+  background: url('https://res.cloudinary.com/xianmalik/image/upload/q_auto,f_auto/v1589139254/UltraCraft/z3_asmuj3.jpg') repeat center / cover;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -o-background-clip: text;
