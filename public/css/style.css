@@ -110,8 +110,8 @@ h6 {
   }
 }
 @media all and (max-width: 768px) {
-  section
-  { padding: 50px 0; }
+  section#Section2,
+  section#Section3 { padding: 50px 0; }
   #Slider {
     padding: 15px;
     min-height: 100vh;
