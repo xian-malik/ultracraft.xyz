@@ -89,7 +89,9 @@ class HomePage extends React.Component {
                       UltraCraft?
                     </h2>
                     <h6>A Survival &amp; SkyBlock Server</h6>
-                    <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</p>
+                    <p>
+                      Started back in October 2019, Ultracraft was founded by four of Minecraft Enthusiasts who are eager enough to start their own community of players. Main goal of UltraCraft till now is to provide lag free, toxicity free community to the players of Bangladesh.
+                    </p>
                     <a href="#" className="btn-effect btn-white-bg effect-slash">
                       <div className="effect-inner">
                         <span className="effect-l"><span>Learn More</span></span>

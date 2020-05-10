@@ -87,8 +87,32 @@ h6 {
   line-height: 1.4em;
   letter-spacing: 0.01em;
 }
-
+@media all and (max-width: 480px) {
+  h1 {
+    font-size: 2.5rem;
+    margin: 0 0 1.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+    margin: 0 0 .75rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  h5 {
+    margin: 2rem 0 .75rem;
+  }
+  h6 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+}
 @media all and (max-width: 768px) {
+  section {
+    padding: 50px 0;
+  }
   #Slider {
     padding: 15px;
     min-height: 100vh;
@@ -128,8 +152,8 @@ h6 {
     color: #0e0e0e;
   }
   h1 {
-    font-size: 4rem;
-    margin: 0 rem;
+    font-size: 3rem;
+    margin: 0 0 1.5rem;
   }
   h2 {
     font-size: 2rem;
@@ -144,7 +168,7 @@ h6 {
     margin: 2rem 0 1rem;
   }
   h6 {
-    font-size: 1rem;
+    font-size: 1.125rem;
   }
 }
 p {
