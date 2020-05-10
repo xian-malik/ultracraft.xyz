@@ -391,7 +391,7 @@ nav.navbar .navbar-nav li a {
 nav.navbar .navbar-right li {
   margin: 6px 10px;
 } 
-nav.navbar .navbar-right li a { 
+nav.navbar .navbar-right li a.btn-effect {
   position: relative;
   font-weight: bold;
   color: #bd8d4c;
