@@ -5581,7 +5581,7 @@ var Resources = /*#__PURE__*/function (_React$Component) {
 
 /***/ }),
 
-/***/ 3:
+/***/ 5:
 /*!********************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fresources&absolutePagePath=E%3A%5CWorkspace%5Cultracraft.xyz%5Cpages%5Cresources.js&hotRouterUpdates=true ***!
   \********************************************************************************************************************************************************/
@@ -5604,5 +5604,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
+},[[5,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=resources.js.map

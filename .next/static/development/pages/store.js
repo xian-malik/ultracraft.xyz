@@ -5212,7 +5212,7 @@ var Store = /*#__PURE__*/function (_React$Component) {
           columnNumber: 13
         }
       }, __jsx("source", {
-        srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_480,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/nether_hub.jp2",
+        srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_480,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_villager.jp2",
         media: "(max-width: 480px)",
         __self: this,
         __source: {
@@ -5221,7 +5221,7 @@ var Store = /*#__PURE__*/function (_React$Component) {
           columnNumber: 15
         }
       }), __jsx("source", {
-        srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_768,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/nether_hub.jp2",
+        srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_768,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_villager.jp2",
         media: "(max-width: 768px)",
         __self: this,
         __source: {
@@ -5230,7 +5230,7 @@ var Store = /*#__PURE__*/function (_React$Component) {
           columnNumber: 15
         }
       }), __jsx("source", {
-        srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_1080,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/nether_hub.jp2",
+        srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_1080,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_villager.jp2",
         media: "(max-width: 1080px)",
         __self: this,
         __source: {
@@ -5239,7 +5239,7 @@ var Store = /*#__PURE__*/function (_React$Component) {
           columnNumber: 15
         }
       }), __jsx("img", {
-        src: "https://res.cloudinary.com/xianmalik/image/upload/c_fill,f_auto,q_auto/v1589143340/UltraCraft/nether_hub.jpg",
+        src: "https://res.cloudinary.com/xianmalik/image/upload/c_fill,f_auto,q_auto/v1589143340/UltraCraft/uc_villager.jpg",
         className: "image-bg",
         __self: this,
         __source: {
@@ -5581,7 +5581,7 @@ var Store = /*#__PURE__*/function (_React$Component) {
 
 /***/ }),
 
-/***/ 7:
+/***/ 4:
 /*!************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fstore&absolutePagePath=E%3A%5CWorkspace%5Cultracraft.xyz%5Cpages%5Cstore.js&hotRouterUpdates=true ***!
   \************************************************************************************************************************************************/
@@ -5604,5 +5604,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[7,"static/runtime/webpack.js"]]]);
+},[[4,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=store.js.map

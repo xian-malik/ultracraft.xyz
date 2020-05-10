@@ -5212,7 +5212,7 @@ var Calender = /*#__PURE__*/function (_React$Component) {
           columnNumber: 13
         }
       }, __jsx("source", {
-        srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_480,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/nether_hub.jp2",
+        srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_480,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_spawn.jp2",
         media: "(max-width: 480px)",
         __self: this,
         __source: {
@@ -5221,7 +5221,7 @@ var Calender = /*#__PURE__*/function (_React$Component) {
           columnNumber: 15
         }
       }), __jsx("source", {
-        srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_768,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/nether_hub.jp2",
+        srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_768,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_spawn.jp2",
         media: "(max-width: 768px)",
         __self: this,
         __source: {
@@ -5230,7 +5230,7 @@ var Calender = /*#__PURE__*/function (_React$Component) {
           columnNumber: 15
         }
       }), __jsx("source", {
-        srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_1080,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/nether_hub.jp2",
+        srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_1080,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_spawn.jp2",
         media: "(max-width: 1080px)",
         __self: this,
         __source: {
@@ -5239,7 +5239,7 @@ var Calender = /*#__PURE__*/function (_React$Component) {
           columnNumber: 15
         }
       }), __jsx("img", {
-        src: "https://res.cloudinary.com/xianmalik/image/upload/c_fill,f_auto,q_auto/v1589143340/UltraCraft/nether_hub.jpg",
+        src: "https://res.cloudinary.com/xianmalik/image/upload/c_fill,f_auto,q_auto/v1589143340/UltraCraft/uc_spawn.jpg",
         className: "image-bg",
         __self: this,
         __source: {
@@ -5581,7 +5581,7 @@ var Calender = /*#__PURE__*/function (_React$Component) {
 
 /***/ }),
 
-/***/ 5:
+/***/ 6:
 /*!******************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fcalender&absolutePagePath=E%3A%5CWorkspace%5Cultracraft.xyz%5Cpages%5Ccalender.js&hotRouterUpdates=true ***!
   \******************************************************************************************************************************************************/
@@ -5604,5 +5604,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[5,"static/runtime/webpack.js"]]]);
+},[[6,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=calender.js.map
