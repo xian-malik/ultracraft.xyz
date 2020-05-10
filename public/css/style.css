@@ -112,7 +112,7 @@ h6 {
 @media all and (max-width: 768px) {
   section#Section2,
   section#Section3 { padding: 50px 0; }
-  #Slider {
+  section#Slider {
     padding: 15px;
     min-height: 100vh;
     display: flex;
@@ -658,8 +658,13 @@ footer > img {
   width: 100%;
 }
 #Slider {
-  padding: 30vh 0;
+  padding: 150px 15px;
   text-align: center;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
 }
 #Slider .container {
   z-index: 99;

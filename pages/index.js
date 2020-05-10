@@ -81,7 +81,7 @@ class HomePage extends React.Component {
               <div className="container">
                 <div className="row column-height">
                   <div className="col-6 col-md-6">
-                    <LazyLoad offset={50}>
+                    <LazyLoad>
                       <picture>
                         <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_450,h_300,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jp2" media="(max-width: 480px)" />
                         <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_768,h_320,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jp2" media="(max-width: 768px)" />
@@ -122,7 +122,7 @@ class HomePage extends React.Component {
               <div className="container">
                 <div className="row column-height clearfix">
                   <div className="col-6 col-md-6 col-push-6">
-                    <LazyLoad offset={50}>
+                    <LazyLoad>
                       <picture>
                         <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_450,h_300,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_survival.jp2" media="(max-width: 480px)" />
                         <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_768,h_320,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_survival.jp2" media="(max-width: 768px)" />
@@ -145,7 +145,7 @@ class HomePage extends React.Component {
                 <br />
                 <div className="row column-height">
                   <div className="col-6 col-md-6">
-                    <LazyLoad offset={50}>
+                    <LazyLoad>
                       <picture>
                         <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_450,h_300,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_skyblock.jp2" media="(max-width: 480px)" />
                         <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_768,h_320,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_skyblock.jp2" media="(max-width: 768px)" />
