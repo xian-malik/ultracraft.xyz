@@ -1,34 +1,41 @@
 {
-  "devFiles": [
-    "static/runtime/react-refresh.js",
-    "static/runtime/react-refresh.js.map",
-    "static/development/dll/dll_dc8ac110ce5d8530b237.js",
-    "static/development/dll/dll_dc8ac110ce5d8530b237.js.map"
-  ],
+  "devFiles": [],
   "lowPriorityFiles": [
-    "static/development/_buildManifest.js",
-    "static/development/_ssgManifest.js"
+    "static/_wl1aXzgZuwNSHYq2Z3Ag/_buildManifest.js",
+    "static/_wl1aXzgZuwNSHYq2Z3Ag/_ssgManifest.js"
   ],
   "pages": {
     "/": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-c212667a5f965e81e004.js",
+      "static/chunks/framework.c6faae2799416a6da8e8.js",
+      "static/chunks/d4f9fac86e873521bb84521c083173bbf9f59296.d74a4cff23e48f995232.js",
+      "static/runtime/main-a42eba40b7bb87d66fba.js"
     ],
     "/_app": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-c212667a5f965e81e004.js",
+      "static/chunks/framework.c6faae2799416a6da8e8.js",
+      "static/chunks/d4f9fac86e873521bb84521c083173bbf9f59296.d74a4cff23e48f995232.js",
+      "static/css/4c0d5cb5b1209843b08a.css",
+      "static/runtime/main-a42eba40b7bb87d66fba.js"
     ],
     "/_error": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-c212667a5f965e81e004.js",
+      "static/chunks/framework.c6faae2799416a6da8e8.js",
+      "static/runtime/main-a42eba40b7bb87d66fba.js"
     ],
     "/_polyfills": [
-      "static/runtime/polyfills.js",
-      "static/runtime/polyfills.js.map"
+      "static/runtime/polyfills-10c88b4b028d13fe33de.js"
     ],
     "/index": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-c212667a5f965e81e004.js",
+      "static/chunks/framework.c6faae2799416a6da8e8.js",
+      "static/chunks/d4f9fac86e873521bb84521c083173bbf9f59296.d74a4cff23e48f995232.js",
+      "static/runtime/main-a42eba40b7bb87d66fba.js"
+    ],
+    "/punishments": [
+      "static/runtime/webpack-c212667a5f965e81e004.js",
+      "static/chunks/framework.c6faae2799416a6da8e8.js",
+      "static/runtime/main-a42eba40b7bb87d66fba.js"
     ]
   }
 }
