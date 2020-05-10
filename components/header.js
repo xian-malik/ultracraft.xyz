@@ -16,12 +16,9 @@ function Header() {
           </div>
           <div className="col-8">
             <nav className="navbar">
-              <ul className="navbar-nav">
+              <ul className="navbar-nav text-right">
                 <li>
                   <EffectSlash href="/" title="Home" active='true' />
-                </li>
-                <li>
-                  <EffectSlash href="/shop" title="Shop" />
                 </li>
                 <li>
                   <EffectSlash href="/calender" title="Calender" />
@@ -34,6 +31,9 @@ function Header() {
                 </li>
                 <li>
                   <EffectSlash href="/support" title="Support" />
+                </li>
+                <li>
+                  <EffectSlash href="/store" title="Store" />
                 </li>
                 <li active='true'>
                   <EffectSlash href="/login" title="Login" extra="btn-effect" />
