@@ -2,7 +2,16 @@ import React from 'react'
 import Navbar from './navbar'
 
 class Header extends React.Component {
-  constructor(props) { super(props) }
+  constructor(props) {
+    super(props)
+  }
+  componentDidMount() {
+    window.addEventListener("mousemove", this.cursor)
+  }
+  cursor = (e) => {
+    const cursor = document.querySelector('.custom-cursor-sword')
+    cursor.style.transform = 'matrix(1, 0, 0, 1, '+ (e.pageX) +', '+ (e.pageY - window.scrollY) +')'
+  }
   render() {
     return (
       <header id="header">

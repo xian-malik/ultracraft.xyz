@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -113,84 +113,109 @@ function Footer() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 2,
-      columnNumber: 10
+      lineNumber: 3,
+      columnNumber: 5
     }
-  }, __jsx("img", {
-    src: "images/bottom_dark.png",
+  }, __jsx("picture", {
     className: "dividerTop",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 3,
-      columnNumber: 5
-    }
-  }), __jsx("div", {
-    className: "container",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 4,
-      columnNumber: 5
+      columnNumber: 7
     }
-  }, __jsx("div", {
-    className: "row",
+  }, __jsx("source", {
+    srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_480,h_50,c_fill,f_auto,q_auto/v1589059497/UltraCraft/Borders/bottom_dark.jp2",
+    media: "(max-width: 480px)",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5,
-      columnNumber: 7
+      columnNumber: 9
     }
-  }, __jsx("div", {
-    className: "col-4",
+  }), __jsx("source", {
+    srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_768,h_50,c_fill,f_auto,q_auto/v1589059497/UltraCraft/Borders/bottom_dark.jp2",
+    media: "(max-width: 768px)",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6,
       columnNumber: 9
     }
+  }), __jsx("source", {
+    srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_1080,h_95,c_fill,f_auto,q_auto/v1589059497/UltraCraft/Borders/bottom_dark.jp2",
+    media: "(max-width: 1080px)",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 9
+    }
+  }), __jsx("img", {
+    className: "dividerTop",
+    src: "https://res.cloudinary.com/xianmalik/image/upload/w_1871,h_95,c_fill,f_auto,q_auto/v1589138371/UltraCraft/Borders/bottom_dark.png",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 9
+    }
+  })), __jsx("div", {
+    className: "container",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 7
+    }
+  }, __jsx("div", {
+    className: "row",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "col-4",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 11
+    }
   }, __jsx("h3", {
     className: "footer-logo",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7,
-      columnNumber: 11
+      lineNumber: 13,
+      columnNumber: 13
     }
   }, "UltraCraft"), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8,
-      columnNumber: 11
+      lineNumber: 14,
+      columnNumber: 13
     }
   }, "Ultracraft is a Bangladeshi server")), __jsx("div", {
     className: "col-4",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
-      columnNumber: 9
+      lineNumber: 18,
+      columnNumber: 11
     }
   }), __jsx("div", {
     className: "col-4",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 9
-    }
-  }, __jsx("iframe", {
-    src: "https://discordapp.com/widget?id=630088304901226506&theme=dark",
-    width: "350",
-    height: "400",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14,
+      lineNumber: 19,
       columnNumber: 11
     }
-  })))));
+  }))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
@@ -208,11 +233,11 @@ function Footer() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _modules_effectslash_module__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/effectslash.module */ "./components/modules/effectslash.module.js");
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/router */ "next/router");
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _navbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./navbar */ "./components/navbar.js");
 var _jsxFileName = "E:\\Workspace\\ultracraft.xyz\\components\\header.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 
 
@@ -220,6 +245,15 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 class Header extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   constructor(props) {
     super(props);
+
+    _defineProperty(this, "cursor", e => {
+      const cursor = document.querySelector('.custom-cursor-sword');
+      cursor.style.transform = 'matrix(1, 0, 0, 1, ' + e.pageX + ', ' + (e.pageY - window.scrollY) + ')';
+    });
+  }
+
+  componentDidMount() {
+    window.addEventListener("mousemove", this.cursor);
   }
 
   render() {
@@ -228,218 +262,73 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 10,
-        columnNumber: 12
+        lineNumber: 17,
+        columnNumber: 7
       }
     }, __jsx("div", {
       className: "header",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 11,
-        columnNumber: 7
+        lineNumber: 18,
+        columnNumber: 9
       }
     }, __jsx("div", {
       className: "container",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 12,
-        columnNumber: 9
+        lineNumber: 19,
+        columnNumber: 11
       }
     }, __jsx("div", {
       className: "row",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 13,
-        columnNumber: 11
+        lineNumber: 20,
+        columnNumber: 13
       }
     }, __jsx("div", {
       className: "col-3",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 14,
-        columnNumber: 13
+        lineNumber: 21,
+        columnNumber: 15
       }
     }, __jsx("div", {
       className: "logo",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 15,
-        columnNumber: 15
-      }
-    }, __jsx("img", {
-      src: "/images/UltraCraft.png",
-      alt: "UltraCraft",
-      hidden: true,
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 16,
+        lineNumber: 22,
         columnNumber: 17
       }
-    }), __jsx("img", {
-      src: "/images/logo.png",
-      alt: "UltraCraft",
-      hidden: true,
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 17,
-        columnNumber: 17
-      }
-    }), __jsx("h1", {
+    }, __jsx("h1", {
       className: "logo-text",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18,
-        columnNumber: 17
+        lineNumber: 23,
+        columnNumber: 19
       }
     }, "UltraCraft"))), __jsx("div", {
       className: "col-9",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 21,
-        columnNumber: 13
-      }
-    }, __jsx("nav", {
-      className: "navbar",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 22,
+        lineNumber: 26,
         columnNumber: 15
       }
-    }, __jsx("ul", {
-      className: "navbar-nav text-right",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 23,
-        columnNumber: 17
-      }
-    }, __jsx("li", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 24,
-        columnNumber: 19
-      }
-    }, __jsx(_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_1__["default"], {
-      href: "/",
-      title: "Home",
-      active: "true",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 25,
-        columnNumber: 21
-      }
-    })), __jsx("li", {
+    }, __jsx(_navbar__WEBPACK_IMPORTED_MODULE_1__["default"], {
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 27,
-        columnNumber: 19
+        columnNumber: 17
       }
-    }, __jsx(_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_1__["default"], {
-      href: "/calender",
-      title: "Calender",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 28,
-        columnNumber: 21
-      }
-    })), __jsx("li", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 30,
-        columnNumber: 19
-      }
-    }, __jsx(_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_1__["default"], {
-      href: "/punishments",
-      title: "Punishments",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 31,
-        columnNumber: 21
-      }
-    })), __jsx("li", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 33,
-        columnNumber: 19
-      }
-    }, __jsx(_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_1__["default"], {
-      href: "/resources",
-      title: "Resources",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 34,
-        columnNumber: 21
-      }
-    })), __jsx("li", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 36,
-        columnNumber: 19
-      }
-    }, __jsx(_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_1__["default"], {
-      href: "/support",
-      title: "Support",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 37,
-        columnNumber: 21
-      }
-    })), __jsx("li", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 39,
-        columnNumber: 19
-      }
-    }, __jsx(_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_1__["default"], {
-      href: "/store",
-      title: "Store",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 40,
-        columnNumber: 21
-      }
-    })), __jsx("li", {
-      active: "true",
-      className: "header-cta",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 42,
-        columnNumber: 19
-      }
-    }, __jsx(_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_1__["default"], {
-      href: "/login",
-      title: "Login",
-      extra: "btn-effect",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 43,
-        columnNumber: 21
-      }
-    })))))))));
+    }))))));
   }
 
 }
@@ -556,6 +445,325 @@ class EffectSlash extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component
 
 /***/ }),
 
+/***/ "./components/navbar.js":
+/*!******************************!*\
+  !*** ./components/navbar.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _modules_effectslash_module__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/effectslash.module */ "./components/modules/effectslash.module.js");
+var _jsxFileName = "E:\\Workspace\\ultracraft.xyz\\components\\navbar.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+class Navbar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      menuOpen: false
+    };
+  }
+
+  handleMenu(e) {
+    this.setState({
+      menuOpen: !this.state.menuOpen
+    });
+  }
+
+  render() {
+    return __jsx("nav", {
+      className: "navbar" + (this.state.menuOpen ? " responsive-active" : ""),
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 14,
+        columnNumber: 7
+      }
+    }, __jsx("ul", {
+      className: "navbar-nav text-right",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 15,
+        columnNumber: 9
+      }
+    }, __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16,
+        columnNumber: 11
+      }
+    }, __jsx(_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      href: "/",
+      title: "Home",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16,
+        columnNumber: 15
+      }
+    })), __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 17,
+        columnNumber: 11
+      }
+    }, __jsx(_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      href: "/calender",
+      title: "Calender",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 17,
+        columnNumber: 15
+      }
+    })), __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 18,
+        columnNumber: 11
+      }
+    }, __jsx(_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      href: "/punishments",
+      title: "Punishments",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 18,
+        columnNumber: 15
+      }
+    })), __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 19,
+        columnNumber: 11
+      }
+    }, __jsx(_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      href: "/resources",
+      title: "Resources",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 19,
+        columnNumber: 15
+      }
+    })), __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 20,
+        columnNumber: 11
+      }
+    }, __jsx(_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      href: "/support",
+      title: "Support",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 20,
+        columnNumber: 15
+      }
+    })), __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 21,
+        columnNumber: 11
+      }
+    }, __jsx(_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      href: "/store",
+      title: "Store",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 21,
+        columnNumber: 15
+      }
+    })), __jsx("li", {
+      active: "true",
+      className: "header-cta",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 22,
+        columnNumber: 11
+      }
+    }, __jsx(_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      href: "/login",
+      title: "Login",
+      extra: "btn-effect",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 23,
+        columnNumber: 13
+      }
+    }))));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Navbar);
+
+/***/ }),
+
+/***/ "./components/particle.js":
+/*!********************************!*\
+  !*** ./components/particle.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_particles_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-particles-js */ "react-particles-js");
+/* harmony import */ var react_particles_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_particles_js__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "E:\\Workspace\\ultracraft.xyz\\components\\particle.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+class ParticleView extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    return __jsx(react_particles_js__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      className: "particles",
+      params: {
+        "particles": {
+          "number": {
+            "value": 355,
+            "density": {
+              "enable": true,
+              "value_area": 789.1476416322727
+            }
+          },
+          "color": {
+            "value": "#ffffff"
+          },
+          "shape": {
+            "type": "circle",
+            "stroke": {
+              "width": 0,
+              "color": "#000000"
+            },
+            "polygon": {
+              "nb_sides": 5
+            },
+            "image": {
+              "src": "img/github.svg",
+              "width": 100,
+              "height": 100
+            }
+          },
+          "opacity": {
+            "value": 0.48927153781200905,
+            "random": false,
+            "anim": {
+              "enable": true,
+              "speed": 0.2,
+              "opacity_min": 0,
+              "sync": false
+            }
+          },
+          "size": {
+            "value": 2,
+            "random": true,
+            "anim": {
+              "enable": true,
+              "speed": 2,
+              "size_min": 0,
+              "sync": false
+            }
+          },
+          "line_linked": {
+            "enable": false,
+            "distance": 150,
+            "color": "#ffffff",
+            "opacity": 0.4,
+            "width": 1
+          },
+          "move": {
+            "enable": true,
+            "speed": 0.2,
+            "direction": "none",
+            "random": true,
+            "straight": false,
+            "out_mode": "out",
+            "bounce": false,
+            "attract": {
+              "enable": false,
+              "rotateX": 600,
+              "rotateY": 1200
+            }
+          }
+        },
+        "interactivity": {
+          "detect_on": "canvas",
+          "events": {
+            "onhover": {
+              "enable": true,
+              "mode": "bubble"
+            },
+            "onclick": {
+              "enable": true,
+              "mode": "push"
+            },
+            "resize": true
+          },
+          "modes": {
+            "grab": {
+              "distance": 400,
+              "line_linked": {
+                "opacity": 1
+              }
+            },
+            "bubble": {
+              "distance": 83.91608391608392,
+              "size": 1,
+              "duration": 3,
+              "opacity": 1,
+              "speed": 3
+            },
+            "repulse": {
+              "distance": 200,
+              "duration": 0.4
+            },
+            "push": {
+              "particles_nb": 4
+            },
+            "remove": {
+              "particles_nb": 2
+            }
+          }
+        },
+        "retina_detect": true
+      },
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 7,
+        columnNumber: 7
+      }
+    });
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (ParticleView);
+
+/***/ }),
+
 /***/ "./pages/index.js":
 /*!************************!*\
   !*** ./pages/index.js ***!
@@ -567,15 +775,20 @@ class EffectSlash extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/header */ "./components/header.js");
-/* harmony import */ var _components_footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/footer */ "./components/footer.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/head */ "next/head");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! axios */ "axios");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "axios");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_lazyload__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-lazyload */ "react-lazyload");
+/* harmony import */ var react_lazyload__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_lazyload__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _components_header__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/header */ "./components/header.js");
+/* harmony import */ var _components_footer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/footer */ "./components/footer.js");
+/* harmony import */ var _components_particle__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/particle */ "./components/particle.js");
 var _jsxFileName = "E:\\Workspace\\ultracraft.xyz\\pages\\index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
 
 
 
@@ -592,21 +805,21 @@ class HomePage extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 13,
+          lineNumber: 15,
           columnNumber: 15
         }
       }, __jsx("small", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 13,
+          lineNumber: 15,
           columnNumber: 21
         }
       }, "play"), ".UltraCraft.", __jsx("small", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 13,
+          lineNumber: 15,
           columnNumber: 52
         }
       }, "xyz"))
@@ -618,7 +831,7 @@ class HomePage extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       ip,
       port
     } = this.state;
-    axios__WEBPACK_IMPORTED_MODULE_4___default.a.get('https://mcapi.us/server/status?ip=' + ip + '&port=' + port + '', {
+    axios__WEBPACK_IMPORTED_MODULE_2___default.a.get('https://mcapi.us/server/status?ip=' + ip + '&port=' + port + '', {
       'Content-Type': 'application/json'
     }).then(response => {
       this.setState({
@@ -637,7 +850,7 @@ class HomePage extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27,
+          lineNumber: 29,
           columnNumber: 28
         }
       }, "IP Copied!")
@@ -649,21 +862,21 @@ class HomePage extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 30,
+            lineNumber: 32,
             columnNumber: 30
           }
         }, __jsx("small", {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 30,
+            lineNumber: 32,
             columnNumber: 36
           }
         }, "play"), ".UltraCraft.", __jsx("small", {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 30,
+            lineNumber: 32,
             columnNumber: 67
           }
         }, "xyz"))
@@ -672,126 +885,124 @@ class HomePage extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   }
 
   render() {
-    return __jsx("div", {
+    return __jsx("main", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 34,
-        columnNumber: 12
-      }
-    }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_3___default.a, {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 35,
+        lineNumber: 37,
         columnNumber: 7
+      }
+    }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 38,
+        columnNumber: 9
       }
     }, __jsx("title", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 36,
-        columnNumber: 9
+        lineNumber: 39,
+        columnNumber: 11
       }
     }, "UltraCraft")), __jsx("div", {
       className: "page-wrapper",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 38,
-        columnNumber: 7
-      }
-    }, __jsx(_components_header__WEBPACK_IMPORTED_MODULE_1__["default"], {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 39,
-        columnNumber: 9
-      }
-    }), __jsx("main", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 40,
-        columnNumber: 9
-      }
-    }, __jsx("section", {
-      id: "Slider",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
         lineNumber: 41,
-        columnNumber: 11
+        columnNumber: 9
       }
-    }, __jsx("div", {
-      id: "particles-js",
+    }, __jsx(_components_header__WEBPACK_IMPORTED_MODULE_4__["default"], {
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 42,
-        columnNumber: 13
+        columnNumber: 11
       }
-    }), __jsx("picture", {
-      className: "image-bg",
-      style: {
-        opacity: .5
-      },
+    }), __jsx("section", {
+      id: "Slider",
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 43,
         columnNumber: 13
       }
-    }, __jsx("source", {
-      srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_768,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/home-bg_f2hhbg.jp2",
-      media: "(max-width: 768px)",
+    }, __jsx(_components_particle__WEBPACK_IMPORTED_MODULE_6__["default"], {
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 44,
         columnNumber: 15
       }
-    }), __jsx("source", {
-      srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_1080,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/home-bg_f2hhbg.jp2",
-      media: "(max-width: 1080px)",
+    }), __jsx("picture", {
+      className: "image-bg",
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 45,
         columnNumber: 15
       }
-    }), __jsx("img", {
-      src: "https://res.cloudinary.com/xianmalik/image/upload/c_fill,f_auto,q_auto/v1589059497/UltraCraft/home-bg_f2hhbg.jp2",
-      className: "image-bg",
+    }, __jsx("source", {
+      srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_480,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/home_background.jp2",
+      media: "(max-width: 480px)",
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 46,
-        columnNumber: 15
+        columnNumber: 17
+      }
+    }), __jsx("source", {
+      srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_768,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/home_background.jp2",
+      media: "(max-width: 768px)",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 47,
+        columnNumber: 17
+      }
+    }), __jsx("source", {
+      srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_1080,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/home_background.jp2",
+      media: "(max-width: 1080px)",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 48,
+        columnNumber: 17
+      }
+    }), __jsx("img", {
+      src: "https://res.cloudinary.com/xianmalik/image/upload/c_fill,f_auto,q_auto/v1589059497/UltraCraft/home_background.jp2",
+      className: "image-bg",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 49,
+        columnNumber: 17
       }
     })), __jsx("div", {
       className: "container",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 48,
-        columnNumber: 13
+        lineNumber: 51,
+        columnNumber: 15
       }
     }, __jsx("div", {
       className: "row",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 49,
-        columnNumber: 15
+        lineNumber: 52,
+        columnNumber: 17
       }
     }, __jsx("div", {
       className: "col-12",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 50,
-        columnNumber: 17
+        lineNumber: 53,
+        columnNumber: 19
       }
     }, __jsx("div", {
       style: {
@@ -800,8 +1011,8 @@ class HomePage extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 51,
-        columnNumber: 19
+        lineNumber: 54,
+        columnNumber: 21
       }
     }, __jsx("h3", {
       style: {
@@ -810,45 +1021,45 @@ class HomePage extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 52,
-        columnNumber: 21
+        lineNumber: 55,
+        columnNumber: 23
       }
     }, "Survival ", __jsx("span", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 53,
-        columnNumber: 32
+        lineNumber: 56,
+        columnNumber: 34
       }
     }, "//"), " Skyblock ", __jsx("span", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 53,
-        columnNumber: 57
+        lineNumber: 56,
+        columnNumber: 59
       }
     }, "//"), " Skywars"), __jsx("h1", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 55,
-        columnNumber: 21
+        lineNumber: 58,
+        columnNumber: 23
       }
     }, "UltraCrafT"))), __jsx("div", {
       className: "col-12",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 58,
-        columnNumber: 17
+        lineNumber: 61,
+        columnNumber: 19
       }
     }, __jsx("h3", {
       className: "slider-playercount",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 59,
-        columnNumber: 19
+        lineNumber: 62,
+        columnNumber: 21
       }
     }, "Join ", this.state.playerCount, " other players"), __jsx("a", {
       href: "#",
@@ -857,351 +1068,548 @@ class HomePage extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 60,
-        columnNumber: 19
+        lineNumber: 63,
+        columnNumber: 21
       }
     }, __jsx("div", {
       className: "effect-inner",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 61,
-        columnNumber: 21
-      }
-    }, __jsx("span", {
-      className: "effect-l",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 62,
-        columnNumber: 23
-      }
-    }, this.state.ipText), __jsx("span", {
-      className: "effect-r",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 63,
-        columnNumber: 23
-      }
-    }, this.state.ipText), __jsx("span", {
-      className: "effect-shade",
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 64,
         columnNumber: 23
       }
-    }, this.state.ipText)))))), __jsx("img", {
-      src: "images/header1.png",
+    }, __jsx("span", {
+      className: "effect-l",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 65,
+        columnNumber: 25
+      }
+    }, this.state.ipText), __jsx("span", {
+      className: "effect-r",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 66,
+        columnNumber: 25
+      }
+    }, this.state.ipText), __jsx("span", {
+      className: "effect-shade",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 67,
+        columnNumber: 25
+      }
+    }, this.state.ipText)))))), __jsx("picture", {
       className: "dividerBottom",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 70,
-        columnNumber: 13
-      }
-    })), __jsx("section", {
-      id: "Section2",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
         lineNumber: 73,
-        columnNumber: 11
+        columnNumber: 15
       }
-    }, __jsx("div", {
-      className: "container",
+    }, __jsx("source", {
+      srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_480,h_50,c_fill,f_auto,q_auto/v1589059497/UltraCraft/Borders/header1.jp2",
+      media: "(max-width: 480px)",
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 74,
-        columnNumber: 13
+        columnNumber: 17
       }
-    }, __jsx("div", {
-      className: "row column-height",
+    }), __jsx("source", {
+      srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_768,h_50,c_fill,f_auto,q_auto/v1589059497/UltraCraft/Borders/header1.jp2",
+      media: "(max-width: 768px)",
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 75,
-        columnNumber: 15
+        columnNumber: 17
       }
-    }, __jsx("div", {
-      className: "col-6 col-md-6",
+    }), __jsx("source", {
+      srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_1080,h_95,c_fill,f_auto,q_auto/v1589059497/UltraCraft/Borders/header1.jp2",
+      media: "(max-width: 1080px)",
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 76,
         columnNumber: 17
       }
-    }, __jsx("img", {
-      className: "image-responsive",
-      src: "images/section1.png",
+    }), __jsx("img", {
+      className: "dividerBottom",
+      src: "https://res.cloudinary.com/xianmalik/image/upload/w_1871,h_95,c_fill,f_auto,q_auto/v1589138371/UltraCraft/Borders/header1.png",
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 77,
-        columnNumber: 19
-      }
-    })), __jsx("div", {
-      className: "col-6 col-md-6",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 79,
         columnNumber: 17
       }
-    }, __jsx("h5", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 80,
-        columnNumber: 19
-      }
-    }, "INTRODUCTION"), __jsx("h2", {
+    }))), __jsx("section", {
+      id: "Section2",
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 81,
-        columnNumber: 19
-      }
-    }, "What Is... UltraCraft?"), __jsx("h6", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 85,
-        columnNumber: 19
-      }
-    }, "A Survival & SkyBlock Server"), __jsx("p", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 86,
-        columnNumber: 19
-      }
-    }, "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book."), __jsx("a", {
-      href: "#",
-      className: "btn-effect btn-white-bg effect-slash",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 87,
-        columnNumber: 19
-      }
-    }, __jsx("div", {
-      className: "effect-inner",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 88,
-        columnNumber: 21
-      }
-    }, __jsx("span", {
-      className: "effect-l",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 89,
-        columnNumber: 23
-      }
-    }, __jsx("span", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 89,
-        columnNumber: 50
-      }
-    }, "Learn More")), __jsx("span", {
-      className: "effect-r",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 90,
-        columnNumber: 23
-      }
-    }, __jsx("span", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 90,
-        columnNumber: 50
-      }
-    }, "Learn More")), __jsx("span", {
-      className: "effect-shade",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 91,
-        columnNumber: 23
-      }
-    }, __jsx("span", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 91,
-        columnNumber: 54
-      }
-    }, "Learn More"))))))), __jsx("img", {
-      src: "images/top_dark.png",
-      className: "dividerBottom",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 97,
         columnNumber: 13
-      }
-    })), __jsx("section", {
-      id: "Section3",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 100,
-        columnNumber: 11
       }
     }, __jsx("div", {
       className: "container",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 101,
-        columnNumber: 13
-      }
-    }, __jsx("div", {
-      className: "row column-height clearfix",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 102,
+        lineNumber: 82,
         columnNumber: 15
       }
     }, __jsx("div", {
-      className: "col-6 col-md-6 text-right",
+      className: "row column-height",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 103,
+        lineNumber: 83,
         columnNumber: 17
+      }
+    }, __jsx("div", {
+      className: "col-6 col-md-6",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 84,
+        columnNumber: 19
+      }
+    }, __jsx(react_lazyload__WEBPACK_IMPORTED_MODULE_3___default.a, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 85,
+        columnNumber: 21
+      }
+    }, __jsx("picture", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 86,
+        columnNumber: 23
+      }
+    }, __jsx("source", {
+      srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_450,h_300,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jp2",
+      media: "(max-width: 480px)",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 87,
+        columnNumber: 25
+      }
+    }), __jsx("source", {
+      srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_768,h_320,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jp2",
+      media: "(max-width: 768px)",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 88,
+        columnNumber: 25
+      }
+    }), __jsx("source", {
+      srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_440,h_400,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jp2",
+      media: "(max-width: 1080px)",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 89,
+        columnNumber: 25
+      }
+    }), __jsx("img", {
+      src: "https://res.cloudinary.com/xianmalik/image/upload/w_540,h_450,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jp2",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 90,
+        columnNumber: 25
+      }
+    })))), __jsx("div", {
+      className: "col-6 col-md-6",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 94,
+        columnNumber: 19
       }
     }, __jsx("h5", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 104,
-        columnNumber: 19
+        lineNumber: 95,
+        columnNumber: 21
       }
-    }, "GAMEMODES"), __jsx("h2", {
+    }, "INTRODUCTION"), __jsx("h2", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 96,
+        columnNumber: 21
+      }
+    }, "What Is... ", __jsx("br", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 97,
+        columnNumber: 34
+      }
+    }), "UltraCraft?"), __jsx("h6", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 100,
+        columnNumber: 21
+      }
+    }, "A Survival & SkyBlock Server"), __jsx("p", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 101,
+        columnNumber: 21
+      }
+    }, "Started back in October 2019, Ultracraft was founded by four of Minecraft Enthusiasts who are eager enough to start their own community of players. Main goal of UltraCraft till now is to provide lag free, toxicity free community to the players of Bangladesh."), __jsx("a", {
+      href: "#",
+      className: "btn-effect btn-white-bg effect-slash",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 104,
+        columnNumber: 21
+      }
+    }, __jsx("div", {
+      className: "effect-inner",
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 105,
-        columnNumber: 19
+        columnNumber: 23
       }
-    }, "Survival"), __jsx("h6", {
+    }, __jsx("span", {
+      className: "effect-l",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 106,
+        columnNumber: 25
+      }
+    }, __jsx("span", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 106,
+        columnNumber: 52
+      }
+    }, "Learn More")), __jsx("span", {
+      className: "effect-r",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 107,
+        columnNumber: 25
+      }
+    }, __jsx("span", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 107,
+        columnNumber: 52
+      }
+    }, "Learn More")), __jsx("span", {
+      className: "effect-shade",
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 108,
-        columnNumber: 19
+        columnNumber: 25
       }
-    }, "An Enhanced Survival Experience"), __jsx("p", {
+    }, __jsx("span", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 109,
-        columnNumber: 19
+        lineNumber: 108,
+        columnNumber: 56
       }
-    }, "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.")), __jsx("div", {
-      className: "col-6 col-md-6",
+    }, "Learn More"))))))), __jsx("picture", {
+      className: "dividerBottom",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 111,
-        columnNumber: 17
+        lineNumber: 114,
+        columnNumber: 15
       }
-    }, __jsx("img", {
-      className: "image-responsive",
-      src: "images/survival.jpg",
-      alt: "Survival",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 112,
-        columnNumber: 19
-      }
-    }))), __jsx("br", {
+    }, __jsx("source", {
+      srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_480,h_50,c_fill,f_auto,q_auto/v1589059497/UltraCraft/Borders/top_dark.jp2",
+      media: "(max-width: 480px)",
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 115,
-        columnNumber: 15
+        columnNumber: 17
       }
-    }), __jsx("div", {
-      className: "row column-height",
+    }), __jsx("source", {
+      srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_768,h_50,c_fill,f_auto,q_auto/v1589059497/UltraCraft/Borders/top_dark.jp2",
+      media: "(max-width: 768px)",
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 116,
-        columnNumber: 15
+        columnNumber: 17
       }
-    }, __jsx("div", {
-      className: "col-6 col-md-6",
+    }), __jsx("source", {
+      srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_1080,h_95,c_fill,f_auto,q_auto/v1589059497/UltraCraft/Borders/top_dark.jp2",
+      media: "(max-width: 1080px)",
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 117,
         columnNumber: 17
       }
-    }, __jsx("img", {
-      className: "image-responsive",
-      src: "images/skyblock.jpg",
-      alt: "Skyblock",
+    }), __jsx("img", {
+      className: "dividerBottom",
+      src: "https://res.cloudinary.com/xianmalik/image/upload/w_1871,h_95,c_fill,f_auto,q_auto/v1589138371/UltraCraft/Borders/top_dark.png",
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 118,
-        columnNumber: 19
-      }
-    })), __jsx("div", {
-      className: "col-6 col-md-6",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 120,
         columnNumber: 17
       }
-    }, __jsx("h5", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 121,
-        columnNumber: 19
-      }
-    }, "GAMEMODES"), __jsx("h2", {
+    }))), __jsx("section", {
+      id: "Section3",
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 122,
-        columnNumber: 19
+        columnNumber: 13
       }
-    }, "SkyBlock"), __jsx("h6", {
+    }, __jsx("div", {
+      className: "container",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 123,
+        columnNumber: 15
+      }
+    }, __jsx("div", {
+      className: "row column-height clearfix",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 124,
+        columnNumber: 17
+      }
+    }, __jsx("div", {
+      className: "col-6 col-md-6 col-push-6",
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 125,
         columnNumber: 19
       }
-    }, "Classic Skyblock (Currently Offline)"), __jsx("p", {
+    }, __jsx(react_lazyload__WEBPACK_IMPORTED_MODULE_3___default.a, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 126,
-        columnNumber: 19
+        columnNumber: 21
       }
-    }, "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.")))))), __jsx(_components_footer__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    }, __jsx("picture", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 132,
-        columnNumber: 9
+        lineNumber: 127,
+        columnNumber: 23
+      }
+    }, __jsx("source", {
+      srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_450,h_300,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_survival.jp2",
+      media: "(max-width: 480px)",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 128,
+        columnNumber: 25
+      }
+    }), __jsx("source", {
+      srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_768,h_320,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_survival.jp2",
+      media: "(max-width: 768px)",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 129,
+        columnNumber: 25
+      }
+    }), __jsx("source", {
+      srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_440,h_350,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_survival.jp2",
+      media: "(max-width: 1080px)",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 130,
+        columnNumber: 25
+      }
+    }), __jsx("img", {
+      src: "https://res.cloudinary.com/xianmalik/image/upload/w_540,h_350,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_survival.jp2",
+      alt: "Survival",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 131,
+        columnNumber: 25
+      }
+    })))), __jsx("div", {
+      className: "col-6 col-md-6 col-pull-6 text-right",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 135,
+        columnNumber: 19
+      }
+    }, __jsx("h5", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 136,
+        columnNumber: 21
+      }
+    }, "GAMEMODES"), __jsx("h2", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 137,
+        columnNumber: 21
+      }
+    }, "Survival"), __jsx("h6", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 140,
+        columnNumber: 21
+      }
+    }, "An Enhanced Survival Experience"), __jsx("p", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 141,
+        columnNumber: 21
+      }
+    }, "Survival mode is one of the main game modes in Minecraft. Players must collect resources, build structures, battle mobs, eat, and explore the world in an effort to thrive and survive."))), __jsx("br", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 146,
+        columnNumber: 17
+      }
+    }), __jsx("div", {
+      className: "row column-height",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 147,
+        columnNumber: 17
+      }
+    }, __jsx("div", {
+      className: "col-6 col-md-6",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 148,
+        columnNumber: 19
+      }
+    }, __jsx(react_lazyload__WEBPACK_IMPORTED_MODULE_3___default.a, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 149,
+        columnNumber: 21
+      }
+    }, __jsx("picture", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 150,
+        columnNumber: 23
+      }
+    }, __jsx("source", {
+      srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_450,h_300,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_skyblock.jp2",
+      media: "(max-width: 480px)",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 151,
+        columnNumber: 25
+      }
+    }), __jsx("source", {
+      srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_768,h_320,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_skyblock.jp2",
+      media: "(max-width: 768px)",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 152,
+        columnNumber: 25
+      }
+    }), __jsx("source", {
+      srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_440,h_350,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_skyblock.jp2",
+      media: "(max-width: 1080px)",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 153,
+        columnNumber: 25
+      }
+    }), __jsx("img", {
+      src: "https://res.cloudinary.com/xianmalik/image/upload/w_540,h_350,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_skyblock.jp2",
+      alt: "Survival",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 154,
+        columnNumber: 25
+      }
+    })))), __jsx("div", {
+      className: "col-6 col-md-6",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 158,
+        columnNumber: 19
+      }
+    }, __jsx("h5", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 159,
+        columnNumber: 21
+      }
+    }, "GAMEMODES"), __jsx("h2", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 160,
+        columnNumber: 21
+      }
+    }, "SkyBlock"), __jsx("h6", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 163,
+        columnNumber: 21
+      }
+    }, "Classic Skyblock (Currently Offline)"), __jsx("p", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 164,
+        columnNumber: 21
+      }
+    }, "SkyBlock is a survival gamemode where players live and build on a floating island. The goal of the map is to survive without cheating, expand your island, grow your own food and thrive."))))), __jsx(_components_footer__WEBPACK_IMPORTED_MODULE_5__["default"], {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 171,
+        columnNumber: 11
       }
     })));
   }
@@ -1212,7 +1620,7 @@ class HomePage extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
@@ -1246,17 +1654,6 @@ module.exports = require("next/head");
 
 /***/ }),
 
-/***/ "next/router":
-/*!******************************!*\
-  !*** external "next/router" ***!
-  \******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("next/router");
-
-/***/ }),
-
 /***/ "react":
 /*!************************!*\
   !*** external "react" ***!
@@ -1265,6 +1662,28 @@ module.exports = require("next/router");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "react-lazyload":
+/*!*********************************!*\
+  !*** external "react-lazyload" ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-lazyload");
+
+/***/ }),
+
+/***/ "react-particles-js":
+/*!*************************************!*\
+  !*** external "react-particles-js" ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-particles-js");
 
 /***/ })
 

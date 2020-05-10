@@ -929,12 +929,36 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
         columnNumber: 11
       }
     }), __jsx("link", {
+      rel: "icon",
+      type: "image/png",
+      href: "https://res.cloudinary.com/xianmalik/image/upload/w_32,h_32,c_limit,f_auto,q_auto/v1589135860/UltraCraft/uc_favicon.png",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 14,
+        columnNumber: 11
+      }
+    })), __jsx("body", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16,
+        columnNumber: 9
+      }
+    }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["Main"], {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 17,
+        columnNumber: 11
+      }
+    }), __jsx("link", {
       href: "https://fonts.googleapis.com/css2?family=Cardo&display=swap",
       rel: "stylesheet",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 14,
+        lineNumber: 19,
         columnNumber: 11
       }
     }), __jsx("link", {
@@ -943,7 +967,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 15,
+        lineNumber: 20,
         columnNumber: 11
       }
     }), __jsx("link", {
@@ -952,110 +976,23 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 16,
-        columnNumber: 11
-      }
-    }), __jsx("link", {
-      href: "https://cdnjs.cloudflare.com/ajax/libs/ionicons/5.0.1/collection/components/icon/icon.min.css",
-      rel: "stylesheet",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 17,
-        columnNumber: 11
-      }
-    })), __jsx("body", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 19,
-        columnNumber: 9
-      }
-    }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["Main"], {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 20,
+        lineNumber: 21,
         columnNumber: 11
       }
     }), __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["NextScript"], {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 21,
-        columnNumber: 11
-      }
-    }), __jsx("picture", {
-      className: "image-bg",
-      style: {
-        opacity: .5
-      },
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 22,
-        columnNumber: 11
-      }
-    }, __jsx("source", {
-      srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_1080,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/home-bg_f2hhbg.jp2",
-      media: "(min-width: 1080px)",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
         lineNumber: 23,
-        columnNumber: 13
+        columnNumber: 11
       }
     }), __jsx("img", {
-      src: "https://res.cloudinary.com/xianmalik/image/upload/c_fill,f_auto,q_auto/v1589059497/UltraCraft/home-bg_f2hhbg.jp2",
-      className: "image-bg",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 24,
-        columnNumber: 13
-      }
-    })), __jsx("img", {
       className: "custom-cursor-sword",
-      src: "images/cursor.png",
+      src: "https://res.cloudinary.com/xianmalik/image/upload/w_50,h_50,q_auto,f_auto/v1589137162/UltraCraft/cursor.png",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 26,
-        columnNumber: 11
-      }
-    }), __jsx("script", {
-      type: "module",
-      src: "https://cdnjs.cloudflare.com/ajax/libs/ionicons/5.0.1/ionicons/ionicons.esm.js",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 27,
-        columnNumber: 11
-      }
-    }), __jsx("script", {
-      src: "https://cdnjs.cloudflare.com/ajax/libs/ionicons/5.0.1/ionicons/ionicons.js",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 28,
-        columnNumber: 11
-      }
-    }), __jsx("script", {
-      src: "https://code.jquery.com/jquery-2.2.4.min.js",
-      integrity: "sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=",
-      crossOrigin: "anonymous",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 29,
-        columnNumber: 11
-      }
-    }), __jsx("script", {
-      src: "https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 30,
+        lineNumber: 25,
         columnNumber: 11
       }
     }), __jsx("script", {
@@ -1063,7 +1000,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 31,
+        lineNumber: 27,
         columnNumber: 11
       }
     })));

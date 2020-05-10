@@ -1,8 +1,9 @@
-import Header from '../components/header'
-import Footer from '../components/footer'
 import Head from 'next/head'
 import axios from 'axios'
 import LazyLoad from 'react-lazyload'
+import Header from '../components/header'
+import Footer from '../components/footer'
+import ParticleView from '../components/particle'
 
 class HomePage extends React.Component {
   constructor(props) {
@@ -40,7 +41,7 @@ class HomePage extends React.Component {
         <div className="page-wrapper">
           <Header />
             <section id="Slider">
-              <div id="particles-js"></div>
+              <ParticleView />
               <picture className="image-bg">
                 <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_480,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/home_background.jp2" media="(max-width: 480px)" />
                 <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_768,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/home_background.jp2" media="(max-width: 768px)" />
