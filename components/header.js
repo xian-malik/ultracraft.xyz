@@ -35,12 +35,6 @@ function Header() {
                 <li>
                   <EffectSlash href="/support" title="Support" />
                 </li>
-              </ul>
-            </nav>
-          </div>
-          <div className="col-2">
-            <nav className="navbar">
-              <ul className="navbar-right text-right">
                 <li active='true'>
                   <EffectSlash href="/login" title="Login" extra="btn-effect" />
                 </li>
