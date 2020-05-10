@@ -39,7 +39,7 @@ class Header extends React.Component {
                   <li>
                     <EffectSlash href="/store" title="Store" />
                   </li>
-                  <li active='true' class="header-cta">
+                  <li active='true' className="header-cta">
                     <EffectSlash href="/login" title="Login" extra="btn-effect" />
                   </li>
                 </ul>

@@ -19,6 +19,10 @@ class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
+          <picture className="image-bg" style={{opacity: .5}}>
+            <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_1080,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/home-bg_f2hhbg.jp2" media="(min-width: 1080px)" />
+            <img src="https://res.cloudinary.com/xianmalik/image/upload/c_fill,f_auto,q_auto/v1589059497/UltraCraft/home-bg_f2hhbg.jp2" className="image-bg" />
+          </picture>
           <img className="custom-cursor-sword" src="images/cursor.png" />
           <script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/ionicons/5.0.1/ionicons/ionicons.esm.js"></script>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/ionicons/5.0.1/ionicons/ionicons.js"></script>
