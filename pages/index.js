@@ -10,7 +10,7 @@ class HomePage extends React.Component {
       ip: "play.ultracraft.xyz",
       port: 25582,
       playerCount: "N/A",
-      ipText: <span><small>play</small>.UltraCraft.<small>xyz</small></span>,
+      ipText: <span><small>play</small>.UltraCraft.<small>xyz</small></span>
     }
   }
   componentDidMount() {
@@ -41,9 +41,10 @@ class HomePage extends React.Component {
           <section id="Slider">
             <div id="particles-js"></div>
             <picture className="image-bg">
-              <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_768,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/home-bg_rqhiy5.jpg" media="(max-width: 768px)" />
-              <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_1080,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/home-bg_rqhiy5.jp2" media="(max-width: 1080px)" />
-              <img src="https://res.cloudinary.com/xianmalik/image/upload/c_fill,f_auto,q_auto/v1589059497/UltraCraft/home-bg_rqhiy5.jp2" className="image-bg" />
+              <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_480,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jpg" media="(max-width: 480px)" />
+              <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_768,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/home_background.jpg" media="(max-width: 768px)" />
+              <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_1080,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/home_background.jp2" media="(max-width: 1080px)" />
+              <img src="https://res.cloudinary.com/xianmalik/image/upload/c_fill,f_auto,q_auto/v1589059497/UltraCraft/home_background.jp2" className="image-bg" />
             </picture>
             <div className="container">
               <div className="row">
@@ -74,7 +75,12 @@ class HomePage extends React.Component {
             <div className="container">
               <div className="row column-height">
                 <div className="col-6 col-md-6">
-                  <img className="image-responsive" src="images/section1.png" />
+                  <picture>
+                    <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_450,h_300,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jpg" media="(max-width: 480px)" />
+                    <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_768,h_320,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jpg" media="(max-width: 768px)" />
+                    <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_440,h_400,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jp2" media="(max-width: 1080px)" />
+                    <img src="https://res.cloudinary.com/xianmalik/image/upload/w_540,h_450,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jp2" />
+                  </picture>
                 </div>
                 <div className="col-6 col-md-6">
                   <h5>INTRODUCTION</h5>
@@ -100,16 +106,16 @@ class HomePage extends React.Component {
           <section id="Section3">
             <div className="container">
               <div className="row column-height clearfix">
-                <div className="col-6 col-md-6 text-right">
+                <div className="col-6 col-md-6 col-push-6">
+                  <img className="image-responsive" src="images/survival.jpg" alt="Survival" />
+                </div>
+                <div className="col-6 col-md-6 col-pull-6 text-right">
                   <h5>GAMEMODES</h5>
                   <h2>
                     Survival
                   </h2>
                   <h6>An Enhanced Survival Experience</h6>
                   <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</p>
-                </div>
-                <div className="col-6 col-md-6">
-                  <img className="image-responsive" src="images/survival.jpg" alt="Survival" />
                 </div>
               </div>
               <br />

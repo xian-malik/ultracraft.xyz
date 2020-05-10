@@ -5,7 +5,11 @@ import { useRouter } from 'next/router'
 class Header extends React.Component {
   constructor(props) {
     super(props)
+    this.state = {
+      menuOpen: false
+    }
   }
+  handleMenu(e) { this.setState({menuOpen: !this.state.menuOpen}) }
   render() {
     return <header id="header">
       <div className="header">
@@ -19,7 +23,7 @@ class Header extends React.Component {
               </div>
             </div>
             <div className="col-9">
-              <nav className="navbar">
+              <nav className={"navbar" + (this.state.menuOpen) ? " responsive-active" : ""}>
                 <ul className="navbar-nav text-right">
                   <li>
                     <EffectSlash href="/" title="Home" active='true' />
