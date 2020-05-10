@@ -79,93 +79,93 @@ class HomePage extends React.Component {
             </section>
             
             <section id="Section2">
-              <LazyLoad>
-                <div className="container">
-                  <div className="row column-height">
-                    <div className="col-6 col-md-6">
-                        <picture>
-                          <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_450,h_300,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jp2" media="(max-width: 480px)" />
-                          <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_768,h_320,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jp2" media="(max-width: 768px)" />
-                          <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_440,h_400,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jp2" media="(max-width: 1080px)" />
-                          <img src="https://res.cloudinary.com/xianmalik/image/upload/w_540,h_450,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jp2" />
-                        </picture>
-                    </div>
-                    <div className="col-6 col-md-6">
-                      <h5>INTRODUCTION</h5>
-                      <h2>
-                        What Is... <br/>
-                        UltraCraft?
-                      </h2>
-                      <h6>A Survival &amp; SkyBlock Server</h6>
-                      <p>
-                        Started back in October 2019, Ultracraft was founded by four of Minecraft Enthusiasts who are eager enough to start their own community of players. Main goal of UltraCraft till now is to provide lag free, toxicity free community to the players of Bangladesh.
-                      </p>
-                      <a href="#" className="btn-effect btn-white-bg effect-slash">
-                        <div className="effect-inner">
-                          <span className="effect-l"><span>Learn More</span></span>
-                          <span className="effect-r"><span>Learn More</span></span>
-                          <span className="effect-shade"><span>Learn More</span></span>
-                        </div>
-                      </a>
-                    </div>
+              <div className="container">
+                <div className="row column-height">
+                  <div className="col-6 col-md-6">
+                    <LazyLoad>
+                      <picture>
+                        <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_450,h_300,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jp2" media="(max-width: 480px)" />
+                        <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_768,h_320,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jp2" media="(max-width: 768px)" />
+                        <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_440,h_400,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jp2" media="(max-width: 1080px)" />
+                        <img src="https://res.cloudinary.com/xianmalik/image/upload/w_540,h_450,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jp2" />
+                      </picture>
+                    </LazyLoad>
+                  </div>
+                  <div className="col-6 col-md-6">
+                    <h5>INTRODUCTION</h5>
+                    <h2>
+                      What Is... <br/>
+                      UltraCraft?
+                    </h2>
+                    <h6>A Survival &amp; SkyBlock Server</h6>
+                    <p>
+                      Started back in October 2019, Ultracraft was founded by four of Minecraft Enthusiasts who are eager enough to start their own community of players. Main goal of UltraCraft till now is to provide lag free, toxicity free community to the players of Bangladesh.
+                    </p>
+                    <a href="#" className="btn-effect btn-white-bg effect-slash">
+                      <div className="effect-inner">
+                        <span className="effect-l"><span>Learn More</span></span>
+                        <span className="effect-r"><span>Learn More</span></span>
+                        <span className="effect-shade"><span>Learn More</span></span>
+                      </div>
+                    </a>
                   </div>
                 </div>
-                <picture className="dividerBottom">
-                  <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_480,h_50,c_fill,f_auto,q_auto/v1589059497/UltraCraft/Borders/top_dark.jp2" media="(max-width: 480px)" />
-                  <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_768,h_50,c_fill,f_auto,q_auto/v1589059497/UltraCraft/Borders/top_dark.jp2" media="(max-width: 768px)" />
-                  <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_1080,h_95,c_fill,f_auto,q_auto/v1589059497/UltraCraft/Borders/top_dark.jp2" media="(max-width: 1080px)" />
-                  <img className="dividerBottom" src="https://res.cloudinary.com/xianmalik/image/upload/w_1871,h_95,c_fill,f_auto,q_auto/v1589138371/UltraCraft/Borders/top_dark.png" />
-                </picture>
-              </LazyLoad>
+              </div>
+              <picture className="dividerBottom">
+                <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_480,h_50,c_fill,f_auto,q_auto/v1589059497/UltraCraft/Borders/top_dark.jp2" media="(max-width: 480px)" />
+                <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_768,h_50,c_fill,f_auto,q_auto/v1589059497/UltraCraft/Borders/top_dark.jp2" media="(max-width: 768px)" />
+                <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_1080,h_95,c_fill,f_auto,q_auto/v1589059497/UltraCraft/Borders/top_dark.jp2" media="(max-width: 1080px)" />
+                <img className="dividerBottom" src="https://res.cloudinary.com/xianmalik/image/upload/w_1871,h_95,c_fill,f_auto,q_auto/v1589138371/UltraCraft/Borders/top_dark.png" />
+              </picture>
             </section>
             
             <section id="Section3">
               <div className="container">
-                <div className="row column-height clearfix">
-                  <div className="col-6 col-md-6 col-push-6">
-                    <LazyLoad>
+                <LazyLoad>
+                  <div className="row column-height clearfix">
+                    <div className="col-6 col-md-6 col-push-6">
                       <picture>
                         <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_450,h_300,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_survival.jp2" media="(max-width: 480px)" />
                         <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_768,h_320,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_survival.jp2" media="(max-width: 768px)" />
                         <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_440,h_350,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_survival.jp2" media="(max-width: 1080px)" />
                         <img src="https://res.cloudinary.com/xianmalik/image/upload/w_540,h_350,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_survival.jp2" alt="Survival" />
                       </picture>
-                    </LazyLoad>
+                    </div>
+                    <div className="col-6 col-md-6 col-pull-6 text-right">
+                      <h5>GAMEMODES</h5>
+                      <h2>
+                        Survival
+                      </h2>
+                      <h6>An Enhanced Survival Experience</h6>
+                      <p>
+                        Survival mode is one of the main game modes in Minecraft. Players must collect resources, build structures, battle mobs, eat, and explore the world in an effort to thrive and survive.
+                      </p>
+                    </div>
                   </div>
-                  <div className="col-6 col-md-6 col-pull-6 text-right">
-                    <h5>GAMEMODES</h5>
-                    <h2>
-                      Survival
-                    </h2>
-                    <h6>An Enhanced Survival Experience</h6>
-                    <p>
-                      Survival mode is one of the main game modes in Minecraft. Players must collect resources, build structures, battle mobs, eat, and explore the world in an effort to thrive and survive.
-                    </p>
-                  </div>
-                </div>
-                <br />
-                <div className="row column-height">
-                  <div className="col-6 col-md-6">
-                    <LazyLoad>
+                </LazyLoad>
+                <LazyLoad>
+                  <br />
+                  <div className="row column-height">
+                    <div className="col-6 col-md-6">
                       <picture>
                         <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_450,h_300,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_skyblock.jp2" media="(max-width: 480px)" />
                         <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_768,h_320,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_skyblock.jp2" media="(max-width: 768px)" />
                         <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_440,h_350,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_skyblock.jp2" media="(max-width: 1080px)" />
                         <img src="https://res.cloudinary.com/xianmalik/image/upload/w_540,h_350,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_skyblock.jp2" alt="Survival" />
                       </picture>
-                    </LazyLoad>
+                    </div>
+                    <div className="col-6 col-md-6">
+                      <h5>GAMEMODES</h5>
+                      <h2>
+                        SkyBlock
+                      </h2>
+                      <h6>Classic Skyblock (Currently Offline)</h6>
+                      <p>
+                        SkyBlock is a survival gamemode where players live and build on a floating island. The goal of the map is to survive without cheating, expand your island, grow your own food and thrive.
+                      </p>
+                    </div>
                   </div>
-                  <div className="col-6 col-md-6">
-                    <h5>GAMEMODES</h5>
-                    <h2>
-                      SkyBlock
-                    </h2>
-                    <h6>Classic Skyblock (Currently Offline)</h6>
-                    <p>
-                      SkyBlock is a survival gamemode where players live and build on a floating island. The goal of the map is to survive without cheating, expand your island, grow your own food and thrive.
-                    </p>
-                  </div>
-                </div>
+                </LazyLoad>
               </div>
             </section>
           <Footer />
