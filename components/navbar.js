@@ -19,7 +19,7 @@ class Navbar extends React.Component {
           <li><EffectSlash href="/support" title="Support" /></li>
           <li><EffectSlash href="/store" title="Store" /></li>
           <li active='true' className="header-cta">
-            <EffectSlash href="/login" title="Login" extra="btn-effect" />
+            <EffectSlash href="https://bit.ly/uc-discord" title="Discord" extra="btn-effect" />
           </li>
         </ul>
       </nav>

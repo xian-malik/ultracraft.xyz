@@ -736,6 +736,9 @@ h1.page-title {
   .text-right {
     text-align: right;
   }
+  .text-center {
+    text-align: center;
+  }
 }
 
 
@@ -817,4 +820,13 @@ footer .footer-logo {
   color: #bd8d4c;
   line-height: .8em;
   text-shadow: 0 0 20px #0e0e0ecc;
+}
+
+
+
+.countdown {
+  font-size: 12rem;
+  margin: 0 0 1rem;
+  font-family: 'Spectral SC', serif;
+  line-height: .7em;
 }

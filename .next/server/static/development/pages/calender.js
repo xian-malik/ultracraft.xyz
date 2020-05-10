@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 8);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -595,8 +595,8 @@ class Navbar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         columnNumber: 11
       }
     }, __jsx(_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_1__["default"], {
-      href: "/login",
-      title: "Login",
+      href: "https://bit.ly/uc-discord",
+      title: "Discord",
       extra: "btn-effect",
       __self: this,
       __source: {
@@ -622,67 +622,40 @@ class Navbar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "axios");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_lazyload__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-lazyload */ "react-lazyload");
-/* harmony import */ var react_lazyload__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_lazyload__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _components_header__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/header */ "./components/header.js");
-/* harmony import */ var _components_footer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/footer */ "./components/footer.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/header */ "./components/header.js");
+/* harmony import */ var _components_footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/footer */ "./components/footer.js");
 var _jsxFileName = "E:\\Workspace\\ultracraft.xyz\\pages\\calender.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
 
 
 
-class Calender extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      data: null
-    };
-  }
-
-  componentDidMount() {
-    const {
-      ip,
-      port
-    } = this.state;
-    axios__WEBPACK_IMPORTED_MODULE_2___default.a.get('https://mcapi.us/server/status?ip=' + ip + '&port=' + port + '', {
-      'Content-Type': 'application/json'
-    }).then(response => {
-      this.setState({
-        data: response.data
-      });
-    });
-  }
-
+class Calender extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
   render() {
     return __jsx("main", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 23,
+        lineNumber: 9,
         columnNumber: 7
       }
-    }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_0___default.a, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 24,
+        lineNumber: 10,
         columnNumber: 9
       }
     }, __jsx("title", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 25,
+        lineNumber: 11,
         columnNumber: 11
       }
     }, "Calender | UltraCraft")), __jsx("div", {
@@ -690,14 +663,14 @@ class Calender extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 27,
+        lineNumber: 13,
         columnNumber: 9
       }
-    }, __jsx(_components_header__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    }, __jsx(_components_header__WEBPACK_IMPORTED_MODULE_2__["default"], {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 28,
+        lineNumber: 14,
         columnNumber: 11
       }
     }), __jsx("section", {
@@ -705,7 +678,7 @@ class Calender extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 29,
+        lineNumber: 15,
         columnNumber: 11
       }
     }, __jsx("picture", {
@@ -713,7 +686,7 @@ class Calender extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 30,
+        lineNumber: 16,
         columnNumber: 13
       }
     }, __jsx("source", {
@@ -722,7 +695,7 @@ class Calender extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 31,
+        lineNumber: 17,
         columnNumber: 15
       }
     }), __jsx("source", {
@@ -731,7 +704,7 @@ class Calender extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 32,
+        lineNumber: 18,
         columnNumber: 15
       }
     }), __jsx("source", {
@@ -740,7 +713,7 @@ class Calender extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 33,
+        lineNumber: 19,
         columnNumber: 15
       }
     }), __jsx("img", {
@@ -749,7 +722,7 @@ class Calender extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 34,
+        lineNumber: 20,
         columnNumber: 15
       }
     })), __jsx("div", {
@@ -757,7 +730,7 @@ class Calender extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 36,
+        lineNumber: 22,
         columnNumber: 13
       }
     }, __jsx("div", {
@@ -765,7 +738,7 @@ class Calender extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 37,
+        lineNumber: 23,
         columnNumber: 15
       }
     }, __jsx("div", {
@@ -773,7 +746,7 @@ class Calender extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 38,
+        lineNumber: 24,
         columnNumber: 17
       }
     }, __jsx("h3", {
@@ -783,14 +756,14 @@ class Calender extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 39,
+        lineNumber: 25,
         columnNumber: 19
       }
     }, "Reset & Events"), __jsx("h1", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 40,
+        lineNumber: 26,
         columnNumber: 19
       }
     }, "CalendeR")))), __jsx("picture", {
@@ -798,7 +771,7 @@ class Calender extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 44,
+        lineNumber: 30,
         columnNumber: 13
       }
     }, __jsx("source", {
@@ -807,7 +780,7 @@ class Calender extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 45,
+        lineNumber: 31,
         columnNumber: 15
       }
     }), __jsx("source", {
@@ -816,7 +789,7 @@ class Calender extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 46,
+        lineNumber: 32,
         columnNumber: 15
       }
     }), __jsx("source", {
@@ -825,7 +798,7 @@ class Calender extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 47,
+        lineNumber: 33,
         columnNumber: 15
       }
     }), __jsx("img", {
@@ -834,7 +807,7 @@ class Calender extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 48,
+        lineNumber: 34,
         columnNumber: 15
       }
     }))), __jsx("section", {
@@ -842,7 +815,7 @@ class Calender extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 52,
+        lineNumber: 38,
         columnNumber: 11
       }
     }, __jsx("div", {
@@ -850,7 +823,7 @@ class Calender extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 53,
+        lineNumber: 39,
         columnNumber: 13
       }
     }, __jsx("div", {
@@ -858,178 +831,41 @@ class Calender extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 54,
+        lineNumber: 40,
         columnNumber: 15
       }
     }, __jsx("div", {
-      className: "col-6 col-md-6",
+      className: "col-12 text-center",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 55,
+        lineNumber: 41,
         columnNumber: 17
       }
-    }, __jsx(react_lazyload__WEBPACK_IMPORTED_MODULE_3___default.a, {
-      offset: 50,
+    }, __jsx("h1", {
+      style: {
+        margin: 0
+      },
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 56,
+        lineNumber: 42,
         columnNumber: 19
       }
-    }, __jsx("picture", {
+    }, "Next Reset in"), __jsx("div", {
+      className: "countdown",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 57,
-        columnNumber: 21
-      }
-    }, __jsx("source", {
-      srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_450,h_300,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jp2",
-      media: "(max-width: 480px)",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 58,
-        columnNumber: 23
-      }
-    }), __jsx("source", {
-      srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_768,h_320,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jp2",
-      media: "(max-width: 768px)",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 59,
-        columnNumber: 23
-      }
-    }), __jsx("source", {
-      srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_440,h_400,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jp2",
-      media: "(max-width: 1080px)",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 60,
-        columnNumber: 23
-      }
-    }), __jsx("img", {
-      src: "https://res.cloudinary.com/xianmalik/image/upload/w_540,h_450,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jp2",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 61,
-        columnNumber: 23
-      }
-    })))), __jsx("div", {
-      className: "col-6 col-md-6",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 65,
-        columnNumber: 17
-      }
-    }, __jsx("h5", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 66,
+        lineNumber: 43,
         columnNumber: 19
       }
-    }, "INTRODUCTION"), __jsx("h2", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 67,
-        columnNumber: 19
-      }
-    }, "What Is... ", __jsx("br", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 68,
-        columnNumber: 32
-      }
-    }), "UltraCraft?"), __jsx("h6", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 71,
-        columnNumber: 19
-      }
-    }, "A Survival & SkyBlock Server"), __jsx("p", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 72,
-        columnNumber: 19
-      }
-    }, "Started back in October 2019, Ultracraft was founded by four of Minecraft Enthusiasts who are eager enough to start their own community of players. Main goal of UltraCraft till now is to provide lag free, toxicity free community to the players of Bangladesh."), __jsx("a", {
-      href: "#",
-      className: "btn-effect btn-white-bg effect-slash",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 75,
-        columnNumber: 19
-      }
-    }, __jsx("div", {
-      className: "effect-inner",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 76,
-        columnNumber: 21
-      }
-    }, __jsx("span", {
-      className: "effect-l",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 77,
-        columnNumber: 23
-      }
-    }, __jsx("span", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 77,
-        columnNumber: 50
-      }
-    }, "Learn More")), __jsx("span", {
-      className: "effect-r",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 78,
-        columnNumber: 23
-      }
-    }, __jsx("span", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 78,
-        columnNumber: 50
-      }
-    }, "Learn More")), __jsx("span", {
-      className: "effect-shade",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 79,
-        columnNumber: 23
-      }
-    }, __jsx("span", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 79,
-        columnNumber: 54
-      }
-    }, "Learn More"))))))), __jsx("picture", {
+    }, "00:00:00")))), __jsx("picture", {
       className: "dividerBottom",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 85,
+        lineNumber: 49,
         columnNumber: 13
       }
     }, __jsx("source", {
@@ -1038,7 +874,7 @@ class Calender extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 86,
+        lineNumber: 50,
         columnNumber: 15
       }
     }), __jsx("source", {
@@ -1047,7 +883,7 @@ class Calender extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 87,
+        lineNumber: 51,
         columnNumber: 15
       }
     }), __jsx("source", {
@@ -1056,7 +892,7 @@ class Calender extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 88,
+        lineNumber: 52,
         columnNumber: 15
       }
     }), __jsx("img", {
@@ -1065,14 +901,14 @@ class Calender extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 89,
+        lineNumber: 53,
         columnNumber: 15
       }
-    }))), __jsx(_components_footer__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    }))), __jsx(_components_footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 92,
+        lineNumber: 56,
         columnNumber: 11
       }
     })));
@@ -1084,7 +920,7 @@ class Calender extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 
 /***/ }),
 
-/***/ 8:
+/***/ 3:
 /*!*********************************!*\
   !*** multi ./pages/calender.js ***!
   \*********************************/
@@ -1093,17 +929,6 @@ class Calender extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 
 module.exports = __webpack_require__(/*! E:\Workspace\ultracraft.xyz\pages\calender.js */"./pages/calender.js");
 
-
-/***/ }),
-
-/***/ "axios":
-/*!************************!*\
-  !*** external "axios" ***!
-  \************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("axios");
 
 /***/ }),
 
