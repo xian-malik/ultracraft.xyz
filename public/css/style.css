@@ -808,6 +808,10 @@ footer .footer-logo {
   .page-title h3 {
     font-size: .7rem;
   }
+  
+  .page-title {
+    padding: 25vh 0 20vh;
+  }
 }
 .page-title h1 {
   color: #bd8d4c;
