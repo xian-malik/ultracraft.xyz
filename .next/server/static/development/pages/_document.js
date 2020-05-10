@@ -995,14 +995,6 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
         lineNumber: 25,
         columnNumber: 11
       }
-    }), __jsx("script", {
-      src: "/static/main.js",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 27,
-        columnNumber: 11
-      }
     })));
   }
 

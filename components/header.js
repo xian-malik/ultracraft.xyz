@@ -19,9 +19,9 @@ class Header extends React.Component {
           <div className="container">
             <div className="row">
               <div className="col-3">
-                <div className="logo">
+                <a href="/" className="logo">
                   <h1 className="logo-text">UltraCraft</h1>
-                </div>
+                </a>
               </div>
               <div className="col-9">
                 <Navbar />

@@ -11,25 +11,36 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_lazyload__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-lazyload */ "./node_modules/react-lazyload/lib/index.js");
+/* harmony import */ var react_lazyload__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_lazyload__WEBPACK_IMPORTED_MODULE_1__);
 var _jsxFileName = "E:\\Workspace\\ultracraft.xyz\\components\\footer.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
+
 function Footer() {
-  return __jsx("footer", {
+  return __jsx(react_lazyload__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    offset: 50,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 3,
+      lineNumber: 4,
       columnNumber: 5
+    }
+  }, __jsx("footer", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5,
+      columnNumber: 7
     }
   }, __jsx("picture", {
     className: "dividerTop",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 4,
-      columnNumber: 7
+      lineNumber: 6,
+      columnNumber: 9
     }
   }, __jsx("source", {
     srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_480,h_50,c_fill,f_auto,q_auto/v1589059497/UltraCraft/Borders/bottom_dark.jp2",
@@ -37,8 +48,8 @@ function Footer() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5,
-      columnNumber: 9
+      lineNumber: 7,
+      columnNumber: 11
     }
   }), __jsx("source", {
     srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_768,h_50,c_fill,f_auto,q_auto/v1589059497/UltraCraft/Borders/bottom_dark.jp2",
@@ -46,8 +57,8 @@ function Footer() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6,
-      columnNumber: 9
+      lineNumber: 8,
+      columnNumber: 11
     }
   }), __jsx("source", {
     srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_1080,h_95,c_fill,f_auto,q_auto/v1589059497/UltraCraft/Borders/bottom_dark.jp2",
@@ -55,8 +66,8 @@ function Footer() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7,
-      columnNumber: 9
+      lineNumber: 9,
+      columnNumber: 11
     }
   }), __jsx("img", {
     className: "dividerTop",
@@ -64,65 +75,65 @@ function Footer() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8,
-      columnNumber: 9
+      lineNumber: 10,
+      columnNumber: 11
     }
   })), __jsx("div", {
     className: "container",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10,
-      columnNumber: 7
+      lineNumber: 12,
+      columnNumber: 9
     }
   }, __jsx("div", {
     className: "row",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11,
-      columnNumber: 9
+      lineNumber: 13,
+      columnNumber: 11
     }
   }, __jsx("div", {
     className: "col-4",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
-      columnNumber: 11
+      lineNumber: 14,
+      columnNumber: 13
     }
   }, __jsx("h3", {
     className: "footer-logo",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 13
+      lineNumber: 15,
+      columnNumber: 15
     }
   }, "UltraCraft"), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 13
+      lineNumber: 16,
+      columnNumber: 15
     }
   }, "Ultracraft is a Bangladeshi server")), __jsx("div", {
     className: "col-4",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
-      columnNumber: 11
+      lineNumber: 20,
+      columnNumber: 13
     }
   }), __jsx("div", {
     className: "col-4",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
-      columnNumber: 11
+      lineNumber: 21,
+      columnNumber: 13
     }
-  }))));
+  })))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
@@ -233,7 +244,8 @@ var Header = /*#__PURE__*/function (_React$Component) {
           lineNumber: 21,
           columnNumber: 15
         }
-      }, __jsx("div", {
+      }, __jsx("a", {
+        href: "/",
         className: "logo",
         __self: this,
         __source: {
@@ -497,8 +509,8 @@ var Navbar = /*#__PURE__*/function (_React$Component) {
           columnNumber: 11
         }
       }, __jsx(_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_6__["default"], {
-        href: "/",
-        title: "Home",
+        href: "/calender",
+        title: "Calender",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -513,8 +525,8 @@ var Navbar = /*#__PURE__*/function (_React$Component) {
           columnNumber: 11
         }
       }, __jsx(_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_6__["default"], {
-        href: "/calender",
-        title: "Calender",
+        href: "/punishments",
+        title: "Punishments",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -529,8 +541,8 @@ var Navbar = /*#__PURE__*/function (_React$Component) {
           columnNumber: 11
         }
       }, __jsx(_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_6__["default"], {
-        href: "/punishments",
-        title: "Punishments",
+        href: "/resources",
+        title: "Resources",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -545,8 +557,8 @@ var Navbar = /*#__PURE__*/function (_React$Component) {
           columnNumber: 11
         }
       }, __jsx(_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_6__["default"], {
-        href: "/resources",
-        title: "Resources",
+        href: "/support",
+        title: "Support",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -561,28 +573,12 @@ var Navbar = /*#__PURE__*/function (_React$Component) {
           columnNumber: 11
         }
       }, __jsx(_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_6__["default"], {
-        href: "/support",
-        title: "Support",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 20,
-          columnNumber: 15
-        }
-      })), __jsx("li", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 21,
-          columnNumber: 11
-        }
-      }, __jsx(_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_6__["default"], {
         href: "/store",
         title: "Store",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21,
+          lineNumber: 20,
           columnNumber: 15
         }
       })), __jsx("li", {
@@ -591,7 +587,7 @@ var Navbar = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22,
+          lineNumber: 21,
           columnNumber: 11
         }
       }, __jsx(_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -601,7 +597,7 @@ var Navbar = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23,
+          lineNumber: 22,
           columnNumber: 13
         }
       }))));
@@ -18408,6 +18404,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
           columnNumber: 19
         }
       }, __jsx(react_lazyload__WEBPACK_IMPORTED_MODULE_9___default.a, {
+        offset: 50,
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -18621,8 +18618,8 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
           lineNumber: 123,
           columnNumber: 15
         }
-      }, __jsx("div", {
-        className: "row column-height clearfix",
+      }, __jsx(react_lazyload__WEBPACK_IMPORTED_MODULE_9___default.a, {
+        offset: 50,
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -18630,14 +18627,15 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
           columnNumber: 17
         }
       }, __jsx("div", {
-        className: "col-6 col-md-6 col-push-6",
+        className: "row column-height clearfix",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 125,
           columnNumber: 19
         }
-      }, __jsx(react_lazyload__WEBPACK_IMPORTED_MODULE_9___default.a, {
+      }, __jsx("div", {
+        className: "col-6 col-md-6 col-push-6",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -18687,66 +18685,67 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
           lineNumber: 131,
           columnNumber: 25
         }
-      })))), __jsx("div", {
+      }))), __jsx("div", {
         className: "col-6 col-md-6 col-pull-6 text-right",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 135,
-          columnNumber: 19
+          lineNumber: 134,
+          columnNumber: 21
         }
       }, __jsx("h5", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 136,
-          columnNumber: 21
+          lineNumber: 135,
+          columnNumber: 23
         }
       }, "GAMEMODES"), __jsx("h2", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 137,
-          columnNumber: 21
+          lineNumber: 136,
+          columnNumber: 23
         }
       }, "Survival"), __jsx("h6", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 140,
-          columnNumber: 21
+          lineNumber: 139,
+          columnNumber: 23
         }
       }, "An Enhanced Survival Experience"), __jsx("p", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 141,
-          columnNumber: 21
+          lineNumber: 140,
+          columnNumber: 23
         }
-      }, "Survival mode is one of the main game modes in Minecraft. Players must collect resources, build structures, battle mobs, eat, and explore the world in an effort to thrive and survive."))), __jsx("br", {
+      }, "Survival mode is one of the main game modes in Minecraft. Players must collect resources, build structures, battle mobs, eat, and explore the world in an effort to thrive and survive.")))), __jsx(react_lazyload__WEBPACK_IMPORTED_MODULE_9___default.a, {
+        offset: 50,
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 146,
           columnNumber: 17
         }
-      }), __jsx("div", {
-        className: "row column-height",
+      }, __jsx("br", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 147,
-          columnNumber: 17
+          columnNumber: 19
         }
-      }, __jsx("div", {
-        className: "col-6 col-md-6",
+      }), __jsx("div", {
+        className: "row column-height",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 148,
           columnNumber: 19
         }
-      }, __jsx(react_lazyload__WEBPACK_IMPORTED_MODULE_9___default.a, {
+      }, __jsx("div", {
+        className: "col-6 col-md-6",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -18796,43 +18795,43 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
           lineNumber: 154,
           columnNumber: 25
         }
-      })))), __jsx("div", {
+      }))), __jsx("div", {
         className: "col-6 col-md-6",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 158,
-          columnNumber: 19
+          lineNumber: 157,
+          columnNumber: 21
         }
       }, __jsx("h5", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 159,
-          columnNumber: 21
+          lineNumber: 158,
+          columnNumber: 23
         }
       }, "GAMEMODES"), __jsx("h2", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 160,
-          columnNumber: 21
+          lineNumber: 159,
+          columnNumber: 23
         }
       }, "SkyBlock"), __jsx("h6", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 163,
-          columnNumber: 21
+          lineNumber: 162,
+          columnNumber: 23
         }
       }, "Classic Skyblock (Currently Offline)"), __jsx("p", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 164,
-          columnNumber: 21
+          lineNumber: 163,
+          columnNumber: 23
         }
-      }, "SkyBlock is a survival gamemode where players live and build on a floating island. The goal of the map is to survive without cheating, expand your island, grow your own food and thrive."))))), __jsx(_components_footer__WEBPACK_IMPORTED_MODULE_11__["default"], {
+      }, "SkyBlock is a survival gamemode where players live and build on a floating island. The goal of the map is to survive without cheating, expand your island, grow your own food and thrive.")))))), __jsx(_components_footer__WEBPACK_IMPORTED_MODULE_11__["default"], {
         __self: this,
         __source: {
           fileName: _jsxFileName,

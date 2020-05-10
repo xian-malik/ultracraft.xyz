@@ -13,7 +13,6 @@ class Navbar extends React.Component {
     return (
       <nav className={"navbar" + (this.state.menuOpen ? " responsive-active" : "")}>
         <ul className="navbar-nav text-right">
-          <li><EffectSlash href="/" title="Home" /></li>
           <li><EffectSlash href="/calender" title="Calender" /></li>
           <li><EffectSlash href="/punishments" title="Punishments" /></li>
           <li><EffectSlash href="/resources" title="Resources" /></li>
