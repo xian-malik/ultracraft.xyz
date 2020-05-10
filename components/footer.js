@@ -1,7 +1,7 @@
 import LazyLoad from 'react-lazyload'
 function Footer() {
   return (
-    <LazyLoad>
+    <LazyLoad offset={50}>
       <footer>
         <picture className="dividerTop">
           <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_480,h_50,c_fill,f_auto,q_auto/v1589059497/UltraCraft/Borders/bottom_dark.jp2" media="(max-width: 480px)" />

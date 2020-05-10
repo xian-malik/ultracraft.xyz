@@ -82,7 +82,7 @@ class HomePage extends React.Component {
               <div className="container">
                 <div className="row column-height">
                   <div className="col-6 col-md-6">
-                    <LazyLoad>
+                    <LazyLoad offset={50}>
                       <picture>
                         <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_450,h_300,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jp2" media="(max-width: 480px)" />
                         <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_768,h_320,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jp2" media="(max-width: 768px)" />
@@ -121,7 +121,7 @@ class HomePage extends React.Component {
             
             <section id="Section3">
               <div className="container">
-                <LazyLoad>
+                <LazyLoad offset={50}>
                   <div className="row column-height clearfix">
                     <div className="col-6 col-md-6 col-push-6">
                       <picture>
@@ -143,7 +143,7 @@ class HomePage extends React.Component {
                     </div>
                   </div>
                 </LazyLoad>
-                <LazyLoad>
+                <LazyLoad offset={50}>
                   <br />
                   <div className="row column-height">
                     <div className="col-6 col-md-6">
