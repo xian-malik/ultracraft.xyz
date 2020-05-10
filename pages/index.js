@@ -85,7 +85,7 @@ class HomePage extends React.Component {
                   <div className="col-6 col-md-6">
                     <h5>INTRODUCTION</h5>
                     <h2>
-                      What Is...
+                      What Is... <br/>
                       UltraCraft?
                     </h2>
                     <h6>A Survival &amp; SkyBlock Server</h6>
@@ -107,7 +107,12 @@ class HomePage extends React.Component {
               <div className="container">
                 <div className="row column-height clearfix">
                   <div className="col-6 col-md-6 col-push-6">
-                    <img className="image-responsive" src="images/survival.jpg" alt="Survival" />
+                    <picture>
+                      <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_450,h_300,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_survival.jpg" media="(max-width: 480px)" />
+                      <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_768,h_320,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_survival.jpg" media="(max-width: 768px)" />
+                      <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_440,h_400,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_survival.jp2" media="(max-width: 1080px)" />
+                      <img src="https://res.cloudinary.com/xianmalik/image/upload/w_540,h_450,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_survival.jp2" alt="Survival" />
+                    </picture>
                   </div>
                   <div className="col-6 col-md-6 col-pull-6 text-right">
                     <h5>GAMEMODES</h5>
