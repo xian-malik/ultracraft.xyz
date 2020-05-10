@@ -4,13 +4,11 @@ class EffectSlash extends React.Component {
   constructor(props){
     super(props)
     this.state = {
-      pathname: '/punishment'
+      pathname: '/'
     }
   }
   
-  handleClick = e => {
-    if (this.props.href == "#") e.preventDefault()
-  }
+  handleClick = e => (this.props.href == "#") ? e.preventDefault() : null
   
   render() {
     const {href, title, extra} = this.props || ''
