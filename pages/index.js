@@ -2,7 +2,7 @@ import Header from '../components/header'
 import Footer from '../components/footer'
 import Head from 'next/head'
 
-class Homepage extends React.Component {
+class HomePage extends React.Component {
   constructor(props) {
     super(props)
   }
