@@ -11,8 +11,6 @@ class Header extends React.Component {
             <div className="row">
               <div className="col-3">
                 <div className="logo">
-                  <img src="/images/UltraCraft.png" alt="UltraCraft" hidden />
-                  <img src="/images/logo.png" alt="UltraCraft" hidden />
                   <h1 className="logo-text">UltraCraft</h1>
                 </div>
               </div>
