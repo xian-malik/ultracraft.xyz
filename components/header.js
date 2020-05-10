@@ -7,7 +7,6 @@ class Header extends React.Component {
     super(props)
   }
   render() {
-    const router = useRouter()
     return <header id="header">
       <div className="header">
         <div className="container">
@@ -40,7 +39,7 @@ class Header extends React.Component {
                   <li>
                     <EffectSlash href="/store" title="Store" />
                   </li>
-                  <li active='true'>
+                  <li active='true' class="header-cta">
                     <EffectSlash href="/login" title="Login" extra="btn-effect" />
                   </li>
                 </ul>

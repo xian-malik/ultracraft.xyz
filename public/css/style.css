@@ -388,9 +388,12 @@ nav.navbar .navbar-nav li a {
   font-size: 1rem;
   color: #b7b7b7;
 }
-nav.navbar .navbar-right li {
+nav.navbar .navbar-nav li.header-cta {
   margin: 6px 10px;
 } 
+nav.navbar .navbar-nav li.header-cta > a::after {
+  display: None;
+}
 nav.navbar .navbar-nav li a.btn-effect {
   position: relative;
   font-weight: bold;
@@ -505,11 +508,11 @@ nav.navbar .navbar-nav li > a::after {
 .btn-secondary::before {
   border-color: #bd8d4c;
 }
-.effect-slash.btn-effect {
+a.effect-slash.btn-effect {
   position: relative;
   display: inline-block;
   text-decoration: none;
-  padding: 12px 30px;
+  padding: 12px 30px !important;
   font-family: 'Spectral SC', serif;
   font-size: 1rem;
   font-weight: 600;

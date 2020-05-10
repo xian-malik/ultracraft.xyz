@@ -13,8 +13,8 @@ function HomePage() {
         <section id="Slider">
           <div id="particles-js"></div>
           <picture className="image-bg" style={{opacity: .5}}>
-            <source srcset="https://res.cloudinary.com/xianmalik/image/upload/w_768,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/home-bg_f2hhbg.jp2" media="(max-width: 768px)" />
-            <source srcset="https://res.cloudinary.com/xianmalik/image/upload/w_1080,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/home-bg_f2hhbg.jp2" media="(max-width: 1080px)" />
+            <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_768,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/home-bg_f2hhbg.jp2" media="(max-width: 768px)" />
+            <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_1080,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/home-bg_f2hhbg.jp2" media="(max-width: 1080px)" />
             <img src="https://res.cloudinary.com/xianmalik/image/upload/c_fill,f_auto,q_auto/v1589059497/UltraCraft/home-bg_f2hhbg.jp2" className="image-bg" />
           </picture>
           <div className="container">
