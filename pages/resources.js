@@ -55,27 +55,27 @@ class Resources extends React.Component {
               <div className="row">
                 <div className="col-4 col-xs-6">
                   <DownloadView href="https://drive.google.com/open?id=1YZb0kStbbXuUlufrzpB-fjqxAsCm0Agc"
-                    imagePath="/UltraCraft/uc_season2_alt.jp2"
+                    imagePath="/UltraCraft/uc_season0.jpg"
                     meta="World File" text="Season O" />
                 </div>
                 <div className="col-4 col-xs-6">
                   <DownloadView href="https://drive.google.com/open?id=1xlEvHGj9nhp5iAXGkH_jYG0NWN4Qs3IJ"
-                    imagePath="/UltraCraft/uc_season2.jp2"
+                    imagePath="/UltraCraft/uc_season1.jpg"
                     meta="World File" text="Season I" />
                 </div>
                 <div className="col-4 col-xs-6">
                   <DownloadView href="https://drive.google.com/open?id=1wPN26skuUnRcDqbF8He7W0JhR1amvt4a"
-                    imagePath="/UltraCraft/uc_season2.jp2"
+                    imagePath="/UltraCraft/uc_season2.jpg"
                     meta="World File" text="Season II" />
                 </div>
                 <div className="col-4 col-xs-6">
                   <DownloadView href="https://drive.google.com/open?id=1TXvp4yEjFI4B5BGhQfsYKfzfzvVsR2zS"
-                    imagePath="/UltraCraft/uc_season3.jp2"
+                    imagePath="/UltraCraft/uc_season3.jpg"
                     meta="World File" text="Season III" />
                 </div>
                 <div className="col-4 col-xs-6">
                   <DownloadView href="https://drive.google.com/open?id=1HTq3mVFBJ7jbk0qZ88xysnhws44lkO0q"
-                    imagePath="/UltraCraft/uc_season4.jp2"
+                    imagePath="/UltraCraft/uc_season4.jpg"
                     meta="World File" text="Season IV" />
                 </div>
                 <div className="col-4 col-xs-6">
