@@ -14,10 +14,10 @@ class Calender extends React.Component {
           <Header />
           <section className="page-title">
             <picture className="image-bg">
-              <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_480,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_spawn.jp2" media="(max-width: 480px)" />
-              <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_768,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_spawn.jp2" media="(max-width: 768px)" />
-              <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_1080,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_spawn.jp2" media="(max-width: 1080px)" />
-              <img src="https://res.cloudinary.com/xianmalik/image/upload/c_fill,f_auto,q_auto/v1589143340/UltraCraft/uc_spawn.jpg" className="image-bg" />
+              <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/e_blur:200,w_480,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_spawn.jp2" media="(max-width: 480px)" />
+              <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/e_blur:200,w_768,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_spawn.jp2" media="(max-width: 768px)" />
+              <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/e_blur:200,w_1080,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_spawn.jp2" media="(max-width: 1080px)" />
+              <img src="https://res.cloudinary.com/xianmalik/image/upload/e_blur:200,c_fill,f_auto,q_auto/v1589143340/UltraCraft/uc_spawn.jpg" className="image-bg" />
             </picture>
             <div className="container">
               <div className="row">
@@ -38,10 +38,10 @@ class Calender extends React.Component {
           <section id="Section2">
             <div className="container">
               <div className="row column-height">
-                <div className="col-12 text-center">
-                  <h1 style={{margin: 0}}>Next Reset in</h1>
+                <div className="col-12 text-md-center">
+                  <h4>Next Reset in</h4>
                   <div className="countdown">
-                    00:00:00
+                    20th June
                   </div>
                 </div>
               </div>

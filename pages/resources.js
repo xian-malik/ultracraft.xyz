@@ -3,6 +3,7 @@ import axios from 'axios'
 import LazyLoad from 'react-lazyload'
 import Header from '../components/header'
 import Footer from '../components/footer'
+import DownloadView from '../components/modules/downloadview.module'
 
 class Resources extends React.Component {
   constructor(props) {
@@ -28,10 +29,10 @@ class Resources extends React.Component {
           <Header />
           <section className="page-title">
             <picture className="image-bg">
-              <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_480,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/nether_hub.jp2" media="(max-width: 480px)" />
-              <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_768,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/nether_hub.jp2" media="(max-width: 768px)" />
-              <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_1080,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/nether_hub.jp2" media="(max-width: 1080px)" />
-              <img src="https://res.cloudinary.com/xianmalik/image/upload/c_fill,f_auto,q_auto/v1589143340/UltraCraft/nether_hub.jpg" className="image-bg" />
+              <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/e_blur:200,w_480,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/nether_hub.jp2" media="(max-width: 480px)" />
+              <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/e_blur:200,w_768,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/nether_hub.jp2" media="(max-width: 768px)" />
+              <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/e_blur:200,w_1080,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/nether_hub.jp2" media="(max-width: 1080px)" />
+              <img src="https://res.cloudinary.com/xianmalik/image/upload/e_blur:200,c_fill,f_auto,q_auto/v1589143340/UltraCraft/nether_hub.jpg" className="image-bg" />
             </picture>
             <div className="container">
               <div className="row">
@@ -51,34 +52,36 @@ class Resources extends React.Component {
           
           <section id="Section2">
             <div className="container">
-              <div className="row column-height">
-                <div className="col-6 col-md-6">
-                  <LazyLoad offset={50}>
-                    <picture>
-                      <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_450,h_300,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jp2" media="(max-width: 480px)" />
-                      <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_768,h_320,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jp2" media="(max-width: 768px)" />
-                      <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_440,h_400,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jp2" media="(max-width: 1080px)" />
-                      <img src="https://res.cloudinary.com/xianmalik/image/upload/w_540,h_450,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jp2" />
-                    </picture>
-                  </LazyLoad>
+              <div className="row">
+                <div className="col-4 col-xs-6">
+                  <DownloadView href="https://drive.google.com/open?id=1YZb0kStbbXuUlufrzpB-fjqxAsCm0Agc"
+                    imagePath="/UltraCraft/uc_season2_alt.jp2"
+                    meta="World File" text="Season O" />
                 </div>
-                <div className="col-6 col-md-6">
-                  <h5>INTRODUCTION</h5>
-                  <h2>
-                    What Is... <br/>
-                    UltraCraft?
-                  </h2>
-                  <h6>A Survival &amp; SkyBlock Server</h6>
-                  <p>
-                    Started back in October 2019, Ultracraft was founded by four of Minecraft Enthusiasts who are eager enough to start their own community of players. Main goal of UltraCraft till now is to provide lag free, toxicity free community to the players of Bangladesh.
-                  </p>
-                  <a href="#" className="btn-effect btn-white-bg effect-slash">
-                    <div className="effect-inner">
-                      <span className="effect-l"><span>Learn More</span></span>
-                      <span className="effect-r"><span>Learn More</span></span>
-                      <span className="effect-shade"><span>Learn More</span></span>
-                    </div>
-                  </a>
+                <div className="col-4 col-xs-6">
+                  <DownloadView href="https://drive.google.com/open?id=1xlEvHGj9nhp5iAXGkH_jYG0NWN4Qs3IJ"
+                    imagePath="/UltraCraft/uc_season2.jp2"
+                    meta="World File" text="Season I" />
+                </div>
+                <div className="col-4 col-xs-6">
+                  <DownloadView href="https://drive.google.com/open?id=1wPN26skuUnRcDqbF8He7W0JhR1amvt4a"
+                    imagePath="/UltraCraft/uc_season2.jp2"
+                    meta="World File" text="Season II" />
+                </div>
+                <div className="col-4 col-xs-6">
+                  <DownloadView href="https://drive.google.com/open?id=1TXvp4yEjFI4B5BGhQfsYKfzfzvVsR2zS"
+                    imagePath="/UltraCraft/uc_season3.jp2"
+                    meta="World File" text="Season III" />
+                </div>
+                <div className="col-4 col-xs-6">
+                  <DownloadView href="https://drive.google.com/open?id=1HTq3mVFBJ7jbk0qZ88xysnhws44lkO0q"
+                    imagePath="/UltraCraft/uc_season4.jp2"
+                    meta="World File" text="Season IV" />
+                </div>
+                <div className="col-4 col-xs-6">
+                  <DownloadView href="#"
+                    imagePath="/UltraCraft/chalkboard.jp2"
+                    meta="MORE" text="CominG" />
                 </div>
               </div>
             </div>
