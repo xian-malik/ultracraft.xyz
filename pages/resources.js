@@ -65,7 +65,7 @@ class Resources extends React.Component {
                 </div>
                 <div className="col-4 col-xs-6">
                   <DownloadView href="https://drive.google.com/open?id=1wPN26skuUnRcDqbF8He7W0JhR1amvt4a"
-                    imagePath="/UltraCraft/uc_season2_alt.jpg"
+                    imagePath="/UltraCraft/uc_season2.jpg"
                     meta="World File" text="Season II" />
                 </div>
                 <div className="col-4 col-xs-6">
