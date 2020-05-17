@@ -1,10 +1,14 @@
 import React from 'react'
-import Navbar from './navbar'
+import EffectSlash from './modules/effectslash.module'
 
 class Header extends React.Component {
   constructor(props) {
     super(props)
+    this.state = {
+      menuOpen: false
+    }
   }
+  handleMenu(e) { this.setState({menuOpen: !this.state.menuOpen}) }
   componentDidMount() {
     window.addEventListener("mousemove", this.cursor)
   }
@@ -16,15 +20,37 @@ class Header extends React.Component {
     return (
       <header id="header">
         <div className="header">
-          <div className="container">
+          <div className="container-fluid">
             <div className="row">
-              <div className="col-3">
-                <a href="/" className="logo">
-                  <h1 className="logo-text">UltraCraft</h1>
-                </a>
-              </div>
-              <div className="col-9">
-                <Navbar />
+              <div className="col-12">
+                <nav className={"navbar" + (this.state.menuOpen ? " responsive-active" : "")}>
+                  <ul className="navbar-nav navbar-left">
+                    <li className="nomargin"><a href="/facebook"><i className="fab fa-discord fa-lg"></i></a></li>
+                    <li className="nomargin"><a href="/discord"><i className="fab fa-facebook-messenger fa-lg"></i></a></li>
+                  </ul>
+                  <ul className="navbar-nav navbar-center">
+                    <div className="nav-left-part">
+                      <li><EffectSlash href="/community" title="Community" /></li>
+                      <li><EffectSlash href="/forum" title="Forum" /></li>
+                      <li><EffectSlash href="/rules" title="Rules" /></li>
+                    </div>
+                    <li className="logo-wrap">
+                      <a href="/" className="logo">
+                        <h1 className="logo-text">Ultr<small>ac</small>rafT</h1>
+                      </a>
+                    </li>
+                    <div className="nav-right-part">
+                      <li><EffectSlash href="/resources" title="Resources" /></li>
+                      <li><EffectSlash href="/rules" title="Bans" /></li>
+                      <li><EffectSlash href="/store" title="Store" /></li>
+                    </div>
+                  </ul>
+                  <ul className="navbar-nav navbar-right">
+                    <li className="nomargin" active='true'>
+                      <EffectSlash href="/u/login" title="Login" />
+                    </li>
+                  </ul>
+                </nav>
               </div>
             </div>
           </div>

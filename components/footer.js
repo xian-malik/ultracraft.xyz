@@ -1,4 +1,5 @@
 import LazyLoad from 'react-lazyload'
+import EffectSlash from './modules/effectslash.module'
 function Footer() {
   return (
     <LazyLoad offset={50}>
@@ -11,14 +12,21 @@ function Footer() {
         </picture>
         <div className="container">
           <div className="row">
-            <div className="col-4">
+            <div className="col-6">
               <h3 className="footer-logo">UltraCraft</h3>
               <p>
                 Ultracraft is a Bangladeshi server
               </p>
             </div>
-            <div className="col-4"></div>
-            <div className="col-4">
+            <div className="col-3">
+              <ul className="footer-links">
+                <li><EffectSlash href="/" title="Home" /></li>
+                <li><EffectSlash href="/sta" title="Home" /></li>
+                <li><EffectSlash href="/rules" title="Server Rules" /></li>
+                <li><EffectSlash href="/support" title="Support" /></li>
+              </ul>
+            </div>
+            <div className="col-3">
               {/* <iframe src="https://discordapp.com/widget?id=630088304901226506&amp;theme=dark" width="350" height="400"></iframe> */}
             </div>
           </div>

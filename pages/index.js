@@ -4,6 +4,7 @@ import LazyLoad from 'react-lazyload'
 import Header from '../components/header'
 import Footer from '../components/footer'
 import ParticleView from '../components/particle'
+import EffectSlash from '../components/modules/effectslash.module'
 
 class HomePage extends React.Component {
   constructor(props) {
@@ -101,13 +102,7 @@ class HomePage extends React.Component {
                     <p>
                       Started back in October 2019, Ultracraft was founded by four of Minecraft Enthusiasts who are eager enough to start their own community of players. Main goal of UltraCraft till now is to provide lag free, toxicity free community to the players of Bangladesh.
                     </p>
-                    <a href="#" className="btn-effect btn-white-bg effect-slash">
-                      <div className="effect-inner">
-                        <span className="effect-l"><span>Learn More</span></span>
-                        <span className="effect-r"><span>Learn More</span></span>
-                        <span className="effect-shade"><span>Learn More</span></span>
-                      </div>
-                    </a>
+                    <EffectSlash href="/#" title="Learn More" extra="btn-effect btn-white-bg" />
                   </div>
                 </div>
               </div>
@@ -140,6 +135,7 @@ class HomePage extends React.Component {
                       <p>
                         Survival mode is one of the main game modes in Minecraft. Players must collect resources, build structures, battle mobs, eat, and explore the world in an effort to thrive and survive.
                       </p>
+                      <EffectSlash href="/gamemode/survival" title="Survival Guide" extra="btn-effect btn-white-bg" />
                     </div>
                   </div>
                 </LazyLoad>
@@ -159,10 +155,11 @@ class HomePage extends React.Component {
                       <h2>
                         SkyBlock
                       </h2>
-                      <h6>Classic Skyblock (Currently Offline)</h6>
+                      <h6>Enhanced Skyblock <small>(Coming Soon)</small></h6>
                       <p>
                         SkyBlock is a survival gamemode where players live and build on a floating island. The goal of the map is to survive without cheating, expand your island, grow your own food and thrive.
                       </p>
+                      <EffectSlash href="/gamemode/skyblock" title="SkyBlock Guide" extra="btn-effect btn-white-bg" />
                     </div>
                   </div>
                 </LazyLoad>

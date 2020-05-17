@@ -19,7 +19,8 @@ class MyDocument extends Document {
           <link href="https://fonts.googleapis.com/css2?family=Cardo&display=swap" rel="stylesheet" />
           <link href="https://fonts.googleapis.com/css2?family=Spectral+SC:wght@300;400;700;800&display=swap" rel="stylesheet" />
           <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet" />
-
+          <script src="https://kit.fontawesome.com/3fa7fd61de.js" crossOrigin="anonymous"></script>
+          
           <NextScript />
 
           <img className="custom-cursor-sword" src="https://res.cloudinary.com/xianmalik/image/upload/w_50,h_50,q_auto,f_auto/v1589137162/UltraCraft/cursor.png" />

@@ -13,9 +13,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_lazyload__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-lazyload */ "./node_modules/react-lazyload/lib/index.js");
 /* harmony import */ var react_lazyload__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_lazyload__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _modules_effectslash_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/effectslash.module */ "./components/modules/effectslash.module.js");
 var _jsxFileName = "E:\\Workspace\\ultracraft.xyz\\components\\footer.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 function Footer() {
@@ -24,14 +26,14 @@ function Footer() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 4,
+      lineNumber: 5,
       columnNumber: 5
     }
   }, __jsx("footer", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5,
+      lineNumber: 6,
       columnNumber: 7
     }
   }, __jsx("picture", {
@@ -39,7 +41,7 @@ function Footer() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6,
+      lineNumber: 7,
       columnNumber: 9
     }
   }, __jsx("source", {
@@ -48,7 +50,7 @@ function Footer() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7,
+      lineNumber: 8,
       columnNumber: 11
     }
   }), __jsx("source", {
@@ -57,7 +59,7 @@ function Footer() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8,
+      lineNumber: 9,
       columnNumber: 11
     }
   }), __jsx("source", {
@@ -66,7 +68,7 @@ function Footer() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9,
+      lineNumber: 10,
       columnNumber: 11
     }
   }), __jsx("img", {
@@ -75,7 +77,7 @@ function Footer() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10,
+      lineNumber: 11,
       columnNumber: 11
     }
   })), __jsx("div", {
@@ -83,7 +85,7 @@ function Footer() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
+      lineNumber: 13,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -91,15 +93,15 @@ function Footer() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13,
+      lineNumber: 14,
       columnNumber: 11
     }
   }, __jsx("div", {
-    className: "col-4",
+    className: "col-6",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
+      lineNumber: 15,
       columnNumber: 13
     }
   }, __jsx("h3", {
@@ -107,30 +109,102 @@ function Footer() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15,
+      lineNumber: 16,
       columnNumber: 15
     }
   }, "UltraCraft"), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
+      lineNumber: 17,
       columnNumber: 15
     }
   }, "Ultracraft is a Bangladeshi server")), __jsx("div", {
-    className: "col-4",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 13
-    }
-  }), __jsx("div", {
-    className: "col-4",
+    className: "col-3",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21,
+      columnNumber: 13
+    }
+  }, __jsx("ul", {
+    className: "footer-links",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 15
+    }
+  }, __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 17
+    }
+  }, __jsx(_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    href: "/",
+    title: "Home",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 21
+    }
+  })), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 17
+    }
+  }, __jsx(_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    href: "/sta",
+    title: "Home",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 21
+    }
+  })), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 17
+    }
+  }, __jsx(_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    href: "/rules",
+    title: "Server Rules",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 21
+    }
+  })), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 17
+    }
+  }, __jsx(_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    href: "/support",
+    title: "Support",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 21
+    }
+  })))), __jsx("div", {
+    className: "col-3",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
       columnNumber: 13
     }
   })))));
@@ -158,7 +232,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _navbar__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./navbar */ "./components/navbar.js");
+/* harmony import */ var _modules_effectslash_module__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./modules/effectslash.module */ "./components/modules/effectslash.module.js");
 
 
 
@@ -193,10 +267,20 @@ var Header = /*#__PURE__*/function (_React$Component) {
       cursor.style.transform = 'matrix(1, 0, 0, 1, ' + e.pageX + ', ' + (e.pageY - window.scrollY) + ')';
     });
 
+    _this.state = {
+      menuOpen: false
+    };
     return _this;
   }
 
   Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Header, [{
+    key: "handleMenu",
+    value: function handleMenu(e) {
+      this.setState({
+        menuOpen: !this.state.menuOpen
+      });
+    }
+  }, {
     key: "componentDidMount",
     value: function componentDidMount() {
       window.addEventListener("mousemove", this.cursor);
@@ -209,7 +293,7 @@ var Header = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 17,
+          lineNumber: 21,
           columnNumber: 7
         }
       }, __jsx("div", {
@@ -217,15 +301,15 @@ var Header = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18,
+          lineNumber: 22,
           columnNumber: 9
         }
       }, __jsx("div", {
-        className: "container",
+        className: "container-fluid",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19,
+          lineNumber: 23,
           columnNumber: 11
         }
       }, __jsx("div", {
@@ -233,16 +317,152 @@ var Header = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20,
+          lineNumber: 24,
           columnNumber: 13
         }
       }, __jsx("div", {
-        className: "col-3",
+        className: "col-12",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21,
+          lineNumber: 25,
           columnNumber: 15
+        }
+      }, __jsx("nav", {
+        className: "navbar" + (this.state.menuOpen ? " responsive-active" : ""),
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26,
+          columnNumber: 17
+        }
+      }, __jsx("ul", {
+        className: "navbar-nav navbar-left",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27,
+          columnNumber: 19
+        }
+      }, __jsx("li", {
+        className: "nomargin",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28,
+          columnNumber: 21
+        }
+      }, __jsx("a", {
+        href: "/facebook",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28,
+          columnNumber: 46
+        }
+      }, __jsx("i", {
+        className: "fab fa-discord fa-lg",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28,
+          columnNumber: 66
+        }
+      }))), __jsx("li", {
+        className: "nomargin",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29,
+          columnNumber: 21
+        }
+      }, __jsx("a", {
+        href: "/discord",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29,
+          columnNumber: 46
+        }
+      }, __jsx("i", {
+        className: "fab fa-facebook-messenger fa-lg",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29,
+          columnNumber: 65
+        }
+      })))), __jsx("ul", {
+        className: "navbar-nav navbar-center",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31,
+          columnNumber: 19
+        }
+      }, __jsx("div", {
+        className: "nav-left-part",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32,
+          columnNumber: 21
+        }
+      }, __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33,
+          columnNumber: 23
+        }
+      }, __jsx(_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_8__["default"], {
+        href: "/community",
+        title: "Community",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33,
+          columnNumber: 27
+        }
+      })), __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34,
+          columnNumber: 23
+        }
+      }, __jsx(_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_8__["default"], {
+        href: "/forum",
+        title: "Forum",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34,
+          columnNumber: 27
+        }
+      })), __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35,
+          columnNumber: 23
+        }
+      }, __jsx(_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_8__["default"], {
+        href: "/rules",
+        title: "Rules",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35,
+          columnNumber: 27
+        }
+      }))), __jsx("li", {
+        className: "logo-wrap",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 37,
+          columnNumber: 21
         }
       }, __jsx("a", {
         href: "/",
@@ -250,33 +470,100 @@ var Header = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22,
-          columnNumber: 17
+          lineNumber: 38,
+          columnNumber: 23
         }
       }, __jsx("h1", {
         className: "logo-text",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23,
+          lineNumber: 39,
+          columnNumber: 25
+        }
+      }, "UltracrafT"))), __jsx("div", {
+        className: "nav-right-part",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 42,
+          columnNumber: 21
+        }
+      }, __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43,
+          columnNumber: 23
+        }
+      }, __jsx(_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_8__["default"], {
+        href: "/resources",
+        title: "Resources",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43,
+          columnNumber: 27
+        }
+      })), __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 44,
+          columnNumber: 23
+        }
+      }, __jsx(_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_8__["default"], {
+        href: "/rules",
+        title: "Bans",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 44,
+          columnNumber: 27
+        }
+      })), __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 45,
+          columnNumber: 23
+        }
+      }, __jsx(_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_8__["default"], {
+        href: "/store",
+        title: "Store",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 45,
+          columnNumber: 27
+        }
+      })))), __jsx("ul", {
+        className: "navbar-nav navbar-right",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 48,
           columnNumber: 19
         }
-      }, "UltraCraft"))), __jsx("div", {
-        className: "col-9",
+      }, __jsx("li", {
+        className: "nomargin",
+        active: "true",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26,
-          columnNumber: 15
+          lineNumber: 49,
+          columnNumber: 21
         }
-      }, __jsx(_navbar__WEBPACK_IMPORTED_MODULE_8__["default"], {
+      }, __jsx(_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_8__["default"], {
+        href: "/u/login",
+        title: "Login",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27,
-          columnNumber: 17
+          lineNumber: 50,
+          columnNumber: 23
         }
-      }))))));
+      })))))))));
     }
   }]);
 
@@ -423,191 +710,6 @@ var EffectSlash = /*#__PURE__*/function (_React$Component) {
 }(react__WEBPACK_IMPORTED_MODULE_7___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["default"] = (EffectSlash);
-
-/***/ }),
-
-/***/ "./components/navbar.js":
-/*!******************************!*\
-  !*** ./components/navbar.js ***!
-  \******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
-/* harmony import */ var _babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _modules_effectslash_module__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./modules/effectslash.module */ "./components/modules/effectslash.module.js");
-
-
-
-
-
-var _jsxFileName = "E:\\Workspace\\ultracraft.xyz\\components\\navbar.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
-
-function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__["default"])(this, result); }; }
-
-function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
-
-
-
-
-var Navbar = /*#__PURE__*/function (_React$Component) {
-  Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_2__["default"])(Navbar, _React$Component);
-
-  var _super = _createSuper(Navbar);
-
-  function Navbar(props) {
-    var _this;
-
-    Object(_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Navbar);
-
-    _this = _super.call(this, props);
-    _this.state = {
-      menuOpen: false
-    };
-    return _this;
-  }
-
-  Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Navbar, [{
-    key: "handleMenu",
-    value: function handleMenu(e) {
-      this.setState({
-        menuOpen: !this.state.menuOpen
-      });
-    }
-  }, {
-    key: "render",
-    value: function render() {
-      return __jsx("nav", {
-        className: "navbar" + (this.state.menuOpen ? " responsive-active" : ""),
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 14,
-          columnNumber: 7
-        }
-      }, __jsx("ul", {
-        className: "navbar-nav text-right",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 15,
-          columnNumber: 9
-        }
-      }, __jsx("li", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 16,
-          columnNumber: 11
-        }
-      }, __jsx(_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_6__["default"], {
-        href: "/calender",
-        title: "Calender",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 16,
-          columnNumber: 15
-        }
-      })), __jsx("li", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 17,
-          columnNumber: 11
-        }
-      }, __jsx(_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_6__["default"], {
-        href: "/punishments",
-        title: "Punishments",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 17,
-          columnNumber: 15
-        }
-      })), __jsx("li", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 18,
-          columnNumber: 11
-        }
-      }, __jsx(_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_6__["default"], {
-        href: "/resources",
-        title: "Resources",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 18,
-          columnNumber: 15
-        }
-      })), __jsx("li", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 19,
-          columnNumber: 11
-        }
-      }, __jsx(_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_6__["default"], {
-        href: "/support",
-        title: "Support",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 19,
-          columnNumber: 15
-        }
-      })), __jsx("li", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 20,
-          columnNumber: 11
-        }
-      }, __jsx(_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_6__["default"], {
-        href: "/store",
-        title: "Store",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 20,
-          columnNumber: 15
-        }
-      })), __jsx("li", {
-        active: "true",
-        className: "header-cta",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 21,
-          columnNumber: 11
-        }
-      }, __jsx(_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_6__["default"], {
-        href: "https://bit.ly/uc-discord",
-        title: "Discord",
-        extra: "btn-effect",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 22,
-          columnNumber: 13
-        }
-      }))));
-    }
-  }]);
-
-  return Navbar;
-}(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
-
-/* harmony default export */ __webpack_exports__["default"] = (Navbar);
 
 /***/ }),
 
@@ -17976,6 +18078,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_header__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/header */ "./components/header.js");
 /* harmony import */ var _components_footer__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/footer */ "./components/footer.js");
 /* harmony import */ var _components_particle__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../components/particle */ "./components/particle.js");
+/* harmony import */ var _components_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../components/modules/effectslash.module */ "./components/modules/effectslash.module.js");
 
 
 
@@ -17989,6 +18092,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement;
 function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__["default"])(this, result); }; }
 
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
 
 
 
@@ -18016,21 +18120,21 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15,
+          lineNumber: 16,
           columnNumber: 15
         }
       }, __jsx("small", {
         __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15,
+          lineNumber: 16,
           columnNumber: 21
         }
       }, "play"), ".UltraCraft.", __jsx("small", {
         __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15,
+          lineNumber: 16,
           columnNumber: 52
         }
       }, "xyz"))
@@ -18069,7 +18173,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 29,
+            lineNumber: 30,
             columnNumber: 28
           }
         }, "IP Copied!")
@@ -18081,21 +18185,21 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
             __self: _this3,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 32,
+              lineNumber: 33,
               columnNumber: 30
             }
           }, __jsx("small", {
             __self: _this3,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 32,
+              lineNumber: 33,
               columnNumber: 36
             }
           }, "play"), ".UltraCraft.", __jsx("small", {
             __self: _this3,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 32,
+              lineNumber: 33,
               columnNumber: 67
             }
           }, "xyz"))
@@ -18111,21 +18215,21 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 37,
+          lineNumber: 38,
           columnNumber: 7
         }
       }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_7___default.a, {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 38,
+          lineNumber: 39,
           columnNumber: 9
         }
       }, __jsx("title", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39,
+          lineNumber: 40,
           columnNumber: 11
         }
       }, "UltraCraft")), __jsx("div", {
@@ -18133,14 +18237,14 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41,
+          lineNumber: 42,
           columnNumber: 9
         }
       }, __jsx(_components_header__WEBPACK_IMPORTED_MODULE_10__["default"], {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42,
+          lineNumber: 43,
           columnNumber: 11
         }
       }), __jsx("section", {
@@ -18148,14 +18252,14 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43,
+          lineNumber: 44,
           columnNumber: 13
         }
       }, __jsx(_components_particle__WEBPACK_IMPORTED_MODULE_12__["default"], {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44,
+          lineNumber: 45,
           columnNumber: 15
         }
       }), __jsx("picture", {
@@ -18163,21 +18267,12 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45,
+          lineNumber: 46,
           columnNumber: 15
         }
       }, __jsx("source", {
-        srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_480,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/home_background.jp2",
+        srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_480,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/home_background.jpg",
         media: "(max-width: 480px)",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 46,
-          columnNumber: 17
-        }
-      }), __jsx("source", {
-        srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_768,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/home_background.jp2",
-        media: "(max-width: 768px)",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -18185,21 +18280,30 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
           columnNumber: 17
         }
       }), __jsx("source", {
-        srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_1080,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/home_background.jp2",
-        media: "(max-width: 1080px)",
+        srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_768,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/home_background.jpg",
+        media: "(max-width: 768px)",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 48,
           columnNumber: 17
         }
-      }), __jsx("img", {
-        src: "https://res.cloudinary.com/xianmalik/image/upload/c_fill,f_auto,q_auto/v1589059497/UltraCraft/home_background.jp2",
-        className: "image-bg",
+      }), __jsx("source", {
+        srcSet: "https://res.cloudinary.com/xianmalik/image/upload/w_1080,h_768,c_fill,f_auto,q_auto/v1589059497/UltraCraft/home_background.jpg",
+        media: "(max-width: 1080px)",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 49,
+          columnNumber: 17
+        }
+      }), __jsx("img", {
+        src: "https://res.cloudinary.com/xianmalik/image/upload/c_fill,f_auto,q_auto/v1589059497/UltraCraft/home_background.jpg",
+        className: "image-bg",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 50,
           columnNumber: 17
         }
       })), __jsx("div", {
@@ -18207,7 +18311,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51,
+          lineNumber: 52,
           columnNumber: 15
         }
       }, __jsx("div", {
@@ -18215,7 +18319,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52,
+          lineNumber: 53,
           columnNumber: 17
         }
       }, __jsx("div", {
@@ -18223,7 +18327,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53,
+          lineNumber: 54,
           columnNumber: 19
         }
       }, __jsx("div", {
@@ -18233,7 +18337,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54,
+          lineNumber: 55,
           columnNumber: 21
         }
       }, __jsx("h3", {
@@ -18243,28 +18347,28 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 55,
+          lineNumber: 56,
           columnNumber: 23
         }
       }, "Survival ", __jsx("span", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56,
+          lineNumber: 57,
           columnNumber: 34
         }
       }, "//"), " Skyblock ", __jsx("span", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56,
+          lineNumber: 57,
           columnNumber: 59
         }
       }, "//"), " Skywars"), __jsx("h1", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58,
+          lineNumber: 59,
           columnNumber: 23
         }
       }, "UltraCrafT"))), __jsx("div", {
@@ -18272,7 +18376,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 61,
+          lineNumber: 62,
           columnNumber: 19
         }
       }, __jsx("h3", {
@@ -18280,7 +18384,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 62,
+          lineNumber: 63,
           columnNumber: 21
         }
       }, "Join ", this.state.playerCount, " other players"), __jsx("a", {
@@ -18292,7 +18396,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 63,
+          lineNumber: 64,
           columnNumber: 21
         }
       }, __jsx("div", {
@@ -18300,7 +18404,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64,
+          lineNumber: 65,
           columnNumber: 23
         }
       }, __jsx("span", {
@@ -18308,7 +18412,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65,
+          lineNumber: 66,
           columnNumber: 25
         }
       }, this.state.ipText), __jsx("span", {
@@ -18316,7 +18420,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 66,
+          lineNumber: 67,
           columnNumber: 25
         }
       }, this.state.ipText), __jsx("span", {
@@ -18324,7 +18428,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 67,
+          lineNumber: 68,
           columnNumber: 25
         }
       }, this.state.ipText)))))), __jsx("picture", {
@@ -18332,7 +18436,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 73,
+          lineNumber: 74,
           columnNumber: 15
         }
       }, __jsx("source", {
@@ -18341,7 +18445,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 74,
+          lineNumber: 75,
           columnNumber: 17
         }
       }), __jsx("source", {
@@ -18350,7 +18454,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 75,
+          lineNumber: 76,
           columnNumber: 17
         }
       }), __jsx("source", {
@@ -18359,7 +18463,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 76,
+          lineNumber: 77,
           columnNumber: 17
         }
       }), __jsx("img", {
@@ -18368,7 +18472,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77,
+          lineNumber: 78,
           columnNumber: 17
         }
       }))), __jsx("section", {
@@ -18376,7 +18480,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 81,
+          lineNumber: 82,
           columnNumber: 13
         }
       }, __jsx("div", {
@@ -18384,7 +18488,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 82,
+          lineNumber: 83,
           columnNumber: 15
         }
       }, __jsx("div", {
@@ -18392,7 +18496,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 83,
+          lineNumber: 84,
           columnNumber: 17
         }
       }, __jsx("div", {
@@ -18400,7 +18504,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 84,
+          lineNumber: 85,
           columnNumber: 19
         }
       }, __jsx(react_lazyload__WEBPACK_IMPORTED_MODULE_9___default.a, {
@@ -18408,14 +18512,14 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 85,
+          lineNumber: 86,
           columnNumber: 21
         }
       }, __jsx("picture", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 86,
+          lineNumber: 87,
           columnNumber: 23
         }
       }, __jsx("source", {
@@ -18424,7 +18528,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 87,
+          lineNumber: 88,
           columnNumber: 25
         }
       }), __jsx("source", {
@@ -18433,7 +18537,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 88,
+          lineNumber: 89,
           columnNumber: 25
         }
       }), __jsx("source", {
@@ -18442,15 +18546,15 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 89,
+          lineNumber: 90,
           columnNumber: 25
         }
       }), __jsx("img", {
-        src: "https://res.cloudinary.com/xianmalik/image/upload/w_540,h_450,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jp2",
+        src: "https://res.cloudinary.com/xianmalik/image/upload/w_540,h_450,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jpg",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 90,
+          lineNumber: 91,
           columnNumber: 25
         }
       })))), __jsx("div", {
@@ -18458,112 +18562,60 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 94,
+          lineNumber: 95,
           columnNumber: 19
         }
       }, __jsx("h5", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 95,
+          lineNumber: 96,
           columnNumber: 21
         }
       }, "INTRODUCTION"), __jsx("h2", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 96,
+          lineNumber: 97,
           columnNumber: 21
         }
       }, "What Is... ", __jsx("br", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 97,
+          lineNumber: 98,
           columnNumber: 34
         }
       }), "UltraCraft?"), __jsx("h6", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 100,
+          lineNumber: 101,
           columnNumber: 21
         }
       }, "A Survival & SkyBlock Server"), __jsx("p", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 101,
+          lineNumber: 102,
           columnNumber: 21
         }
-      }, "Started back in October 2019, Ultracraft was founded by four of Minecraft Enthusiasts who are eager enough to start their own community of players. Main goal of UltraCraft till now is to provide lag free, toxicity free community to the players of Bangladesh."), __jsx("a", {
-        href: "#",
-        className: "btn-effect btn-white-bg effect-slash",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 104,
-          columnNumber: 21
-        }
-      }, __jsx("div", {
-        className: "effect-inner",
+      }, "Started back in October 2019, Ultracraft was founded by four of Minecraft Enthusiasts who are eager enough to start their own community of players. Main goal of UltraCraft till now is to provide lag free, toxicity free community to the players of Bangladesh."), __jsx(_components_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_13__["default"], {
+        href: "/#",
+        title: "Learn More",
+        extra: "btn-effect btn-white-bg",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 105,
-          columnNumber: 23
+          columnNumber: 21
         }
-      }, __jsx("span", {
-        className: "effect-l",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 106,
-          columnNumber: 25
-        }
-      }, __jsx("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 106,
-          columnNumber: 52
-        }
-      }, "Learn More")), __jsx("span", {
-        className: "effect-r",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 107,
-          columnNumber: 25
-        }
-      }, __jsx("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 107,
-          columnNumber: 52
-        }
-      }, "Learn More")), __jsx("span", {
-        className: "effect-shade",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 108,
-          columnNumber: 25
-        }
-      }, __jsx("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 108,
-          columnNumber: 56
-        }
-      }, "Learn More"))))))), __jsx("picture", {
+      })))), __jsx("picture", {
         className: "dividerBottom",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 114,
+          lineNumber: 109,
           columnNumber: 15
         }
       }, __jsx("source", {
@@ -18572,7 +18624,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 115,
+          lineNumber: 110,
           columnNumber: 17
         }
       }), __jsx("source", {
@@ -18581,7 +18633,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 116,
+          lineNumber: 111,
           columnNumber: 17
         }
       }), __jsx("source", {
@@ -18590,7 +18642,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 117,
+          lineNumber: 112,
           columnNumber: 17
         }
       }), __jsx("img", {
@@ -18599,7 +18651,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 118,
+          lineNumber: 113,
           columnNumber: 17
         }
       }))), __jsx("section", {
@@ -18607,7 +18659,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 122,
+          lineNumber: 117,
           columnNumber: 13
         }
       }, __jsx("div", {
@@ -18615,7 +18667,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 123,
+          lineNumber: 118,
           columnNumber: 15
         }
       }, __jsx(react_lazyload__WEBPACK_IMPORTED_MODULE_9___default.a, {
@@ -18623,7 +18675,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 124,
+          lineNumber: 119,
           columnNumber: 17
         }
       }, __jsx("div", {
@@ -18631,7 +18683,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 125,
+          lineNumber: 120,
           columnNumber: 19
         }
       }, __jsx("div", {
@@ -18639,14 +18691,14 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 126,
+          lineNumber: 121,
           columnNumber: 21
         }
       }, __jsx("picture", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 127,
+          lineNumber: 122,
           columnNumber: 23
         }
       }, __jsx("source", {
@@ -18655,7 +18707,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 128,
+          lineNumber: 123,
           columnNumber: 25
         }
       }), __jsx("source", {
@@ -18664,7 +18716,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 129,
+          lineNumber: 124,
           columnNumber: 25
         }
       }), __jsx("source", {
@@ -18673,7 +18725,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 130,
+          lineNumber: 125,
           columnNumber: 25
         }
       }), __jsx("img", {
@@ -18682,7 +18734,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 131,
+          lineNumber: 126,
           columnNumber: 25
         }
       }))), __jsx("div", {
@@ -18690,50 +18742,60 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 134,
+          lineNumber: 129,
           columnNumber: 21
         }
       }, __jsx("h5", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 135,
+          lineNumber: 130,
           columnNumber: 23
         }
       }, "GAMEMODES"), __jsx("h2", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 136,
+          lineNumber: 131,
           columnNumber: 23
         }
       }, "Survival"), __jsx("h6", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 139,
+          lineNumber: 134,
           columnNumber: 23
         }
       }, "An Enhanced Survival Experience"), __jsx("p", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 140,
+          lineNumber: 135,
           columnNumber: 23
         }
-      }, "Survival mode is one of the main game modes in Minecraft. Players must collect resources, build structures, battle mobs, eat, and explore the world in an effort to thrive and survive.")))), __jsx(react_lazyload__WEBPACK_IMPORTED_MODULE_9___default.a, {
+      }, "Survival mode is one of the main game modes in Minecraft. Players must collect resources, build structures, battle mobs, eat, and explore the world in an effort to thrive and survive."), __jsx(_components_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_13__["default"], {
+        href: "/gamemode/survival",
+        title: "Survival Guide",
+        extra: "btn-effect btn-white-bg",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 138,
+          columnNumber: 23
+        }
+      })))), __jsx(react_lazyload__WEBPACK_IMPORTED_MODULE_9___default.a, {
         offset: 50,
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 146,
+          lineNumber: 142,
           columnNumber: 17
         }
       }, __jsx("br", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 147,
+          lineNumber: 143,
           columnNumber: 19
         }
       }), __jsx("div", {
@@ -18741,7 +18803,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 148,
+          lineNumber: 144,
           columnNumber: 19
         }
       }, __jsx("div", {
@@ -18749,14 +18811,14 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 149,
+          lineNumber: 145,
           columnNumber: 21
         }
       }, __jsx("picture", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 150,
+          lineNumber: 146,
           columnNumber: 23
         }
       }, __jsx("source", {
@@ -18765,7 +18827,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 151,
+          lineNumber: 147,
           columnNumber: 25
         }
       }), __jsx("source", {
@@ -18774,7 +18836,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 152,
+          lineNumber: 148,
           columnNumber: 25
         }
       }), __jsx("source", {
@@ -18783,7 +18845,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 153,
+          lineNumber: 149,
           columnNumber: 25
         }
       }), __jsx("img", {
@@ -18792,7 +18854,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 154,
+          lineNumber: 150,
           columnNumber: 25
         }
       }))), __jsx("div", {
@@ -18800,42 +18862,59 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 157,
+          lineNumber: 153,
           columnNumber: 21
         }
       }, __jsx("h5", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 158,
+          lineNumber: 154,
           columnNumber: 23
         }
       }, "GAMEMODES"), __jsx("h2", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 159,
+          lineNumber: 155,
           columnNumber: 23
         }
       }, "SkyBlock"), __jsx("h6", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
+          lineNumber: 158,
+          columnNumber: 23
+        }
+      }, "Enhanced Skyblock ", __jsx("small", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 158,
+          columnNumber: 45
+        }
+      }, "(Coming Soon)")), __jsx("p", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 159,
+          columnNumber: 23
+        }
+      }, "SkyBlock is a survival gamemode where players live and build on a floating island. The goal of the map is to survive without cheating, expand your island, grow your own food and thrive."), __jsx(_components_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_13__["default"], {
+        href: "/gamemode/skyblock",
+        title: "SkyBlock Guide",
+        extra: "btn-effect btn-white-bg",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
           lineNumber: 162,
           columnNumber: 23
         }
-      }, "Classic Skyblock (Currently Offline)"), __jsx("p", {
+      })))))), __jsx(_components_footer__WEBPACK_IMPORTED_MODULE_11__["default"], {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 163,
-          columnNumber: 23
-        }
-      }, "SkyBlock is a survival gamemode where players live and build on a floating island. The goal of the map is to survive without cheating, expand your island, grow your own food and thrive.")))))), __jsx(_components_footer__WEBPACK_IMPORTED_MODULE_11__["default"], {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 171,
+          lineNumber: 168,
           columnNumber: 11
         }
       })));
