@@ -14,7 +14,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_lazyload__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-lazyload */ "./node_modules/react-lazyload/lib/index.js");
 /* harmony import */ var react_lazyload__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_lazyload__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _modules_effectslash_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/effectslash.module */ "./components/modules/effectslash.module.js");
-var _jsxFileName = "E:\\Workspace\\ultracraft.xyz\\components\\footer.js";
+var _jsxFileName = "C:\\wamp64\\www\\ultracraft\\components\\footer.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -240,7 +240,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "E:\\Workspace\\ultracraft.xyz\\components\\header.js";
+var _jsxFileName = "C:\\wamp64\\www\\ultracraft\\components\\header.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
 
 function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__["default"])(this, result); }; }
@@ -362,6 +362,7 @@ var Header = /*#__PURE__*/function (_React$Component) {
         }
       }, __jsx("i", {
         className: "fab fa-discord fa-lg",
+        "aria-hidden": "true",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -386,6 +387,7 @@ var Header = /*#__PURE__*/function (_React$Component) {
         }
       }, __jsx("i", {
         className: "fab fa-facebook-messenger fa-lg",
+        "aria-hidden": "true",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -481,7 +483,14 @@ var Header = /*#__PURE__*/function (_React$Component) {
           lineNumber: 39,
           columnNumber: 25
         }
-      }, "UltracrafT"))), __jsx("div", {
+      }, "Ultr", __jsx("small", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 39,
+          columnNumber: 55
+        }
+      }, "ac"), "rafT"))), __jsx("div", {
         className: "nav-right-part",
         __self: this,
         __source: {
@@ -513,7 +522,7 @@ var Header = /*#__PURE__*/function (_React$Component) {
           columnNumber: 23
         }
       }, __jsx(_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_8__["default"], {
-        href: "/rules",
+        href: "/bans",
         title: "Bans",
         __self: this,
         __source: {
@@ -599,7 +608,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "E:\\Workspace\\ultracraft.xyz\\components\\modules\\effectslash.module.js";
+var _jsxFileName = "C:\\wamp64\\www\\ultracraft\\components\\modules\\effectslash.module.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
 
 function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__["default"])(this, result); }; }
@@ -736,7 +745,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "E:\\Workspace\\ultracraft.xyz\\components\\particle.js";
+var _jsxFileName = "C:\\wamp64\\www\\ultracraft\\components\\particle.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
 
 function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__["default"])(this, result); }; }
@@ -782,11 +791,6 @@ var ParticleView = /*#__PURE__*/function (_React$Component) {
               },
               "polygon": {
                 "nb_sides": 5
-              },
-              "image": {
-                "src": "img/github.svg",
-                "width": 100,
-                "height": 100
               }
             },
             "opacity": {
@@ -6456,10 +6460,10 @@ module.exports = (__webpack_require__(/*! dll-reference dll_2adc2403d89adc16ead0
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=E%3A%5CWorkspace%5Cultracraft.xyz%5Cpages%5Cindex.js&hotRouterUpdates=true!./":
-/*!***************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=E%3A%5CWorkspace%5Cultracraft.xyz%5Cpages%5Cindex.js&hotRouterUpdates=true ***!
-  \***************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5Cwamp64%5Cwww%5Cultracraft%5Cpages%5Cindex.js&hotRouterUpdates=true!./":
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5Cwamp64%5Cwww%5Cultracraft%5Cpages%5Cindex.js&hotRouterUpdates=true ***!
+  \**************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18085,7 +18089,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "E:\\Workspace\\ultracraft.xyz\\pages\\index.js";
+var _jsxFileName = "C:\\wamp64\\www\\ultracraft\\pages\\index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement;
 
@@ -18113,8 +18117,8 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
 
     _this = _super.call(this, props);
     _this.state = {
-      ip: "play.ultracraft.xyz",
-      port: 25582,
+      ip: "play.ultracraftbd.com",
+      port: 25565,
       playerCount: "N/A",
       ipText: __jsx("span", {
         __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
@@ -18130,14 +18134,14 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
           lineNumber: 16,
           columnNumber: 21
         }
-      }, "play"), ".UltraCraft.", __jsx("small", {
+      }, "play"), ".UltraCraftBD.", __jsx("small", {
         __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
         __source: {
           fileName: _jsxFileName,
           lineNumber: 16,
-          columnNumber: 52
+          columnNumber: 54
         }
-      }, "xyz"))
+      }, "com"))
     };
     return _this;
   }
@@ -18195,14 +18199,14 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
               lineNumber: 33,
               columnNumber: 36
             }
-          }, "play"), ".UltraCraft.", __jsx("small", {
+          }, "play"), ".UltraCraftBD.", __jsx("small", {
             __self: _this3,
             __source: {
               fileName: _jsxFileName,
               lineNumber: 33,
-              columnNumber: 67
+              columnNumber: 69
             }
-          }, "xyz"))
+          }, "com"))
         });
       }, 800);
     }
@@ -18929,13 +18933,13 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
 /***/ }),
 
 /***/ 1:
-/*!*******************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=E%3A%5CWorkspace%5Cultracraft.xyz%5Cpages%5Cindex.js&hotRouterUpdates=true ***!
-  \*******************************************************************************************************************************************/
+/*!******************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5Cwamp64%5Cwww%5Cultracraft%5Cpages%5Cindex.js&hotRouterUpdates=true ***!
+  \******************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=E%3A%5CWorkspace%5Cultracraft.xyz%5Cpages%5Cindex.js&hotRouterUpdates=true! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=E%3A%5CWorkspace%5Cultracraft.xyz%5Cpages%5Cindex.js&hotRouterUpdates=true!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5Cwamp64%5Cwww%5Cultracraft%5Cpages%5Cindex.js&hotRouterUpdates=true! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5Cwamp64%5Cwww%5Cultracraft%5Cpages%5Cindex.js&hotRouterUpdates=true!./");
 
 
 /***/ }),

@@ -3501,7 +3501,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _public_css_style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../public/css/style.css */ "./public/css/style.css");
 /* harmony import */ var _public_css_style_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_public_css_style_css__WEBPACK_IMPORTED_MODULE_2__);
 
-var _jsxFileName = "E:\\Workspace\\ultracraft.xyz\\pages\\_app.js";
+var _jsxFileName = "C:\\wamp64\\www\\ultracraft\\pages\\_app.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
@@ -3635,7 +3635,7 @@ module.exports = __webpack_require__.p + "static/media/overlay.c764bbe5338158d0e
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! next-client-pages-loader?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js&hotRouterUpdates=true! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js&hotRouterUpdates=true!./");
-module.exports = __webpack_require__(/*! E:\Workspace\ultracraft.xyz\node_modules\next\dist\client\router.js */"./node_modules/next/dist/client/router.js");
+module.exports = __webpack_require__(/*! C:\wamp64\www\ultracraft\node_modules\next\dist\client\router.js */"./node_modules/next/dist/client/router.js");
 
 
 /***/ }),

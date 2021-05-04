@@ -12,10 +12,17 @@ class Bans extends React.Component {
     }
   }
   componentDidMount() {
-    const { ip, port } = this.state;
-    axios.get('https://mcapi.us/server/status?ip='+ip+'&port='+port+'', { 'Content-Type': 'application/json' })
+    let data = new FormData()
+    data.append('username', 'rgxvenom')
+
+    let config = {
+      headers: { authkey: 'ce2fea7d-6279-417e-8f5d-23313e2f6e53' },
+      crossDomain: true,
+    }
+
+    axios.post( 'http://localhost/ultracraft-api/routes/user/getuser.php', data, config )
     .then( response => {
-      this.setState({data: response.data})
+      console.log( response.data )
     });
   }
   render() {

@@ -107,7 +107,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_lazyload__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-lazyload */ "react-lazyload");
 /* harmony import */ var react_lazyload__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_lazyload__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _modules_effectslash_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/effectslash.module */ "./components/modules/effectslash.module.js");
-var _jsxFileName = "E:\\Workspace\\ultracraft.xyz\\components\\footer.js";
+var _jsxFileName = "C:\\wamp64\\www\\ultracraft\\components\\footer.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -319,7 +319,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _modules_effectslash_module__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/effectslash.module */ "./components/modules/effectslash.module.js");
-var _jsxFileName = "E:\\Workspace\\ultracraft.xyz\\components\\header.js";
+var _jsxFileName = "C:\\wamp64\\www\\ultracraft\\components\\header.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
@@ -426,6 +426,7 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       }
     }, __jsx("i", {
       className: "fab fa-discord fa-lg",
+      "aria-hidden": "true",
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -450,6 +451,7 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       }
     }, __jsx("i", {
       className: "fab fa-facebook-messenger fa-lg",
+      "aria-hidden": "true",
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -545,7 +547,14 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         lineNumber: 39,
         columnNumber: 25
       }
-    }, "UltracrafT"))), __jsx("div", {
+    }, "Ultr", __jsx("small", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 39,
+        columnNumber: 55
+      }
+    }, "ac"), "rafT"))), __jsx("div", {
       className: "nav-right-part",
       __self: this,
       __source: {
@@ -577,7 +586,7 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         columnNumber: 23
       }
     }, __jsx(_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_1__["default"], {
-      href: "/rules",
+      href: "/bans",
       title: "Bans",
       __self: this,
       __source: {
@@ -647,7 +656,7 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "E:\\Workspace\\ultracraft.xyz\\components\\modules\\effectslash.module.js";
+var _jsxFileName = "C:\\wamp64\\www\\ultracraft\\components\\modules\\effectslash.module.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
@@ -757,7 +766,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_particles_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-particles-js */ "react-particles-js");
 /* harmony import */ var react_particles_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_particles_js__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "E:\\Workspace\\ultracraft.xyz\\components\\particle.js";
+var _jsxFileName = "C:\\wamp64\\www\\ultracraft\\components\\particle.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -786,11 +795,6 @@ class ParticleView extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Componen
             },
             "polygon": {
               "nb_sides": 5
-            },
-            "image": {
-              "src": "img/github.svg",
-              "width": 100,
-              "height": 100
             }
           },
           "opacity": {
@@ -912,7 +916,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_footer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/footer */ "./components/footer.js");
 /* harmony import */ var _components_particle__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/particle */ "./components/particle.js");
 /* harmony import */ var _components_modules_effectslash_module__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/modules/effectslash.module */ "./components/modules/effectslash.module.js");
-var _jsxFileName = "E:\\Workspace\\ultracraft.xyz\\pages\\index.js";
+var _jsxFileName = "C:\\wamp64\\www\\ultracraft\\pages\\index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -927,8 +931,8 @@ class HomePage extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   constructor(props) {
     super(props);
     this.state = {
-      ip: "play.ultracraft.xyz",
-      port: 25582,
+      ip: "play.ultracraftbd.com",
+      port: 25565,
       playerCount: "N/A",
       ipText: __jsx("span", {
         __self: this,
@@ -944,14 +948,14 @@ class HomePage extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           lineNumber: 16,
           columnNumber: 21
         }
-      }, "play"), ".UltraCraft.", __jsx("small", {
+      }, "play"), ".UltraCraftBD.", __jsx("small", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 16,
-          columnNumber: 52
+          columnNumber: 54
         }
-      }, "xyz"))
+      }, "com"))
     };
   }
 
@@ -1001,14 +1005,14 @@ class HomePage extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
             lineNumber: 33,
             columnNumber: 36
           }
-        }, "play"), ".UltraCraft.", __jsx("small", {
+        }, "play"), ".UltraCraftBD.", __jsx("small", {
           __self: this,
           __source: {
             fileName: _jsxFileName,
             lineNumber: 33,
-            columnNumber: 67
+            columnNumber: 69
           }
-        }, "xyz"))
+        }, "com"))
       });
     }, 800);
   }
@@ -1734,7 +1738,7 @@ class HomePage extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! E:\Workspace\ultracraft.xyz\pages\index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! C:\wamp64\www\ultracraft\pages\index.js */"./pages/index.js");
 
 
 /***/ }),

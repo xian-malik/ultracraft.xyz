@@ -10,10 +10,10 @@ class HomePage extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      ip: "play.ultracraft.xyz",
-      port: 25582,
+      ip: "play.ultracraftbd.com",
+      port: 25565,
       playerCount: "N/A",
-      ipText: <span><small>play</small>.UltraCraft.<small>xyz</small></span>
+      ipText: <span><small>play</small>.UltraCraftBD.<small>com</small></span>
     }
   }
   componentDidMount() {
@@ -30,7 +30,7 @@ class HomePage extends React.Component {
     this.setState({ipText: <span>IP Copied!</span>})
     navigator.clipboard.writeText(this.state.ip)
     this.timeout = setTimeout(() => {
-      this.setState({ipText: <span><small>play</small>.UltraCraft.<small>xyz</small></span>})
+      this.setState({ipText: <span><small>play</small>.UltraCraftBD.<small>com</small></span>})
     },800)
   }
   render() {
