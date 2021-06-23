@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -6,9 +10,6 @@ html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   outline: none;
-}
-body {
-  font-size: 16px;
 }
 @media screen and (min-width: 992px) {
   * { cursor: none !important; }
