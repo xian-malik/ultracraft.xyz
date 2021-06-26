@@ -17,12 +17,16 @@ class HomePage extends React.Component {
       ipText: <span><small>play</small>.UltraCraftBD.<small>com</small></span>
     }
   }
+
   componentDidMount() {
     const { ip, port } = this.state;
-    // axios.get('https://mcapi.us/server/status?ip='+ip+'&port='+port+'', { 'Content-Type': 'application/json' })
-    // .then( response => {
-    //   this.setState({playerCount: (response.data.online) ? response.data.players.now : "N/A"})
-    // });
+
+    axios.get('https://api.minetools.eu/ping/'+ip+'/'+port+'', { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' })
+    .then( response => {
+      const { data } = response;
+      console.log( data );
+      this.setState({playerCount: ( ! data.error ) ? data.players.online : "N/A"})
+    });
   }
   componentWillUnmount() {
     clearTimeout(this.timeout);

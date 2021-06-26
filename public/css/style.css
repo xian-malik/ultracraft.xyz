@@ -362,20 +362,10 @@ textarea {
   display: block;
 }
 header {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: 9999;
   background:  linear-gradient(to bottom, #0e0e0e80, transparent);
-}
-header .header {
-  position: relative;
-  display: block;
-  padding: 2rem 0;
 }
 @media all and (max-width: 768px) {
   header .header {
-    display: none;
     padding: .4rem 0;
     box-shadow: 0px 0px 14px #0e0e0efc;
     background-color: #0e0e0e;
@@ -390,25 +380,6 @@ header .header {
   position: relative;
 }
 
-nav.navbar {
-  position: relative;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-nav.navbar .navbar-nav {
-  position: relative;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-nav.navbar .navbar-left {
-  margin-right: auto;
-}
-nav.navbar .navbar-right {
-  margin-left: auto;
-}
 nav.navbar .navbar-nav li {
   display: inline-block;
   position: relative;

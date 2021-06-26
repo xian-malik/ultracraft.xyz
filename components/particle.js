@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
-import Particles from 'react-particles-js'
+// import Particles from 'react-particles-js'
+import Particles from "react-tsparticles"
 
 class ParticleView extends React.Component {  
   render() {
     return (
       <Particles
         className="particles"
-        params={{
+        options={{
           "particles": {
             "number": {
               "value": 355,

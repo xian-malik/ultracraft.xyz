@@ -18,13 +18,13 @@ class Header extends React.Component {
   }
   render() {
     return (
-      <header id="header">
-        <div className="header">
+      <header className="absolute top-0 w-full z-50" id="header">
+        <div className="hidden md:block relative my-8">
           <div className="container-fluid">
             <div className="row">
               <div className="col-12">
-                <nav className={"navbar" + (this.state.menuOpen ? " responsive-active" : "")}>
-                  <ul className="navbar-nav navbar-left">
+                <nav className={"navbar relative w-full flex items-center text-center" + (this.state.menuOpen ? " flex" : "")}>
+                  <ul className="navbar-nav relative m-0 p-0 list-none mr-auto">
                     <li className="m-0"><a href="/facebook"><i className="fab fa-discord fa-lg" aria-hidden='true'></i></a></li>
                     <li className="m-0"><a href="/discord"><i className="fab fa-facebook-messenger fa-lg" aria-hidden='true'></i></a></li>
                   </ul>
@@ -36,7 +36,8 @@ class Header extends React.Component {
                     </div>
                     <li className="logo-wrap">
                       <a href="/" className="logo">
-                        <h1 className="logo-text">Ultr<small>ac</small>rafT</h1>
+                        <img src='/images/logo.jpg' />
+                        {/* <h1 className="logo-text">Ultr<small>ac</small>rafT</h1> */}
                       </a>
                     </li>
                     <div className="nav-right-part">
@@ -45,7 +46,7 @@ class Header extends React.Component {
                       <li><EffectSlash href="/store" title="Store" /></li>
                     </div>
                   </ul>
-                  <ul className="navbar-nav navbar-right">
+                  <ul className="navbar-nav relative m-0 p-0 list-none ml-auto">
                     <li className="m-0" active='true'>
                       <EffectSlash href="/u/login" title="Login" />
                     </li>
