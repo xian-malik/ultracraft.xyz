@@ -3,7 +3,7 @@ import axios from 'axios'
 import LazyLoad from 'react-lazyload'
 import Header from '../components/header'
 import Footer from '../components/footer'
-
+import React from 'react'
 class Store extends React.Component {
   constructor(props) {
     super(props)

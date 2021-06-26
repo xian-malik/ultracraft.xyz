@@ -4,6 +4,7 @@ import LazyLoad from 'react-lazyload'
 import Header from '../components/header'
 import Footer from '../components/footer'
 import EffectSlash from '../components/modules/effectslash.module'
+import React from 'react'
 
 class Gamemodes extends React.Component {
   constructor(props) {

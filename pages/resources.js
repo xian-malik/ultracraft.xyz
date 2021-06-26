@@ -4,7 +4,7 @@ import LazyLoad from 'react-lazyload'
 import Header from '../components/header'
 import Footer from '../components/footer'
 import DownloadView from '../components/modules/downloadview.module'
-
+import React from 'react'
 class Resources extends React.Component {
   constructor(props) {
     super(props)
