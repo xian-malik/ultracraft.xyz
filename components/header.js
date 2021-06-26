@@ -10,12 +10,14 @@ class Header extends React.Component {
   }
   handleMenu(e) { this.setState({menuOpen: !this.state.menuOpen}) }
   componentDidMount() {
-    window.addEventListener("mousemove", this.cursor)
+    // window.addEventListener("mousemove", this.cursor)
   }
+
   cursor = (e) => {
-    const cursor = document.querySelector('.custom-cursor-sword')
-    cursor.style.transform = 'matrix(1, 0, 0, 1, '+ (e.pageX) +', '+ (e.pageY - window.scrollY) +')'
+    // const cursor = document.querySelector('.custom-cursor-sword')
+    // cursor.style.transform = 'matrix(1, 0, 0, 1, '+ (e.pageX) +', '+ (e.pageY - window.scrollY) +')'
   }
+
   render() {
     return (
       <header className="absolute top-0 w-full z-50" id="header">

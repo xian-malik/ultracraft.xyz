@@ -37,7 +37,7 @@ class Resources extends React.Component {
             <div className="container">
               <div className="row">
                 <div className="col-12">
-                  <h3 style={{margin: 0}}>Things you need</h3>
+                  <h3 className="m-0">Things you need</h3>
                   <h1>ResourceS</h1>
                 </div>
               </div>

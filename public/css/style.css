@@ -10,7 +10,7 @@ html {
   @apply box-border outline-none;
 }
 @media screen and (min-width: 992px) {
-  * { cursor: none !important; }
+  /* * { cursor: none !important; } */
 }
 @media screen and (max-width: 991px) {
   .custom-cursor-sword { display: none !important; }

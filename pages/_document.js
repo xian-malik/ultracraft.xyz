@@ -22,7 +22,7 @@ class MyDocument extends Document {
           
           <NextScript />
 
-          <img  alt="Cursor" className="custom-cursor-sword" src="https://res.cloudinary.com/xianmalik/image/upload/w_50,h_50,q_auto,f_auto/v1589137162/UltraCraft/cursor.png" />
+          {/* <img alt="Cursor" className="custom-cursor-sword" src="https://res.cloudinary.com/xianmalik/image/upload/w_50,h_50,q_auto,f_auto/v1589137162/UltraCraft/cursor.png" /> */}
         </body>
       </Html>
     )
