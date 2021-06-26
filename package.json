@@ -22,7 +22,7 @@
   "homepage": "https://github.com/xianmalik/ultracraft#readme",
   "dependencies": {
     "autoprefixer": "^10.0.4",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "babel-node": "0.0.1-security",
     "jquery": "^3.5.0",
     "minecraft-pinger": "^1.0.5",
