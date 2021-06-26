@@ -44,7 +44,7 @@ export default function Rules() {
 							rules.map( ( rule, index ) => {
 								return <li key={ index } className="mb-8 block">
 									<h4 className="text-2xl mb-2">{ rule.title }</h4>
-									<p className="px-6">{ rule.desc }</p>
+									<p className="px-8">{ rule.desc }</p>
 								</li>
 							} )
 						}</ul>
