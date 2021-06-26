@@ -39,7 +39,7 @@ export default function Rules() {
 				
 				<section id="Section2">
 					<div className="grid w-11/12 max-w-6xl mx-auto list-none py-12">
-						<h2 className="text-center">General Rules</h2>
+						<h2 className="text-center mb-16"><span className="border-b-2 border-black">General Rules</span></h2>
 						<ul>{
 							rules.map( ( rule, index ) => {
 								return <li key={ index } className="mb-8 block">
