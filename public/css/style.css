@@ -7,9 +7,7 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 * {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  outline: none;
+  @apply box-border outline-none;
 }
 @media screen and (min-width: 992px) {
   * { cursor: none !important; }
@@ -18,57 +16,44 @@ html {
   .custom-cursor-sword { display: none !important; }
   .image-responsive {
     height: 450px;
-    object-fit: cover;
-    object-position: center;
+    @apply object-cover;
+    @apply object-center;
   }
 }
 .widgetChannel-xLQIAn {
-  display: none;
+  @apply hidden;
 }
 .server-ip {
   min-width: 230px;
 }
 body {
-  margin: 0;
   background: url('https://res.cloudinary.com/xianmalik/image/upload/q_auto,f_auto/v1589139254/UltraCraft/chalkboard.jpg');
   color: #2b2a27;
 }
 main {
-  display: block;
-}
-.nomargin {
-  margin: 0 !important;
+  @apply block;
 }
 .margin20 {
-  position: relative;
-  display: block;
+  @apply relative block;
   margin: 20px 0;
 }
 a {
-  color: #fff;
-  background-color: transparent;
-  text-decoration: none;
+  @apply text-white bg-transparent no-underline;
   transition: .2s color;
 }
 h1, h2, h3, h4, a {
   font-family: 'Spectral SC', serif;
 }
 h1 {
-  font-size: 4.75rem;
-  margin: 0 1rem;
+  @apply text-7xl mx-4;
 }
 h2 {
   color: #070301;
-  font-size: 3rem;
-  margin: 0 0 1.5rem;
-  font-weight: 700;
-  line-height: 1.06;
+  @apply text-5xl mb-6 font-bold leading-none;
 }
 h4 {
-  font-weight: 300;
-  font-size: 1.75rem;
+  @apply font-light text-3xl m-0 mb-4 tracking-wider;
   letter-spacing: .05em;
-  margin: 0 0 1rem;
 }
 h4 span {
   font-family: 'Montserrat', sans-serif;
@@ -76,111 +61,81 @@ h4 span {
 h5 {
   font-family: 'Montserrat', sans-serif;
   color: #bd8d4c;
-  font-size: 14px;
-  font-weight: 600;
-  letter-spacing: 2px;
   font-style: normal;
-  margin: 0 0 .6rem;
-  text-transform: uppercase;
+  @apply text-sm font-semibold tracking-wide mb-2 uppercase;
 }
 h6 {
   font-family: 'Spectral SC', serif;
-  font-weight: 400;
-  margin: 0 0 8px;
-  font-size: 1.25rem;
-  line-height: 1.4em;
-  letter-spacing: 0.01em;
+  @apply font-normal m-0 mb-2 text-xl leading-snug tracking-wider;
 }
 @media all and (max-width: 480px) {
   h1 {
     font-size: 2.5rem;
-    margin: 0 0 1.5rem;
+    @apply text-5xl;
+    @apply mb-6;
   }
   h2 {
     font-size: 2rem;
-    margin: 0 0 .75rem;
+    @apply mb-3;
   }
   h3 {
-    font-size: 1rem;
+    @apply text-base;
   }
   h5 {
-    margin: 2rem 0 .75rem;
+    @apply mt-8 mx-0 mb-3;
   }
   h6 {
-    font-size: 1rem;
+    @apply text-base;
   }
   p {
-    font-size: 1rem;
+    @apply text-base;
   }
 }
 @media all and (max-width: 768px) {
   section#Section2,
   section#Section3 { padding: 50px 0; }
   section#Slider {
-    padding: 15px;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
+    @apply min-h-screen p-4;
+    @apply flex items-center;
   }
-  .logo-text { text-align: center; }
+  .logo-text { @apply text-center; }
   nav.navbar {
     background: #f2e0c8;
-    position: fixed;
-    display: none;
-    align-items: center;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
+    @apply fixed hidden items-center top-0 left-0 w-full h-screen box-border;
     z-index: 9999999999999;
-    box-sizing: border-box;
   }
   nav.navbar.responsive-active {
-    display: flex;
+    @apply flex;
   }
   nav.navbar .navbar-nav {
-    width: 100%;
+    @apply w-full;
   }
   nav.navbar .navbar-nav li {
-    display: inline-block;
-    width: 100%;
-    position: relative;
-    text-align: center;
+    @apply inline-block w-full relative text-center mx-5 py-5;
     color: #0e0e0e;
-    margin: 20px 0 !important;
-    padding: 0 20px;
-    width: 100%;
   }
   nav.navbar .navbar-nav li a {
     color: #0e0e0e;
   }
   h1 {
-    font-size: 3rem;
-    margin: 0 0 1.5rem;
+    @apply text-5xl m-0 mb-6;
   }
   h2 {
-    font-size: 2rem;
-    margin: 0 0 .75rem;
+    @apply text-3xl m-0 mb-3;
   }
   h4 {
-    font-size: 1rem;
-    margin: 0 0 .5em;
+    @apply text-base m-0 mb-2;
   }
   h5 {
-    font-size: .75rem;
-    margin: 2rem 0 1rem;
+    @apply text-xs mt-8 mx-0 mb-4;
   }
   h6 {
-    font-size: 1.125rem;
+    @apply text-lg;
   }
 }
 p {
   font-family: 'Montserrat', serif;
-  font-weight: 400;
-  margin: 0 0 1rem;
-  font-size: 1rem;
-  line-height: 1.4em;
-  letter-spacing: 0.01em;
+  @apply font-normal mb-4 leading-snug text-base tracking-wide;
 }
 pre {
   font-family: monospace, monospace; /* 1 */
@@ -188,7 +143,7 @@ pre {
 }
 b,
 strong {
-  font-weight: bolder;
+  @apply font-extrabold;
 }
 small,
 .small {
@@ -198,34 +153,31 @@ sub,
 sup {
   font-size: 50%;
   line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-  opacity: 1;
+  @apply relative align-baseline opacity-100;
 }
 sub {
-  bottom: -0.25em;
+  @apply -bottom-1;
 }
 sup {
   top: -1em;
 }
 img {
-  max-width: 100%;
+  @apply max-w-full align-middle;
   border-style: none;
-  vertical-align: middle;
 }
 button,
 input,
 optgroup,
 select,
 textarea {
+  @apply m-0 leading-tight;
   font-family: inherit;
   font-size: 100%;
-  line-height: 1.15;
-  margin: 0;
 }
 
 button,
 input {
+  @apply overflow-visible;
   overflow: visible;
 }
 
@@ -256,7 +208,7 @@ textarea {
 }
 
 [hidden] {
-  display: none;
+  @apply hidden;
 }
 
 
@@ -292,7 +244,7 @@ textarea {
 .modal-header:after,
 .modal-footer:before,
 .modal-footer:after {
-  display: table;
+  @apply table;
   content: " ";
 }
 
@@ -312,7 +264,7 @@ textarea {
 .panel-body:after,
 .modal-header:after,
 .modal-footer:after {
-  clear: both;
+  @apply clear-both;
 }
 .container,
 .container-fluid {
@@ -869,7 +821,6 @@ h1.page-title {
   top: 40%;
 }
 
-
 footer {
   padding: 10rem 0 3rem;
   position: relative;
@@ -883,10 +834,6 @@ footer .footer-logo {
   font-size: 2.5rem;
   margin: 0 0 1rem;
 }
-
-
-
-
 
 .page-title {
   display: flex;
@@ -915,8 +862,6 @@ footer .footer-logo {
   line-height: .8em;
   text-shadow: 0 0 20px #0e0e0ecc;
 }
-
-
 
 .countdown {
   font-size: 6rem;
@@ -988,7 +933,6 @@ footer .footer-logo {
     font-size: 1.25rem;
   }
 }
-
 
 .user-avatar::after {
   content: '';

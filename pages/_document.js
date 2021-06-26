@@ -10,10 +10,9 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <meta name="viewport" content="initial-scale=1.0, width=device-width" />
           <link rel="icon" type="image/png" href="https://res.cloudinary.com/xianmalik/image/upload/w_32,h_32,c_limit,f_auto,q_auto/v1589135860/UltraCraft/uc_favicon.png" />
         </Head>
-        <body class='text-base'>
+        <body className='text-base'>
           <Main />
 
           <link href="https://fonts.googleapis.com/css2?family=Cardo&display=swap" rel="stylesheet" />

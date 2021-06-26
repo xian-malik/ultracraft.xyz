@@ -5,6 +5,7 @@ import Header from '../components/header'
 import Footer from '../components/footer'
 import ParticleView from '../components/particle'
 import EffectSlash from '../components/modules/effectslash.module'
+import React from 'react'
 
 class HomePage extends React.Component {
   constructor(props) {
@@ -18,10 +19,10 @@ class HomePage extends React.Component {
   }
   componentDidMount() {
     const { ip, port } = this.state;
-    axios.get('https://mcapi.us/server/status?ip='+ip+'&port='+port+'', { 'Content-Type': 'application/json' })
-    .then( response => {
-      this.setState({playerCount: (response.data.online) ? response.data.players.now : "N/A"})
-    });
+    // axios.get('https://mcapi.us/server/status?ip='+ip+'&port='+port+'', { 'Content-Type': 'application/json' })
+    // .then( response => {
+    //   this.setState({playerCount: (response.data.online) ? response.data.players.now : "N/A"})
+    // });
   }
   componentWillUnmount() {
     clearTimeout(this.timeout);

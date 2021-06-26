@@ -25,8 +25,8 @@ class Header extends React.Component {
               <div className="col-12">
                 <nav className={"navbar" + (this.state.menuOpen ? " responsive-active" : "")}>
                   <ul className="navbar-nav navbar-left">
-                    <li className="nomargin"><a href="/facebook"><i className="fab fa-discord fa-lg" aria-hidden='true'></i></a></li>
-                    <li className="nomargin"><a href="/discord"><i className="fab fa-facebook-messenger fa-lg" aria-hidden='true'></i></a></li>
+                    <li className="m-0"><a href="/facebook"><i className="fab fa-discord fa-lg" aria-hidden='true'></i></a></li>
+                    <li className="m-0"><a href="/discord"><i className="fab fa-facebook-messenger fa-lg" aria-hidden='true'></i></a></li>
                   </ul>
                   <ul className="navbar-nav navbar-center">
                     <div className="nav-left-part">
@@ -46,7 +46,7 @@ class Header extends React.Component {
                     </div>
                   </ul>
                   <ul className="navbar-nav navbar-right">
-                    <li className="nomargin" active='true'>
+                    <li className="m-0" active='true'>
                       <EffectSlash href="/u/login" title="Login" />
                     </li>
                   </ul>
