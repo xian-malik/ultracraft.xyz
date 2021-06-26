@@ -13,7 +13,7 @@ class DownloadView extends React.Component {
   render() {
     const {href, imagePath, meta, text} = this.props || ''
     return (
-      <a href={href} className="fv-folderView" target="_blank">
+      <a href={href} className="fv-folderView" target="_blank" rel="noreferrer">
       <picture className="dividerTop">
         <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_480,h_50,c_fill,f_auto,q_auto:eco/v1589059497/UltraCraft/Borders/bottom.jp2" media="(max-width: 480px)" />
         <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_768,h_50,c_fill,f_auto,q_auto:eco/v1589059497/UltraCraft/Borders/bottom.jp2" media="(max-width: 768px)" />
