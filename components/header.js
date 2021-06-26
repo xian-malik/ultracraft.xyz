@@ -25,8 +25,8 @@ class Header extends React.Component {
               <div className="col-12">
                 <nav className={"navbar relative w-full flex items-center text-center" + (this.state.menuOpen ? " flex" : "")}>
                   <ul className="navbar-nav relative m-0 p-0 list-none mr-auto">
-                    <li className="m-0"><a href="/facebook"><i className="fab fa-discord fa-lg" aria-hidden='true'></i></a></li>
-                    <li className="m-0"><a href="/discord"><i className="fab fa-facebook-messenger fa-lg" aria-hidden='true'></i></a></li>
+                    <li className="m-0"><a href="/discord"><i className="fab fa-discord fa-lg" aria-hidden='true'></i></a></li>
+                    <li className="m-0"><a href="/facebook"><i className="fab fa-facebook-messenger fa-lg" aria-hidden='true'></i></a></li>
                   </ul>
                   <ul className="navbar-nav navbar-center">
                     <div className="nav-left-part">
@@ -36,7 +36,7 @@ class Header extends React.Component {
                     </div>
                     <li className="logo-wrap">
                       <a href="/" className="logo">
-                        <img src='/images/logo.jpg' />
+                        <img src='https://res.cloudinary.com/xianmalik/image/upload/v1591696064/UltraCraft/ultracraft.png' alt="Ultracraft" />
                         {/* <h1 className="logo-text">Ultr<small>ac</small>rafT</h1> */}
                       </a>
                     </li>
