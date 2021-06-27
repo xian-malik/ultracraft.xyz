@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import axios from 'axios'
 import LazyLoad from 'react-lazyload'
-import Header from '../components/header'
-import Footer from '../components/footer'
+import Header from '../components/_header'
+import Footer from '../components/_footer'
 import DownloadView from '../components/modules/downloadview.module'
 import React from 'react'
 class Resources extends React.Component {

@@ -1,5 +1,6 @@
 import React from 'react'
 import EffectSlash from './modules/effectslash.module'
+import Link from 'next/link'
 
 class Header extends React.Component {
   constructor(props) {
@@ -37,10 +38,11 @@ class Header extends React.Component {
                       <li><EffectSlash href="/rules" title="Rules" /></li>
                     </div>
                     <li className="logo-wrap">
-                      <a href="/" className="logo">
-                        <img src='https://res.cloudinary.com/xianmalik/image/upload/v1591696064/UltraCraft/ultracraft.png' alt="Ultracraft" />
-                        {/* <h1 className="logo-text">Ultr<small>ac</small>rafT</h1> */}
-                      </a>
+                      <Link href="/" passHref className="logo">
+                        <a>
+                          <img src='https://res.cloudinary.com/xianmalik/image/upload/w_60,h_60,c_fill,f_auto,q_auto/v1624803090/UltraCraft/LOGO_l9gesi.jpg' alt="Ultracraft" />
+                        </a>
+                      </Link>
                     </li>
                     <div className="nav-right-part">
                       <li><EffectSlash href="/resources" title="Resources" /></li>
@@ -50,7 +52,7 @@ class Header extends React.Component {
                   </ul>
                   <ul className="navbar-nav relative m-0 p-0 list-none ml-auto">
                     <li className="m-0" active='true'>
-                      <EffectSlash href="/u/login" title="Login" />
+                      <EffectSlash href="/u/login" title="Account" />
                     </li>
                   </ul>
                 </nav>

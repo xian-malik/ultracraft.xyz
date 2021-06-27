@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import React from 'react'
-import Header from '../components/header'
-import Footer from '../components/footer'
+import Header from '../components/_header'
+import Footer from '../components/_footer'
 
 class Calender extends React.Component {
   render() {

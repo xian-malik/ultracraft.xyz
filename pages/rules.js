@@ -1,8 +1,8 @@
 import React from 'react'
 import Head from 'next/head'
 import LazyLoad from 'react-lazyload'
-import Header from '../components/header'
-import Footer from '../components/footer'
+import Header from '../components/_header'
+import Footer from '../components/_footer'
 
 import { rules } from '../content/rules.content'
 
@@ -48,7 +48,6 @@ export default function Rules() {
 								</li>
 							} )
 						}</ul>
-						
 					</div>
 					<picture className="dividerBottom">
 						<source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_480,h_50,c_fill,f_auto,q_auto/v1589059497/UltraCraft/Borders/top_dark.jp2" media="(max-width: 480px)" />

@@ -2,8 +2,8 @@ import React from 'react'
 import Head from 'next/head'
 import axios from 'axios'
 import LazyLoad from 'react-lazyload'
-import Header from '../components/header'
-import Footer from '../components/footer'
+import Header from '../components/_header'
+import Footer from '../components/_footer'
 import Image from 'next/image'
 class Bans extends React.Component {
   constructor(props) {

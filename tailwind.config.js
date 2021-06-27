@@ -9,8 +9,12 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      fonts: {
+
+      },
       colors: {
-        "uc-primary": "#0e0e0e"
+        "uc-primary": "#0e0e0e",
+        "uc-secondary": "#f2e0c8"
       },
     },
   },
