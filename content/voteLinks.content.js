@@ -1,4 +1,5 @@
 module.exports = {
+	
 	links: [
 		{
 			title: "Minecraft Multiplayer",
