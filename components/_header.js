@@ -50,7 +50,7 @@ class Header extends React.Component {
                     <div className="nav-right-part">
                       <li><EffectSlash href="/resources" title="Resources" /></li>
                       <li><EffectSlash href="/bans" title="Bans" /></li>
-                      <li><EffectSlash href="/store" title="Store" /></li>
+                      <li><EffectSlash href="/vote" title="Vote" /></li>
                     </div>
                   </ul>
                   <ul className="navbar-nav relative m-0 p-0 list-none ml-auto">

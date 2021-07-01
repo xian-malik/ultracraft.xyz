@@ -12,6 +12,12 @@ module.exports = {
       fonts: {
 
       },
+      fontSize: {
+        xsm: ['10px', {
+          letterSpacing: '0.3em',
+          lineHeight: '18px',
+        }]
+      },
       colors: {
         "uc-primary": "#0e0e0e",
         "uc-secondary": "#f2e0c8",

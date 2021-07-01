@@ -1,5 +1,5 @@
 // import { useSession, getSession } from 'next-auth/client'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import Head from 'next/head'
 import { Header, Footer } from '../../components'
 import config from '../../config';
@@ -7,11 +7,13 @@ import config from '../../config';
 export default function Login() {
 	// const [ session, loading ] = useSession()
 
+	const [btnText, setBtnText] = useState("Submit");
 	const [username, setUsername] = useState('');
 	const [password, setPassword] = useState('');
 
 	const onSubmit = e => {
 		e.preventDefault();
+		setBtnText('Loading');
 
 		let url = config.API_URL + '/auth/signin';
 		var data = {
@@ -34,9 +36,20 @@ export default function Login() {
 		.then( res => {
 			localStorage.setItem('USERNAME', res.username);
 			localStorage.setItem('TOKEN', res.accessToken);
+			window.location = '/u/dashboard';
+			setBtnText('Submit');
 		})
-		.catch(function(res){ console.log(res) });
+		.catch(res => {
+			console.log(res);
+			setBtnText('Unsuccessful');
+		});
 	}
+
+	useEffect(() => {
+		if ( localStorage.getItem('TOKEN') ) {
+			window.location = '/u/dashboard';
+		};
+	}, []);
 
 	return (
 		<main>
@@ -55,7 +68,8 @@ export default function Login() {
 							<input placeholder="Password" name="password" type="password"
 								value={ password } onChange={ e => setPassword(e.target.value) }
 								className="bg-transparent border-b border-uc-primary py-2 px-4 my-4" />
-							<input className="rounded-lg cursor-pointer bg-uc-primary text-uc-secondary py-2 px-8 uppercase w-full font-medium text-base tracking-wider" type="submit" value="Submit" />
+							<input className="rounded-lg cursor-pointer bg-uc-primary text-uc-secondary py-2 px-8 uppercase w-full font-medium text-base tracking-wider"
+								type="submit" value={ btnText } />
 						</form>
 					</article>
 				</section>
