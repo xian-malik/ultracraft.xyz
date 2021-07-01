@@ -12,12 +12,13 @@ export default function Login() {
 
 	const onSubmit = e => {
 		e.preventDefault();
-		let url = config.API_URL + '/auth/signin';
 
+		let url = config.API_URL + '/auth/signin';
 		var data = {
 			username: username,
 			password: password
 		}
+
 		fetch(url, {
 			headers: {
 				'Accept': 'application/json',
@@ -31,7 +32,8 @@ export default function Login() {
 			return res.json()
 		})
 		.then( res => {
-			console.log( res );
+			localStorage.setItem('USERNAME', res.username);
+			localStorage.setItem('TOKEN', res.accessToken);
 		})
 		.catch(function(res){ console.log(res) });
 	}

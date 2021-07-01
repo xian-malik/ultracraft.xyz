@@ -6,11 +6,15 @@ class Header extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      menuOpen: false
+      menuOpen: false,
+      username: 'Account'
     }
   }
   handleMenu(e) { this.setState({menuOpen: !this.state.menuOpen}) }
   componentDidMount() {
+    if ( localStorage.getItem('USERNAME') ) {
+      this.setState( { username: localStorage.getItem('USERNAME') } )
+    }
     // window.addEventListener("mousemove", this.cursor)
   }
 
@@ -52,7 +56,7 @@ class Header extends React.Component {
                   </ul>
                   <ul className="navbar-nav relative m-0 p-0 list-none ml-auto">
                     <li className="m-0" active='true'>
-                      <EffectSlash href="/u/login" title="Account" />
+                      <EffectSlash href="/u/login" title={ this.state.username } />
                     </li>
                   </ul>
                 </nav>
