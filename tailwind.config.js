@@ -14,7 +14,8 @@ module.exports = {
       },
       colors: {
         "uc-primary": "#0e0e0e",
-        "uc-secondary": "#f2e0c8"
+        "uc-secondary": "#f2e0c8",
+        "uc-gray": "#b7b7b7"
       },
     },
   },
