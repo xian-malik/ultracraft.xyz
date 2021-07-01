@@ -2,6 +2,7 @@
 import { useState } from 'react'
 import Head from 'next/head'
 import { Header, Footer } from '../../components'
+import config from '../../config';
 
 export default function Login() {
 	// const [ session, loading ] = useSession()
@@ -11,7 +12,7 @@ export default function Login() {
 
 	const onSubmit = e => {
 		e.preventDefault();
-		let url = 'http://localhost:8443/auth/signin';
+		let url = config.API_URL + '/auth/signin';
 
 		var data = {
 			username: username,
@@ -36,7 +37,7 @@ export default function Login() {
 	}
 
 	return (
-		<main	>
+		<main>
 			<Head>
 				<title>Login Portal</title>	
 			</Head>
