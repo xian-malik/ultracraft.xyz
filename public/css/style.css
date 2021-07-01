@@ -919,3 +919,10 @@ footer .footer-logo {
   height: auto;
   z-index: 1;
 }
+
+
+/**
+ */
+.hover-online:hover > div {
+  opacity: 1;
+}
