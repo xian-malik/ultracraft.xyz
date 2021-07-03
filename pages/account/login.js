@@ -36,7 +36,7 @@ export default function Login() {
 		.then( res => {
 			localStorage.setItem('USERNAME', res.username);
 			localStorage.setItem('TOKEN', res.accessToken);
-			window.location = '/u/dashboard';
+			window.location = '/account/dashboard';
 			setBtnText('Submit');
 		})
 		.catch(res => {

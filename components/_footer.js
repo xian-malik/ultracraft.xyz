@@ -1,5 +1,5 @@
 import LazyLoad from 'react-lazyload'
-import EffectSlash from './modules/effectslash.module'
+import { EffectSlash } from './modules/'
 function Footer() {
   return (
     <LazyLoad offset={50}>

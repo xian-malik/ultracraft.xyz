@@ -1,12 +1,12 @@
 import Head from 'next/head'
-import axios from 'axios'
 import LazyLoad from 'react-lazyload'
 import Header from '../components/_header'
 import Footer from '../components/_footer'
 import ParticleView from '../components/particle'
-import EffectSlash from '../components/modules/effectslash.module'
+import { EffectSlash } from '../components/modules/'
 import React from 'react'
 import Image from 'next/image'
+import { API_URL } from '../config';
 
 class HomePage extends React.Component {
   constructor(props) {
@@ -14,27 +14,27 @@ class HomePage extends React.Component {
     this.state = {
       ip: "play.ultracraftbd.com",
       port: 25565,
-      playerCount: "N/A",
+      online: "N/A",
       ipText: <span><small>play</small>.UltraCraftBD.<small>com</small></span>
     }
   }
 
   componentDidMount() {
-    const { ip, port } = this.state;
-
-    axios.get('https://api.minetools.eu/ping/'+ip+'/'+port+'', { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' })
-    .then( response => {
-      const { data } = response;
-      // console.log( data );
-      this.setState({playerCount: ( ! data.error ) ? data.players.online : "N/A"})
+    fetch( API_URL + '/users/online' , { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' })
+    .then( res => {
+      const { online } = res
+      this.setState( { online } )
     });
   }
   componentWillUnmount() {
     clearTimeout(this.timeout);
   }
   handleIpCopy(e) {
-    this.setState({ipText: <span>IP Copied!</span>})
+    e.preventDefault();
+
     navigator.clipboard.writeText(this.state.ip)
+    this.setState({ipText: <span>IP Copied!</span>})
+
     this.timeout = setTimeout(() => {
       this.setState({ipText: <span><small>play</small>.UltraCraftBD.<small>com</small></span>})
     },800)
@@ -66,7 +66,7 @@ class HomePage extends React.Component {
                     </div>
                   </div>
                   <div className="col-12">
-                    <h3 className="slider-playercount">Join {this.state.playerCount} other players</h3>
+                    <h3 className="slider-playercount">Join {this.state.online} other players</h3>
                     <a href="#" className="server-ip btn-effect btn-secondary effect-slash" onClick={() => this.handleIpCopy()}>
                       <div className="effect-inner">
                         <span className="effect-l">{this.state.ipText}</span>

@@ -9,11 +9,21 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      fonts: {
-
+      fontFamily: {
+        sans: ['Montserrat', 'sans-serif'],
+        serif: ['Spectral SC', 'serif']
       },
       fontSize: {
-        xsm: ['10px', {
+        pagehead: [{
+          lineHeight: '0.8',
+        }],
+        subhead: ['14px', {
+          letterSpacing: '3px',
+        }],
+        xsx: ['10px', {
+          lineHeight: '1',
+        }],
+        xsm: ['0.9rem', {
           letterSpacing: '0.3em',
           lineHeight: '18px',
         }]
@@ -21,7 +31,8 @@ module.exports = {
       colors: {
         "uc-primary": "#0e0e0e",
         "uc-secondary": "#f2e0c8",
-        "uc-gray": "#b7b7b7"
+        "uc-gray": "#b7b7b7",
+        "uc-gold": "#bd8d4c",
       },
     },
   },

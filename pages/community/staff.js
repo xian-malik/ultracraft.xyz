@@ -3,7 +3,7 @@ import axios from 'axios'
 import LazyLoad from 'react-lazyload'
 import Header from '../../components/_header'
 import Footer from '../../components/_footer'
-import EffectSlash from '../../components/modules/effectslash.module'
+import { EffectSlash } from '../../components/modules/'
 import React from 'react'
 import Image from 'next/image'
 

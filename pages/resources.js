@@ -1,23 +1,16 @@
 import Head from 'next/head'
-import axios from 'axios'
 import LazyLoad from 'react-lazyload'
 import Header from '../components/_header'
 import Footer from '../components/_footer'
-import DownloadView from '../components/modules/downloadview.module'
+import { DownloadView } from '../components/modules/'
 import React from 'react'
+import { seasons } from '../content/seasonFiles.content'
 class Resources extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
       data: null
     }
-  }
-  componentDidMount() {
-    const { ip, port } = this.state;
-    axios.get('https://mcapi.us/server/status?ip='+ip+'&port='+port+'', { 'Content-Type': 'application/json' })
-    .then( response => {
-      this.setState({data: response.data})
-    });
   }
   render() {
     return (
@@ -53,36 +46,14 @@ class Resources extends React.Component {
           <section id="Section2">
             <div className="container">
               <div className="row">
-                <div className="col-4 col-xs-6">
-                  <DownloadView href="https://drive.google.com/open?id=1YZb0kStbbXuUlufrzpB-fjqxAsCm0Agc"
-                    imagePath="/UltraCraft/uc_season0.jpg"
-                    meta="World File" text="Season O" />
-                </div>
-                <div className="col-4 col-xs-6">
-                  <DownloadView href="https://drive.google.com/open?id=1xlEvHGj9nhp5iAXGkH_jYG0NWN4Qs3IJ"
-                    imagePath="/UltraCraft/uc_season1.jpg"
-                    meta="World File" text="Season I" />
-                </div>
-                <div className="col-4 col-xs-6">
-                  <DownloadView href="https://drive.google.com/open?id=1wPN26skuUnRcDqbF8He7W0JhR1amvt4a"
-                    imagePath="/UltraCraft/uc_season2.jpg"
-                    meta="World File" text="Season II" />
-                </div>
-                <div className="col-4 col-xs-6">
-                  <DownloadView href="https://drive.google.com/open?id=1TXvp4yEjFI4B5BGhQfsYKfzfzvVsR2zS"
-                    imagePath="/UltraCraft/uc_season3.jpg"
-                    meta="World File" text="Season III" />
-                </div>
-                <div className="col-4 col-xs-6">
-                  <DownloadView href="https://drive.google.com/open?id=1HTq3mVFBJ7jbk0qZ88xysnhws44lkO0q"
-                    imagePath="/UltraCraft/uc_season4.jpg"
-                    meta="World File" text="Season IV" />
-                </div>
-                <div className="col-4 col-xs-6">
-                  <DownloadView href="#"
-                    imagePath="/UltraCraft/chalkboard.jp2"
-                    meta="MORE" text="CominG" />
-                </div>
+                { seasons.map( ( el, i ) => {
+                  const { category, title } = el
+                  return <div key={ i } className="col-4 col-xs-6">
+                    <DownloadView href={ el.fileUrl }
+                      imagePath={ el.thumbUrl }
+                      category={ category } title={ title } />
+                  </div>
+                } ) }
               </div>
             </div>
             <picture className="dividerBottom">

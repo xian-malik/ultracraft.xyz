@@ -3,17 +3,13 @@ import { useEffect, useState } from 'react'
 import Head from 'next/head'
 import { Header, Footer } from '../../components'
 import config from '../../config';
+import { VerifyUser } from '../../auth'
 
-export default function Login() {
+export default function Account() {
 	const [ data, setData ] = useState({});
 
-	useEffect( () => {	
-		const USER = localStorage.getItem('USERNAME');
-		const TOKEN = localStorage.getItem('TOKEN');
-
-		if ( ! USER || ! TOKEN ) {
-			window.location = '/u/login'
-		}
+	useEffect( () => {
+		const { USER, TOKEN } = VerifyUser();
 
 		let url = config.API_URL + '/users/id/' + ( USER ? USER.toLowerCase() : '' );
 
@@ -45,6 +41,7 @@ export default function Login() {
 				<section className="h-screen w-screen grid items-center justify-center grid-cols-1">
 					<article className="mx-auto bg-uc-secondary rounded-md p-8 block w-full max-w-screen-lg px-4">
 						<h2 className="text-4xl mb-12">Profile</h2>
+						<a href="/u/settings/account" className="text-4xl mb-12">Profile</a>
 						<h4 className="">
 							{ data.username || '' }
 							<span className='p-2 px-3 font-bold uppercase hover-online relative overflow-visible cursor-pointer'>

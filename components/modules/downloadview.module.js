@@ -11,7 +11,7 @@ class DownloadView extends React.Component {
   handleClick = e => (this.props.href == "#") ? e.preventDefault() : null
   
   render() {
-    const {href, imagePath, meta, text} = this.props || ''
+    const {href, imagePath, category, title} = this.props || ''
     return (
       <a href={href} className="fv-folderView" target="_blank" rel="noreferrer">
       <picture className="dividerTop">
@@ -27,8 +27,8 @@ class DownloadView extends React.Component {
           <img className="fv-image" src={"https://res.cloudinary.com/xianmalik/image/upload/w_480,c_limit,f_auto,q_auto/v1589138371" + imagePath} alt="Download" />
         </picture>
         <div className="fv-content">
-          <h5>{meta}</h5>
-          <h3>{text}</h3>
+          <h5>{category}</h5>
+          <h3>{title}</h3>
         </div>
         <picture className="dividerBottom">
           <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_480,h_50,c_fill,f_auto,q_auto:eco/v1589059497/UltraCraft/Borders/header1.jp2" media="(max-width: 480px)" />

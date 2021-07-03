@@ -1,39 +1,9 @@
 import Head from 'next/head'
-import axios from 'axios'
-import LazyLoad from 'react-lazyload'
 import Header from '../components/_header'
 import Footer from '../components/_footer'
-import EffectSlash from '../components/modules/effectslash.module'
 import React from 'react'
-import Image from 'next/image'
 
 class Gamemodes extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      ip: "play.ultracraft.xyz",
-      port: 25582,
-      playerCount: "N/A",
-      ipText: <span><small>play</small>.UltraCraft.<small>xyz</small></span>
-    }
-  }
-  componentDidMount() {
-    const { ip, port } = this.state;
-    axios.get('https://mcapi.us/server/status?ip='+ip+'&port='+port+'', { 'Content-Type': 'application/json' })
-    .then( response => {
-      this.setState({playerCount: (response.data.online) ? response.data.players.now : "N/A"})
-    });
-  }
-  componentWillUnmount() {
-    clearTimeout(this.timeout);
-  }
-  handleIpCopy(e) {
-    this.setState({ipText: <span>IP Copied!</span>})
-    navigator.clipboard.writeText(this.state.ip)
-    this.timeout = setTimeout(() => {
-      this.setState({ipText: <span><small>play</small>.UltraCraft.<small>xyz</small></span>})
-    },800)
-  }
   render() {
     return (
       <main>
@@ -63,58 +33,6 @@ class Gamemodes extends React.Component {
               <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_1080,h_95,c_fill,f_auto,q_auto/v1589059497/UltraCraft/Borders/top_dark.jp2" media="(max-width: 1080px)" />
               <img className="dividerBottom" src="https://res.cloudinary.com/xianmalik/image/upload/w_1871,h_95,c_fill,f_auto,q_auto/v1589138371/UltraCraft/Borders/top_dark.png" alt="Divider" />
             </picture>
-          </section>
-          
-          <section id="Section3">
-            <div className="container">
-              <LazyLoad offset={50}>
-                <div className="row column-height clearfix">
-                  <div className="col-6 col-md-6 col-push-6">
-                    <picture>
-                      <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_450,h_300,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_survival.jp2" media="(max-width: 480px)" />
-                      <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_768,h_320,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_survival.jp2" media="(max-width: 768px)" />
-                      <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_440,h_350,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_survival.jp2" media="(max-width: 1080px)" />
-                      <img src="https://res.cloudinary.com/xianmalik/image/upload/w_540,h_350,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_survival.jp2" alt="Survival" />
-                    </picture>
-                  </div>
-                  <div className="col-6 col-md-6 col-pull-6 text-right">
-                    <h5>GAMEMODES</h5>
-                    <h2>
-                      Survival
-                    </h2>
-                    <h6>An Enhanced Survival Experience</h6>
-                    <p>
-                      Survival mode is one of the main game modes in Minecraft. Players must collect resources, build structures, battle mobs, eat, and explore the world in an effort to thrive and survive.
-                    </p>
-                    <EffectSlash href="/gamemode/survival" title="Survival Guide" extra="btn-effect btn-white-bg" />
-                  </div>
-                </div>
-              </LazyLoad>
-              <LazyLoad offset={50}>
-                <br />
-                <div className="row column-height">
-                  <div className="col-6 col-md-6">
-                    <picture>
-                      <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_450,h_300,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_skyblock.jp2" media="(max-width: 480px)" />
-                      <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_768,h_320,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_skyblock.jp2" media="(max-width: 768px)" />
-                      <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_440,h_350,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_skyblock.jp2" media="(max-width: 1080px)" />
-                      <img src="https://res.cloudinary.com/xianmalik/image/upload/w_540,h_350,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_skyblock.jp2" alt="Survival" />
-                    </picture>
-                  </div>
-                  <div className="col-6 col-md-6">
-                    <h5>GAMEMODES</h5>
-                    <h2>
-                      SkyBlock
-                    </h2>
-                    <h6>Enhanced Skyblock <small>(Coming Soon)</small></h6>
-                    <p>
-                      SkyBlock is a survival gamemode where players live and build on a floating island. The goal of the map is to survive without cheating, expand your island, grow your own food and thrive.
-                    </p>
-                    <EffectSlash href="/gamemode/skyblock" title="SkyBlock Guide" extra="btn-effect btn-white-bg" />
-                  </div>
-                </div>
-              </LazyLoad>
-            </div>
           </section>
           <Footer />
         </div>

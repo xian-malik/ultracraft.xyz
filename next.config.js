@@ -6,6 +6,7 @@ module.exports = {
 		domains: [
 			'assets.vercel.com',
 			'res.cloudinary.com',
+			'cravatar.eu',
 		],
 	},
 	async redirects() {

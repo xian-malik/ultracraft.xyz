@@ -1,5 +1,5 @@
 import React from 'react'
-import EffectSlash from './modules/effectslash.module'
+import { EffectSlash } from './modules/'
 import Link from 'next/link'
 
 class Header extends React.Component {
@@ -14,7 +14,11 @@ class Header extends React.Component {
     if ( localStorage.getItem('USERNAME') ) {
       this.setState( { username: localStorage.getItem('USERNAME').toUpperCase() } )
     }
+    // window.addEventListener('storage', () => {
+    //   this.setState({ username: localStorage.getItem('USERNAME') })   
+    // });
     // window.addEventListener("mousemove", this.cursor)
+    
   }
 
   cursor = (e) => {
@@ -23,6 +27,7 @@ class Header extends React.Component {
   }
 
   render() {
+    const { username } = this.state;
     return (
       <header className="absolute top-0 w-full z-50" id="header">
         <div className="hidden md:block relative my-8">
@@ -35,28 +40,30 @@ class Header extends React.Component {
                     <li className="m-0"><a href="/facebook"><i className="fab fa-facebook-messenger fa-lg" aria-hidden='true'></i></a></li>
                   </ul>
                   <ul className="navbar-nav navbar-center">
-                    <div className="nav-left-part">
+                    <ul className="nav-left-part">
                       <li><EffectSlash href="/community" title="Community" /></li>
                       <li><EffectSlash href="/forum" title="Forum" /></li>
                       <li><EffectSlash href="/rules" title="Rules" /></li>
-                    </div>
+                    </ul>
                     <li className="logo-wrap">
                       <Link href="/" passHref className="logo">
                         <a>
-                          <img src='https://res.cloudinary.com/xianmalik/image/upload/w_60,h_60,c_fill,f_auto,q_auto/v1624803090/UltraCraft/LOGO_l9gesi.jpg' alt="Ultracraft" />
+                          <img src='https://res.cloudinary.com/xianmalik/image/upload/w_60,h_60,c_fill,f_auto,q_auto/v1624803090/UltraCraft/LOGO_l9gesi.jpg'
+                            alt="Ultracraft" height="60" width="60" />
                         </a>
                       </Link>
                     </li>
-                    <div className="nav-right-part">
+                    <ul className="nav-right-part">
                       <li><EffectSlash href="/resources" title="Resources" /></li>
                       <li><EffectSlash href="/bans" title="Bans" /></li>
                       <li><EffectSlash href="/vote" title="Vote" /></li>
-                    </div>
+                    </ul>
                   </ul>
                   <ul className="navbar-nav relative m-0 p-0 list-none ml-auto">
                     <li className="m-0" active='true'>
-                      <EffectSlash href="/u/login" title={ this.state.username || 'Account' } />
-                      { this.state.username && <a href='/logout' className='text-uc-gray font-inherit text-xs'><small>(Logout)</small></a> }
+                      <EffectSlash href={ username ? `/member/${username.toLowerCase()}` : "/account/login" } title={ username || 'Account' } />
+                      { username &&
+                        <a href='/account/logout' className='text-uc-gray font-inherit text-xs'><small>(Logout)</small></a> }
                     </li>
                   </ul>
                 </nav>
