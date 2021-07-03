@@ -74,7 +74,7 @@ export default function Profile() {
 									</span>
 								</div>
 								<div className="text-base">
-									<span className='border border-uc-primary rounded-full mr-2 py-0.5 px-2 text-xs font-bold'>{ perms.primary_group.toUpperCase() }</span>
+									<span className='border border-uc-primary rounded-full mr-2 py-0.5 px-2 text-xs font-bold'>{ perms.primary_group && perms.primary_group.toUpperCase() }</span>
 									{/* { perms.map( ( _rank, _index ) => {
 										return <span className='border border-uc-primary rounded-full mr-2 py-0.5 px-2 text-xs font-bold'
 											key={ _index }>{ _rank }</span>
