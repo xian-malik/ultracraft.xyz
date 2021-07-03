@@ -32,6 +32,7 @@ class HomePage extends React.Component {
   handleIpCopy(e) {
     e.preventDefault();
 
+    // TODO: Add clipboard js
     navigator.clipboard.writeText(this.state.ip)
     this.setState({ipText: <span>IP Copied!</span>})
 

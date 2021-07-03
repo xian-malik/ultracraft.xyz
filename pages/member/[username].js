@@ -11,6 +11,7 @@ import { TimeStamp } from '../../components/modules';
 
 export default function Profile() {
 	const [ data, setData ] = useState({});
+	const [ perms, setPerms ] = useState({});
 	const router = useRouter()
 	const { username } = router.query
 
@@ -27,7 +28,7 @@ export default function Profile() {
 				method: "GET"
 			})
 			.then( res => res.json() )
-			.then( res => res.user ? setData( res.user ) : window.location( '/u/login' ) )
+			.then( res => res.user ? ( setData( res.user ), setPerms(res.perms) ) : window.location( '/account/login' ) )
 			.catch(res => console.error(res) )
 		}
 
@@ -73,10 +74,11 @@ export default function Profile() {
 									</span>
 								</div>
 								<div className="text-base">
-									{ ['Admin', 'MVP', 'YouTuber'].map( ( _rank, _index ) => {
+									<span className='border border-uc-primary rounded-full mr-2 py-0.5 px-2 text-xs font-bold'>{ perms.primary_group.toUpperCase() }</span>
+									{/* { perms.map( ( _rank, _index ) => {
 										return <span className='border border-uc-primary rounded-full mr-2 py-0.5 px-2 text-xs font-bold'
 											key={ _index }>{ _rank }</span>
-									} ) }
+									} ) } */}
 								</div>
 								<div className="text-base mt-4">
 									Last Login: { data.isLogged ? 'Just Now!' : TimeStamp( data.lastlogin, { time: true } ) }
