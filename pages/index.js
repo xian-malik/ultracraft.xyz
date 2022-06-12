@@ -5,8 +5,9 @@ import Footer from '../components/_footer'
 import ParticleView from '../components/particle'
 import { EffectSlash } from '../components/modules/'
 import React from 'react'
-import Image from 'next/image'
 import { API_URL } from '../config';
+import Image from '../components/Image'
+import survival from "../public/images/survival.jpg"
 
 class HomePage extends React.Component {
   constructor(props) {
@@ -23,7 +24,7 @@ class HomePage extends React.Component {
     fetch( API_URL + '/users/online' , { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' })
     .then( res => {
       const { online } = res
-      this.setState( { online } )
+      this.setState( { online  } )
     });
   }
   componentWillUnmount() {
@@ -91,12 +92,13 @@ class HomePage extends React.Component {
                 <div className="row column-height">
                   <div className="col-6 col-md-6">
                     <LazyLoad offset={50}>
-                      <picture>
+                      <Image url={survival} alt="smtg"></Image>
+                      {/* <picture>
                         <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_450,h_300,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jp2" media="(max-width: 480px)" />
                         <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_768,h_320,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jp2" media="(max-width: 768px)" />
                         <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_440,h_400,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jp2" media="(max-width: 1080px)" />
                         <img layout="fill" alt="Introduction" src="https://res.cloudinary.com/xianmalik/image/upload/w_540,h_450,c_fill,f_auto,q_auto/v1589059497/UltraCraft/uc_introduction.jpg" />
-                      </picture>
+                      </picture> */}
                     </LazyLoad>
                   </div>
                   <div className="col-6 col-md-6">
