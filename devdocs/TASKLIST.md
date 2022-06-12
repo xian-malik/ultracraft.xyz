@@ -1,0 +1,6 @@
+- Refactor images, replace cloudinary with next/image - [spex]
+- Implement i18n translations - [xian]
+- Image Component - [spex]
+- Convert to funciotnal components
+- Refactor packages (react-lazyload, axios)
+- 

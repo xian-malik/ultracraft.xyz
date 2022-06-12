@@ -2,7 +2,7 @@ import LazyLoad from 'react-lazyload'
 import { EffectSlash } from './modules/'
 function Footer() {
   return (
-    <LazyLoad offset={50}>
+    <LazyLoad offset={50}>x
       <footer>
         <picture className="dividerTop">
           <source srcSet="https://res.cloudinary.com/xianmalik/image/upload/w_480,h_50,c_fill,f_auto,q_auto/v1589059497/UltraCraft/Borders/bottom_dark.jp2" media="(max-width: 480px)" />
